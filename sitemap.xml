@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://magshadow.github.io/HugoSiteBlog/home/</loc>
+    <loc>https://magshadow.github.io/home/</loc>
     <lastmod>2021-07-16T23:26:45-04:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/HugoSiteBlog/</loc>
+    <loc>https://magshadow.github.io/</loc>
     <lastmod>2021-07-16T23:20:24-04:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/HugoSiteBlog/posts/my-second-post/</loc>
+    <loc>https://magshadow.github.io/posts/my-second-post/</loc>
     <lastmod>2021-07-16T23:20:24-04:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/HugoSiteBlog/posts/</loc>
+    <loc>https://magshadow.github.io/posts/</loc>
     <lastmod>2021-07-16T23:20:24-04:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/HugoSiteBlog/posts/my-first-post/</loc>
+    <loc>https://magshadow.github.io/posts/my-first-post/</loc>
     <lastmod>2021-07-16T22:56:51-04:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/HugoSiteBlog/categories/</loc>
+    <loc>https://magshadow.github.io/categories/</loc>
   </url><url>
-    <loc>https://magshadow.github.io/HugoSiteBlog/tags/</loc>
+    <loc>https://magshadow.github.io/tags/</loc>
   </url>
 </urlset>
