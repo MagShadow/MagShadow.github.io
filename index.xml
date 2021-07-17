@@ -1,36 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Blog Site</title>
+    <title>My New Hugo Blog Site on My New Hugo Blog Site</title>
     <link>https://magshadow.github.io/</link>
-    <description>Recent content on My New Hugo Blog Site</description>
+    <description>Recent content in My New Hugo Blog Site on My New Hugo Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jul 2021 23:20:24 -0400</lastBuildDate><atom:link href="https://magshadow.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 23:20:24 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Home</title>
       <link>https://magshadow.github.io/home/</link>
       <pubDate>Fri, 16 Jul 2021 23:26:45 -0400</pubDate>
       
       <guid>https://magshadow.github.io/home/</guid>
-      <description>This is a home page! </description>
+      <description>&lt;h1 id=&#34;this-is-a-home-page&#34;&gt;This is a home page!&lt;/h1&gt;
+</description>
     </item>
     
     <item>
-      <title>My Second Post</title>
-      <link>https://magshadow.github.io/posts/my-second-post/</link>
+      <title>Posts</title>
+      <link>https://magshadow.github.io/posts/</link>
       <pubDate>Fri, 16 Jul 2021 23:20:24 -0400</pubDate>
       
-      <guid>https://magshadow.github.io/posts/my-second-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://magshadow.github.io/posts/my-first-post/</link>
-      <pubDate>Fri, 16 Jul 2021 22:56:51 -0400</pubDate>
-      
-      <guid>https://magshadow.github.io/posts/my-first-post/</guid>
+      <guid>https://magshadow.github.io/posts/</guid>
       <description></description>
     </item>
     
