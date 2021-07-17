@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teches on 海淀陈冠希</title>
-    <link>http://magshadow.github.io/tech/</link>
+    <link>https://magshadow.github.io/tech/</link>
     <description>Recent content in Teches on 海淀陈冠希</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This is a customized copyright.</copyright>
-    <lastBuildDate>Fri, 16 Jul 2021 23:20:24 -0400</lastBuildDate><atom:link href="http://magshadow.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 23:20:24 -0400</lastBuildDate><atom:link href="https://magshadow.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>这是一篇技术博客</title>
-      <link>http://magshadow.github.io/tech/my-second-post/</link>
+      <link>https://magshadow.github.io/tech/my-second-post/</link>
       <pubDate>Fri, 16 Jul 2021 23:20:24 -0400</pubDate>
       
-      <guid>http://magshadow.github.io/tech/my-second-post/</guid>
+      <guid>https://magshadow.github.io/tech/my-second-post/</guid>
       <description></description>
     </item>
     
