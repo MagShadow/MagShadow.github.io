@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://magshadow.github.io/HugoSiteBlog/home/</loc>
+    <lastmod>2021-07-16T23:26:45-04:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/HugoSiteBlog/</loc>
+    <lastmod>2021-07-16T23:20:24-04:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/HugoSiteBlog/posts/my-second-post/</loc>
+    <lastmod>2021-07-16T23:20:24-04:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/HugoSiteBlog/posts/</loc>
+    <lastmod>2021-07-16T23:20:24-04:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/HugoSiteBlog/posts/my-first-post/</loc>
+    <lastmod>2021-07-16T22:56:51-04:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/HugoSiteBlog/categories/</loc>
+  </url><url>
+    <loc>https://magshadow.github.io/HugoSiteBlog/tags/</loc>
+  </url>
+</urlset>
