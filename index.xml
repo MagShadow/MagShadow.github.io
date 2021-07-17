@@ -13,12 +13,102 @@
     
     
         <item>
-        <title>这是一篇技术博客</title>
-        <link>https://magshadow.github.io/tech/my-second-post/</link>
+        <title>Hugo &#43; Github Pages 踩坑指南</title>
+        <link>https://magshadow.github.io/tech/set_up_hugo/</link>
         <pubDate>Fri, 16 Jul 2021 23:20:24 -0400</pubDate>
         
-        <guid>https://magshadow.github.io/tech/my-second-post/</guid>
-        <description>海淀陈冠希 https://magshadow.github.io/tech/my-second-post/ -- https://magshadow.github.io/tech/my-second-post/ - This is a customized copyright.</description>
+        <guid>https://magshadow.github.io/tech/set_up_hugo/</guid>
+        <description>海淀陈冠希 https://magshadow.github.io/tech/set_up_hugo/ -&lt;ul&gt;
+&lt;li&gt;记录一下本人在使用Hugo + Github Pages搭建个人网站过程中的诸多困难。&lt;/li&gt;
+&lt;li&gt;开发环境: Ubuntu 18.04 in WSL2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;安装&#34;&gt;安装&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;deploy到github-pages&#34;&gt;Deploy到Github Pages&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;最初按照&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;官方指南&lt;/a&gt;所讲述的方法配置了[actions-gh-pages]，放在另外一个repository&lt;a href=&#34;https://github.com/MagShadow/HugoSiteBlog&#34;&gt;HugoSiteBlog&lt;/a&gt;当中。能观察到，部署等步骤都一切正常，通过所有检查，但是进入根目录却只有404页面&lt;/li&gt;
+&lt;li&gt;解决方法是使用&lt;code&gt;hugo&lt;/code&gt;命令生成静态页面后（存放在&lt;code&gt;./public&lt;/code&gt;文件夹中），将该文件夹推送到个人页面仓库&lt;code&gt;username.github.io&lt;/code&gt;当中，即可正常访问。（参考：https://w01fb0ss.github.io/2020/010/ ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;无法加载css格式&#34;&gt;无法加载CSS格式&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;使用的theme为“diary”&lt;/li&gt;
+&lt;li&gt;在本地使用&lt;code&gt;hugo server&lt;/code&gt;生成的网页格式一切正常，但是上传到github.io后不能正常显示，检查网页后发现错误如下：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Mixed Content: The page at &#39;https://magshadow.github.io/&#39; was loaded over HTTPS, but requested an insecure stylesheet &#39;http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css&#39;. This request has been blocked; the content must be served over HTTPS.
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;仔细检查后，将&amp;rsquo;config.toml&amp;rsquo;中的&lt;code&gt;baseURL&lt;/code&gt;由&lt;code&gt;http&lt;/code&gt;改为&lt;code&gt;https&lt;/code&gt;，即解决问题&lt;/li&gt;
+&lt;/ul&gt;
+- https://magshadow.github.io/tech/set_up_hugo/ - This is a customized copyright.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>重返伊瓦利斯</title>
+        <link>https://magshadow.github.io/about/</link>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/about/</guid>
+        <description>海淀陈冠希 https://magshadow.github.io/about/ -&lt;p&gt;一个不受审查的个人空间。
+施工中。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;figure align=&#34;Center&#34; role=&#34;group&#34; aria-describedby=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
+  &lt;a href=&#34;https://magshadow.github.io/about/li_hai.png&#34; class=&#34;img-link&#34;&gt;
+    &lt;img src=&#34;https://magshadow.github.io/about/li_hai_hu787ccbe55dfc7396b9d75affc46623e0_1601753_700x0_resize_box_2.png&#34;&gt;
+  &lt;/a&gt;
+  &lt;figcaption id=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
+    This is an example figure.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+- https://magshadow.github.io/about/ - This is a customized copyright.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Hawaii: Big Island / Maui</title>
+        <link>https://magshadow.github.io/photos/hawaii/</link>
+        <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/photos/hawaii/</guid>
+        <description>海淀陈冠希 https://magshadow.github.io/photos/hawaii/ -
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;figure align=&#34;Center&#34; role=&#34;group&#34; aria-describedby=&#34;caption-b5fd6911f62d8527eb2fb3a8a69b1aa9&#34;&gt;
+  &lt;a href=&#34;https://magshadow.github.io/photos/hawaii/Maui_Kamaole_Condo.jpg&#34; class=&#34;img-link&#34;&gt;
+    &lt;img src=&#34;https://magshadow.github.io/photos/hawaii/Maui_Kamaole_Condo_hu8cc34be149a7b07098cc080d33d81fd5_2118073_700x0_resize_q75_box.jpg&#34;&gt;
+  &lt;/a&gt;
+  &lt;figcaption id=&#34;caption-b5fd6911f62d8527eb2fb3a8a69b1aa9&#34;&gt;
+    Kihei, Maui
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+- https://magshadow.github.io/photos/hawaii/ - This is a customized copyright.</description>
         </item>
     
     
@@ -26,7 +116,7 @@
         <item>
         <title>献诗</title>
         <link>https://magshadow.github.io/posts/xian_shi/</link>
-        <pubDate>Thu, 04 Jun 2020 22:56:51 -0400</pubDate>
+        <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
         
         <guid>https://magshadow.github.io/posts/xian_shi/</guid>
         <description>海淀陈冠希 https://magshadow.github.io/posts/xian_shi/ -&lt;p&gt;我们是注定失忆的一代人&lt;br&gt;
@@ -110,7 +200,89 @@
 要把属于太阳的白色重新还给太阳&lt;br&gt;
 因为&lt;br&gt;
 这是我们的责任&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;figure align=&#34;Center&#34; role=&#34;group&#34; aria-describedby=&#34;caption-d41d8cd98f00b204e9800998ecf8427e&#34;&gt;
+  &lt;a href=&#34;https://magshadow.github.io/posts/xian_shi/xian_shi.jpg&#34; class=&#34;img-link&#34;&gt;
+    &lt;img src=&#34;https://magshadow.github.io/posts/xian_shi/xian_shi_hu671c9fbe179e1c193b2fcaba06fb8144_9041603_700x0_resize_q75_box.jpg&#34;&gt;
+  &lt;/a&gt;
+  &lt;figcaption id=&#34;caption-d41d8cd98f00b204e9800998ecf8427e&#34;&gt;
+    
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
 - https://magshadow.github.io/posts/xian_shi/ - This is a customized copyright.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>第二离歌</title>
+        <link>https://magshadow.github.io/posts/di_er_li_ge/</link>
+        <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/di_er_li_ge/</guid>
+        <description>海淀陈冠希 https://magshadow.github.io/posts/di_er_li_ge/ -&lt;p&gt;前尘隔海。&lt;/p&gt;
+&lt;p&gt;离家的前夜，蜷在椅子上的我，对着屏幕幽幽地出神。房间里没有一丝别的光亮，手机震了又震，我却充耳不闻，脑海里只回荡着这四个字。&lt;/p&gt;
+&lt;p&gt;前尘隔海。&lt;/p&gt;
+&lt;p&gt;再过大概三十六个小时，飞机从跑道上呼啸而起之后，前尘往事于我，就真的要遗失在大洋的此岸了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;这是第二次的别离。&lt;/p&gt;
+&lt;p&gt;我已经很难回想起一五年九月四日凌晨的心情。十八岁出门远行，难免有些飘着粉红泡泡的美好幻想。翻看那天写下的前现代青春伤痕文学，不能说是无病呻吟，但抒情成分还是远远大过真心——“最要紧的是，我们首先要善良，其次要诚实，最重要的是永远不要相互遗忘。”拿着毕业时说的漂亮话，进行一些不痛不痒的自我剖析，写几件生活中的小事，再许下一些有点幼稚也有点可爱的愿望。真的很可爱。&lt;/p&gt;
+&lt;p&gt;但那大概不算一次真正的告别。毕业多年以后，我终于可以很肯定地说，高中三年，没有真正的输赢胜败，亦没有真正的爱恨情仇。高中生的世界就只有那么大，我又是那种一点点小事都要搞出很隆重的仪式感来的人，于是一切都有些虚张声势的意味。在毕业典礼上的泪水是真实的第一滴泪；但毕业后某次去KTV，我拿着话筒向好哥们“托付”某个女孩，却多半得算是刻奇表演。离家的前一夜，抱着电脑敲下破碎的文字时，也并没有想清楚什么是告别又为何要告别。把文章贴在QQ空间之后，第二天在火车上果然收到了某人发来的消息，大概才是那篇文章最大的意义吧。&lt;/p&gt;
+&lt;p&gt;这一次，我又要走了。巧合的是，那个夏天里我要告别两个女孩，在这个夏天我仍要告别两个女孩。但这次进步的地方是，我知道我还没有能够告别。&lt;/p&gt;
+&lt;p&gt;最近一段时间，总有些细碎的东西在撩拨我的神经。茶颜悦色在武汉扩张的新闻，菜单上的小炒黄牛肉，收拾行李时小心翼翼装进箱子里的那条领带，还有郑重其事叠好的信，都让某些假装藏起来的记忆隐隐作痛。在长江边上散步的时候，天气渐冷，风也刺骨起来，却使那些波光粼粼金光闪闪的画面更加清晰。每每想到那些被我辜负的情深意切，往日的美好时光就变得残酷起来，令我愈发的无地自容。&lt;/p&gt;
+&lt;p&gt;前几天，有人问我，分手以后喜欢的女孩类型有没有变得完全相反。我说，也没有，分手以后我主要还是生我自己的气。&lt;/p&gt;
+&lt;p&gt;我明白，这是对我的清算，它已经开始并将长久地持续下去。我还会记得那些亲吻、拥抱、体温和眼泪。或许不会终结，或许结束在某天。Some day, but not today.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;未能告别不代表生活不能继续。形式上的离歌总可以被奏响。写不清楚自己究竟在想些什么，那就再写点漂亮话吧。&lt;/p&gt;
+&lt;p&gt;刚上大学的时候，学校搞了个新生训练营，里面有个环节是要大家写下自己对四年大学生活的期待。机缘巧合，我的这张愿望卡没有交上去，于是毕业的时候我又有机会打开它。字写得歪歪扭扭，甚至连Caltech和Stanford都拼错了（最后果然也没申到），但我还是可以很自信地说，我做到了。&lt;/p&gt;
+&lt;p&gt;四年前的那篇日志的末尾，我也给自己许了个愿望。如今再看，虽然充满了中二的气息，但在北京的四年里，我做到了。并且今天，我还愿意把它再次放在本篇的结尾，希望博士毕业的时候（当然首先要能毕业）再看，我还是能自豪地说，在波士顿的日子里，我也做到了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;还有不到五个小时天就要亮了，我也要离开这里了，这个熟悉的房间，熟悉的小书桌。在未来，要做一个温柔善良的人，要做一个光明磊落的人，要做一个值得他人信赖的人，要做一个有梦想有追求的人，要做一个耐得住寂寞的人。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2020.1.20 于南京家中&lt;/p&gt;
+- https://magshadow.github.io/posts/di_er_li_ge/ - This is a customized copyright.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>离歌</title>
+        <link>https://magshadow.github.io/posts/li_ge/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/li_ge/</guid>
+        <description>海淀陈冠希 https://magshadow.github.io/posts/li_ge/ -&lt;p&gt;他们说，“知道真相的人，有义务把真相传递下去”。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;中午十二点，我从阴森幽暗的纪念堂走出来。走过冰棺，外面是残酷的烈日。&lt;/p&gt;
+&lt;p&gt;太阳照在广场上。土地是滚烫的。&lt;/p&gt;
+&lt;p&gt;这土地的温度从未消失。&lt;/p&gt;
+&lt;p&gt;我从广场的这一头走到那一头，又从广场的那一头走回这一头。我用手触摸广场上那些沉默的石柱，上面是大灯、广播喇叭、摄像头、摄像头、摄像头和摄像头。鸟儿从头顶飞过，太阳威严地照射着广场上来来去去的人群，游客只好蜷缩在路灯狭窄的阴影下，彷徨地喧嚣着。&lt;/p&gt;
+&lt;p&gt;我从广场的这一头走到那一头，又从广场的那一头走回这一头。&lt;/p&gt;
+&lt;p&gt;我仿佛正在走回历史。&lt;/p&gt;
+&lt;p&gt;我站在广场中央，烈日炙烤着我，汗水和泪水一同止不住地涌出。我努力地捕捉那些穿越了时空的声音，抗议、争吵、对话、绝食——曾经大家都是龙的传人，但如今魔龙发出了令人战栗的怒吼，广场上却只剩下抱着盒子的老太，“老冰棍两块一根”，无力地回荡在空中。&lt;/p&gt;
+&lt;p&gt;鲁迅说，人和人的悲欢并不相通。我相信。维多利亚的烛光，传遍世界的普利策照片，还有绝食的他他他他，时至今日也沦为了被反复解构的icon式的记忆。可我还是要回到这个广场，我要试图去理解，理解他们，理解那些和我来自不同时空同样学校同样年纪的年轻人。我要去理解他们走出学校的勇气，去理解他们竖起雕像的勇气，理解他们争先坐在第一排的勇气，理解他们跳入时代狂流的勇气。&lt;/p&gt;
+&lt;p&gt;他们被“他们”安排了种种罪名，他们的名声都臭了。有的已经不再提起他们的青春，有的还在徒劳地奔走。他们都老了。但这不重要，我想要理解他们的青春。&lt;/p&gt;
+&lt;p&gt;他们曾经年轻过。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;五年前，我们可以在作文里若无其事地写下“广场上穿着花格子衬衫的姑娘与履带缝隙里沾着泥土的蝴蝶结发夹”，今日我却只能在丑陋的白色凉亭里，看“他们”用2019年的最新科技扫过每一个人的身体，再用戴着白手套的手一张张地翻阅我包里的门票、明信片、草稿纸、哲学书，仿佛书里藏着能让时光倒流的神秘力量。我站在那里，仿佛身体被劈开，皮肤被一点点地剥离下来。白手套不耐烦地挥了挥，我随即被丢到一旁，看着下一个可疑的背包被打开，被抽离，被强奸。&lt;/p&gt;
+&lt;p&gt;那一刻我明白，虽然我已经对民族主义概念下的国家、对怒其不争哀其不幸的国民失去了大部分的信心，但我更不愿意看到人这样屈辱地活着，不要看到人浑浑噩噩地当着奴隶还高唱赞歌。&lt;/p&gt;
+&lt;p&gt;我要努力。尽我可能地努力。我要去学习斗争的方法，我要去思考究竟哪些是我力所能及今日就能做的，哪些是我力有不能及但努力也要做的，哪些是真正重要、要知其不可而为之的。&lt;/p&gt;
+&lt;p&gt;我是个疯子、胆小鬼和爱说大话的骗子。但我们怎能在苦难面前别过脸去？&lt;/p&gt;
+&lt;p&gt;2019.5.28 于绝望中&lt;/p&gt;
+- https://magshadow.github.io/posts/li_ge/ - This is a customized copyright.</description>
         </item>
     
     
