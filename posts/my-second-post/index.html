@@ -19,13 +19,18 @@
 <meta property="og:title" content="My Second Post" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://magshadow.github.io/posts/my-second-post/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://magshadow.github.io/posts/my-second-post/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-07-16T23:20:24-04:00" />
 <meta property="article:modified_time" content="2021-07-16T23:20:24-04:00" /><meta property="og:site_name" content="My Blog" />
 
 
 
 
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My Second Post"/>
+<meta name="twitter:description" content=""/>
 
 
 
@@ -44,11 +49,11 @@
 
 
 
-<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+<link rel="stylesheet" href="http://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
 
 
 
-<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css" integrity="sha256-wAgvCwghd/b7N2j/kUOaCX3klom9JvTUn3bZTruB4C0=" media="screen">
+<link rel="stylesheet" href="http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css" integrity="sha256-wAgvCwghd/b7N2j/kUOaCX3klom9JvTUn3bZTruB4C0=" media="screen">
 
 
 <script src="/js/loadCSS.js"></script>
@@ -64,24 +69,6 @@
   
 
 
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="/vendor/js/md5.min.js"></script>
-<script>
-  var gitalk = new Gitalk({
-  clientID: 'your client id',
-  clientSecret: 'your client secret',
-  repo: 'repo name',
-  owner: 'Koon-hei Chen in Haidian',
-  admin: ['Koon-hei Chen in Haidian'],
-  id: md5(location.pathname),
-  distractionFreeMode: 'false'
-  });
-  window.onload = function () {
-        gitalk.render('gitalk-container')
-  }
-</script>
 
 
 
@@ -100,14 +87,14 @@
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    <a class="a-block nav-head false" href="http://magshadow.github.io/">
     
         <div class="nav-title">
             海淀陈冠希
         </div>
         
         <div class="nav-subtitle">
-            Themed by Diary.
+            一个不受审查的个人写作空间
         </div>
         
     </a>
@@ -123,7 +110,7 @@
             
             
             <a class="a-block nav-link-item active" href="/posts">
-                Archive
+                文章
             </a>
             
         
@@ -133,7 +120,7 @@
             
             
             <a class="a-block nav-link-item false" href="/categories">
-                Categories
+                分类
             </a>
             
         
@@ -143,7 +130,7 @@
             
             
             <a class="a-block nav-link-item false" href="/tags">
-                Tags
+                标签
             </a>
             
         
@@ -165,7 +152,7 @@
         
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
@@ -217,7 +204,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 <a class="a-block drawer-menu-item active" href="/posts">
-                    Archive
+                    文章
                 </a>
                 
             
@@ -227,7 +214,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 <a class="a-block drawer-menu-item false" href="/categories">
-                    Categories
+                    分类
                 </a>
                 
             
@@ -237,7 +224,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 <a class="a-block drawer-menu-item false" href="/tags">
-                    Tags
+                    标签
                 </a>
                 
             
@@ -271,7 +258,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 menu
             </i>
         </button>
-        <a ref="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+        <a ref="navTitle" class="navbar-brand" href="http://magshadow.github.io/">
             海淀陈冠希
         </a>
         
@@ -288,10 +275,10 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </nav>
 <div class="single-column-header-container" ref="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
-    <a href="https://magshadow.github.io/">
+    <a href="http://magshadow.github.io/">
         <div class="single-column-header-title">海淀陈冠希</div>
         
-        <div class="single-column-header-subtitle">Themed by Diary.</div>
+        <div class="single-column-header-subtitle">一个不受审查的个人写作空间</div>
         
 
     </a>
@@ -333,7 +320,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                     
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">Last modified on 2021-07-16</p>
+		    <p style="color:#777;">最后修改于 2021-07-16</p>
                     
                 </div>
             </div>
@@ -342,22 +329,20 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <nav class="post-pagination">
 
                 
-                <a class="newer-posts" href="https://magshadow.github.io/home/">
-			Next<br>Home
+                <a class="newer-posts">
+			下回<br>已经到头啦。
                 </a>
                 
                 
                 
-                <a class="older-posts" href="https://magshadow.github.io/posts/my-first-post/">
-			Previous<br>My First Post
+                <a class="older-posts" href="http://magshadow.github.io/posts/my-first-post/">
+			上回<br>My First Post
                 </a>
                 
             </nav>
             <div class="post-comment-wrapper">
                 
 
-
-<div id="gitalk-container"></div>
 
 
 
@@ -375,7 +360,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
