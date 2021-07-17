@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on 海淀陈冠希</title>
+    <title>Tech on 高桥凉介</title>
     <link>https://magshadow.github.io/tags/tech/</link>
-    <description>Recent content in Tech on 海淀陈冠希</description>
+    <description>Recent content in Tech on 高桥凉介</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This is a customized copyright.</copyright>
+    <copyright>Owned By 高桥凉介.</copyright>
     <lastBuildDate>Fri, 16 Jul 2021 23:20:24 -0400</lastBuildDate><atom:link href="https://magshadow.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo &#43; Github Pages 踩坑指南</title>

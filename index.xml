@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>海淀陈冠希</title>
+    <title>高桥凉介</title>
     <link>https://magshadow.github.io/</link>
-    <description>Recent content on 海淀陈冠希</description>
+    <description>Recent content on 高桥凉介</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This is a customized copyright.</copyright>
+    <copyright>Owned By 高桥凉介.</copyright>
     <lastBuildDate>Fri, 16 Jul 2021 23:20:24 -0400</lastBuildDate>
     
         <atom:link href="https://magshadow.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
         <pubDate>Fri, 16 Jul 2021 23:20:24 -0400</pubDate>
         
         <guid>https://magshadow.github.io/tech/set_up_hugo/</guid>
-        <description>海淀陈冠希 https://magshadow.github.io/tech/set_up_hugo/ -&lt;ul&gt;
+        <description>高桥凉介 https://magshadow.github.io/tech/set_up_hugo/ -&lt;ul&gt;
 &lt;li&gt;记录一下本人在使用Hugo + Github Pages搭建个人网站过程中的诸多困难。&lt;/li&gt;
 &lt;li&gt;开发环境: Ubuntu 18.04 in WSL2&lt;/li&gt;
 &lt;/ul&gt;
@@ -40,7 +40,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;仔细检查后，将&amp;rsquo;config.toml&amp;rsquo;中的&lt;code&gt;baseURL&lt;/code&gt;由&lt;code&gt;http&lt;/code&gt;改为&lt;code&gt;https&lt;/code&gt;，即解决问题&lt;/li&gt;
 &lt;/ul&gt;
-- https://magshadow.github.io/tech/set_up_hugo/ - This is a customized copyright.</description>
+- https://magshadow.github.io/tech/set_up_hugo/ - Owned By 高桥凉介.</description>
         </item>
     
     
@@ -51,7 +51,7 @@
         <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
         
         <guid>https://magshadow.github.io/about/</guid>
-        <description>海淀陈冠希 https://magshadow.github.io/about/ -&lt;p&gt;一个不受审查的个人空间。
+        <description>高桥凉介 https://magshadow.github.io/about/ -&lt;p&gt;一个不受审查的个人空间。
 施工中。&lt;/p&gt;
 
 
@@ -75,7 +75,66 @@
     This is an example figure.
   &lt;/figcaption&gt;
 &lt;/figure&gt;
-- https://magshadow.github.io/about/ - This is a customized copyright.</description>
+- https://magshadow.github.io/about/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>肖陶扩</title>
+        <link>https://magshadow.github.io/posts/xiao_tao_kuo/</link>
+        <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/xiao_tao_kuo/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/xiao_tao_kuo/ -&lt;p&gt;在空无一物的粉红色沙漠里&lt;br&gt;
+失去记忆&lt;br&gt;
+我醒来&lt;br&gt;
+沙砾并不灼热&lt;br&gt;
+舔舐我 舔舐我的幻梦&lt;br&gt;
+在春天&lt;br&gt;
+穆念慈告别杨康&lt;br&gt;
+波德莱尔和莱蒙托夫一齐在巴黎复活&lt;br&gt;
+蔬菜被劈开&lt;br&gt;
+肮脏的血却依然在流淌&lt;/p&gt;
+&lt;p&gt;对了，“流淌”&lt;br&gt;
+这个音节忽地激起我强旺的欲念&lt;br&gt;
+对，要站起来，要往前走&lt;br&gt;
+向海洋进军&lt;br&gt;
+很久以前我就住在海边&lt;br&gt;
+对，海边，那么多那么多的水&lt;/p&gt;
+&lt;p&gt;为了复仇，或是为了自毁&lt;br&gt;
+我听说大人们都是背负着秘密才走个不停&lt;br&gt;
+可没有秘密的我&lt;br&gt;
+痛恨又热爱废墟之歌的我&lt;br&gt;
+胆小却虚张声势不敢停下脚步的我&lt;br&gt;
+是大人吗?&lt;/p&gt;
+&lt;p&gt;一条石板路上印着许多名字和日期&lt;br&gt;
+是诞辰而非卒日&lt;br&gt;
+这一事实默哀着他们共享的最后一天&lt;br&gt;
+我停下脚步&lt;br&gt;
+蹲下来触摸那个曾与我同龄的名字&lt;br&gt;
+任由另一只手触摸我的头发&lt;br&gt;
+远处，旋转木马下&lt;br&gt;
+熔岩和比喻一起沉默地流出&lt;br&gt;
+这么久这么久&lt;br&gt;
+我终于看到海&lt;/p&gt;
+&lt;p&gt;执紫玫瑰的法外之徒&lt;br&gt;
+你讲述的血腥传说我至今还记得&lt;br&gt;
+  “不能发光的栉水母&lt;br&gt;
+  会残忍地吞食发光的同伴&lt;br&gt;
+  以期在铁黑的海底获得半点瞩目&lt;br&gt;
+  至死方休”&lt;br&gt;
+这想象令我战栗 令我失落 却令我恢复五感&lt;br&gt;
+我闻到蓝莓点燃草莓&lt;br&gt;
+尝到禁忌的泪水和越界的问题&lt;br&gt;
+苹果 冰淇淋 莫吉托 通通都成了灰&lt;br&gt;
+在十年的最后一天&lt;br&gt;
+快门落下 银盐质变&lt;br&gt;
+冰雕的手臂忽地断折 坠入海里&lt;br&gt;
+然后&lt;br&gt;
+一块冰很慢很慢地从领口滑落&lt;br&gt;
+水母淹没我&lt;/p&gt;
+- https://magshadow.github.io/posts/xiao_tao_kuo/ - Owned By 高桥凉介.</description>
         </item>
     
     
@@ -86,7 +145,7 @@
         <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
         
         <guid>https://magshadow.github.io/photos/hawaii/</guid>
-        <description>海淀陈冠希 https://magshadow.github.io/photos/hawaii/ -
+        <description>高桥凉介 https://magshadow.github.io/photos/hawaii/ -
 
 
 
@@ -108,7 +167,145 @@
     Kihei, Maui
   &lt;/figcaption&gt;
 &lt;/figure&gt;
-- https://magshadow.github.io/photos/hawaii/ - This is a customized copyright.</description>
+- https://magshadow.github.io/photos/hawaii/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>普鲁斯特问卷 - 2021.01.12</title>
+        <link>https://magshadow.github.io/posts/proust_questionnaire/</link>
+        <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/proust_questionnaire/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/proust_questionnaire/ -&lt;p&gt;&lt;strong&gt;01 What is your idea of perfect happiness?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每天早上醒来不必问自己是否快乐。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;02 What is your greatest fear?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;承认自己一直以来的学术理想终于成为了幻梦。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;03 What is the trait you most deplore in yourself?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一点亏也不想吃，一点便宜也不想占。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;04 What is the trait you most deplore in others?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;双标。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;05 Which living person do you most admire?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;李海。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;06 What is your greatest extravagance?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;二十四岁了，还可以躲在学校里假装是个学生。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;07 What is your current state of mind?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;很平和。既满意当下，又期待未来。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;08 What do you consider the most overrated virtue?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;勇敢。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;09 On what occasion do you lie?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当且仅当在父母面前。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10 What do you most dislike about your appearance?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;大腿太粗。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;11 Which living person do you most despise?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;余承东。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;12 What is the quality you most like in a man?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;诚实。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13 What is the quality you most like in a woman?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不自卑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;14 Which words or phrases do you most overuse ?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;勇敢。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;15 What or who is the greatest love of your life?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;做个左派。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;16 When and where were you happiest?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;毕业前在海淀桥北的那半年。什么也不缺，富足得像所罗门王。甚至不知道那样的快乐是非同寻常的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;17 Which talent would you most like to have?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;学懂量子场论。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;18 If you could change one thing about yourself, what would it be?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;别近视。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;19 What do you consider your greatest achievement?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;可以拍着胸脯说，从小到大取得的每一点成绩，靠的都是我自己。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;20 If you were to die and come back as a person or a thing, what would it be?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;旅行者1号。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;21 Where would you most like to live?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;东京。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;22 What is your most treasured possession?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一条假Burberry围巾。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;23 What do you regard as the lowest depth of misery?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;24 What is your favorite occupation?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;物理学家。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;25 What is your most marked characteristic?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;咬得住牙。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;26 What do you most value in your friends?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;有分寸。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;27 Who are your favorite writers?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;海子。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;28 Who is your hero of fiction?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;加持良治。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;29 Which historical figure do you most identify with?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;方励之。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;30 Who are your heroes in real life?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本科导师。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;31 What are your favorite names?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;维罗妮卡。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;32 What is it that you most dislike?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;欺骗自己。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;33 What is your greatest regret?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每个夏天都太过勇敢。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;34 How would you like to die?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;使用全世界同步自杀仪。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;35 What is your motto?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;真朋克会在走夜路的时候捡地上的脏东西吃。&lt;/p&gt;
+- https://magshadow.github.io/posts/proust_questionnaire/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>嫖客的忧伤</title>
+        <link>https://magshadow.github.io/posts/piao_ke_de_you_shang/</link>
+        <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/piao_ke_de_you_shang/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/piao_ke_de_you_shang/ -&lt;p&gt;拆开包裹，是新买的裤子。你擦擦手，套上试试大小。想着要不要去拿条皮带。&lt;/p&gt;
+&lt;p&gt;不必了。内侧有条腰带，可以直接系上。一个似曾相识的设计。&lt;/p&gt;
+&lt;p&gt;你的心跳停了一拍。&lt;/p&gt;
+&lt;p&gt;你是那样地猴急，进门就扑倒在沙发上。一只手扯掉细细的皮带，你却没法扯下那窄窄的牛仔裤。她咯咯地笑。她的手拉着你触摸到内侧，一条腰带系着结，一个你从未见过的设计。&lt;/p&gt;
+&lt;p&gt;你后来再也没有解过这样或那样的腰带。&lt;/p&gt;
+&lt;p&gt;因为你再也没有一颗心可以用来付嫖资了。&lt;/p&gt;
+- https://magshadow.github.io/posts/piao_ke_de_you_shang/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>彗星出现</title>
+        <link>https://magshadow.github.io/posts/hui_xing_chu_xian/</link>
+        <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/hui_xing_chu_xian/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/hui_xing_chu_xian/ -&lt;p&gt;面对一扇陌生的的大海&lt;br&gt;
+我被粗糙的礁石紧紧包围&lt;br&gt;
+摇摇晃晃 站在世界的尽头&lt;br&gt;
+迎面吹来温柔的潮水&lt;br&gt;
+也吹走冷酷的层云&lt;br&gt;
+于是，在天狼星之下&lt;br&gt;
+此刻&lt;br&gt;
+一颗眼泪从裂帛中庄严地升起&lt;/p&gt;
+&lt;p&gt;这万年不落的、阿芙洛狄忒的眼泪！&lt;br&gt;
+你为何如此黯淡，又沉默不语？&lt;br&gt;
+看见你&lt;br&gt;
+我涌起的血霎地落下&lt;br&gt;
+我第一次感到未来与过去是如此的澄澈透明&lt;br&gt;
+我想亲吻这兵荒马乱的岁月&lt;br&gt;
+我想在围墙下扮演一条龙&lt;br&gt;
+我想把一切都献给你&lt;br&gt;
+我的野望&lt;br&gt;
+我的鲁莽&lt;br&gt;
+我的残忍&lt;br&gt;
+我的心碎&lt;br&gt;
+还有那株只在梦里出现的 坚韧的薄荷草&lt;/p&gt;
+&lt;p&gt;这眼泪究竟属于海子&lt;br&gt;
+属于全人类&lt;br&gt;
+还是只属于握不住的、那特殊的一个&lt;br&gt;
+石头不会给我答案&lt;br&gt;
+但我还是想穿越夜空去问问你&lt;br&gt;
+此时此刻 你是否也看见了这高悬的泪滴&lt;br&gt;
+你好吗&lt;br&gt;
+你也会哭吗&lt;/p&gt;
+- https://magshadow.github.io/posts/hui_xing_chu_xian/ - Owned By 高桥凉介.</description>
         </item>
     
     
@@ -119,7 +316,7 @@
         <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
         
         <guid>https://magshadow.github.io/posts/xian_shi/</guid>
-        <description>海淀陈冠希 https://magshadow.github.io/posts/xian_shi/ -&lt;p&gt;我们是注定失忆的一代人&lt;br&gt;
+        <description>高桥凉介 https://magshadow.github.io/posts/xian_shi/ -&lt;p&gt;我们是注定失忆的一代人&lt;br&gt;
 在这片土地上&lt;br&gt;
 你们的名字正在被慢慢遗忘&lt;br&gt;
 被我们徒劳地忘记&lt;/p&gt;
@@ -222,7 +419,7 @@
     
   &lt;/figcaption&gt;
 &lt;/figure&gt;
-- https://magshadow.github.io/posts/xian_shi/ - This is a customized copyright.</description>
+- https://magshadow.github.io/posts/xian_shi/ - Owned By 高桥凉介.</description>
         </item>
     
     
@@ -233,7 +430,7 @@
         <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
         
         <guid>https://magshadow.github.io/posts/di_er_li_ge/</guid>
-        <description>海淀陈冠希 https://magshadow.github.io/posts/di_er_li_ge/ -&lt;p&gt;前尘隔海。&lt;/p&gt;
+        <description>高桥凉介 https://magshadow.github.io/posts/di_er_li_ge/ -&lt;p&gt;前尘隔海。&lt;/p&gt;
 &lt;p&gt;离家的前夜，蜷在椅子上的我，对着屏幕幽幽地出神。房间里没有一丝别的光亮，手机震了又震，我却充耳不闻，脑海里只回荡着这四个字。&lt;/p&gt;
 &lt;p&gt;前尘隔海。&lt;/p&gt;
 &lt;p&gt;再过大概三十六个小时，飞机从跑道上呼啸而起之后，前尘往事于我，就真的要遗失在大洋的此岸了。&lt;/p&gt;
@@ -253,7 +450,7 @@
 &lt;p&gt;还有不到五个小时天就要亮了，我也要离开这里了，这个熟悉的房间，熟悉的小书桌。在未来，要做一个温柔善良的人，要做一个光明磊落的人，要做一个值得他人信赖的人，要做一个有梦想有追求的人，要做一个耐得住寂寞的人。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;2020.1.20 于南京家中&lt;/p&gt;
-- https://magshadow.github.io/posts/di_er_li_ge/ - This is a customized copyright.</description>
+- https://magshadow.github.io/posts/di_er_li_ge/ - Owned By 高桥凉介.</description>
         </item>
     
     
@@ -264,7 +461,7 @@
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
         <guid>https://magshadow.github.io/posts/li_ge/</guid>
-        <description>海淀陈冠希 https://magshadow.github.io/posts/li_ge/ -&lt;p&gt;他们说，“知道真相的人，有义务把真相传递下去”。&lt;/p&gt;
+        <description>高桥凉介 https://magshadow.github.io/posts/li_ge/ -&lt;p&gt;他们说，“知道真相的人，有义务把真相传递下去”。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;中午十二点，我从阴森幽暗的纪念堂走出来。走过冰棺，外面是残酷的烈日。&lt;/p&gt;
 &lt;p&gt;太阳照在广场上。土地是滚烫的。&lt;/p&gt;
@@ -282,7 +479,7 @@
 &lt;p&gt;我要努力。尽我可能地努力。我要去学习斗争的方法，我要去思考究竟哪些是我力所能及今日就能做的，哪些是我力有不能及但努力也要做的，哪些是真正重要、要知其不可而为之的。&lt;/p&gt;
 &lt;p&gt;我是个疯子、胆小鬼和爱说大话的骗子。但我们怎能在苦难面前别过脸去？&lt;/p&gt;
 &lt;p&gt;2019.5.28 于绝望中&lt;/p&gt;
-- https://magshadow.github.io/posts/li_ge/ - This is a customized copyright.</description>
+- https://magshadow.github.io/posts/li_ge/ - Owned By 高桥凉介.</description>
         </item>
     
     
