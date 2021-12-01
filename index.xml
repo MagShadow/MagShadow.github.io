@@ -74,7 +74,8 @@
         
         <guid>https://magshadow.github.io/quoting/</guid>
         <description>高桥凉介 https://magshadow.github.io/quoting/ -&lt;ul&gt;
-&lt;li&gt;&amp;quot;&amp;quot;&lt;/li&gt;
+&lt;li&gt;@tRedxz: &amp;ldquo;嘰講：我知道你又要拿我初中滑冰緊抓著你那次說事。雖然解釋半天直男也沒有會意，但是我想說的其實是，被緊緊抱著也好，緊緊攥住也好，用力上床也好，那些力度讓我覺得自己真實活在這個世界上，與人產生了這樣堅硬的鏈接，有破不掉的幻覺。非常好哭，像是生命從此不再輕薄桃花逐流水，被牢牢拴在人間。&amp;rdquo;&amp;hellip;&amp;hellip;&amp;ldquo;被用多大的力氣攥住，就像是被世界用多大的力氣輓留，像是生死之間有了一道堅固的，能夠觸摸的牆。我被釘在那裡，有人敲著錘子。我不是虛無縹緲的靈魂，我是能夠被感知與觸碰的，活生生的人。至少在那一刻我是你腦海中最重的人，一刻永遠一無所有讓人滿足。我很滿足。&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;@湖北真希：&amp;ldquo;想到有一次跟小智做爱的时候喘着气说【我恨你】，他问【恨我还是爱我】，我用尽力气才没有把【爱你爱你爱你】说出口。&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 - https://magshadow.github.io/quoting/ - Owned By 高桥凉介.</description>
         </item>
@@ -130,6 +131,10 @@
 &lt;pre&gt;&lt;code&gt;Mixed Content: The page at &#39;https://magshadow.github.io/&#39; was loaded over HTTPS, but requested an insecure stylesheet &#39;http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css&#39;. This request has been blocked; the content must be served over HTTPS.
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;仔细检查后，将&amp;rsquo;config.toml&amp;rsquo;中的&lt;code&gt;baseURL&lt;/code&gt;由&lt;code&gt;http&lt;/code&gt;改为&lt;code&gt;https&lt;/code&gt;，即解决问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;wsl2无法访问本地页面&#34;&gt;WSL2无法访问本地页面&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;参考 &lt;a href=&#34;https://www.saotn.org/hugo-development-environment-in-wsl-2/&#34;&gt;https://www.saotn.org/hugo-development-environment-in-wsl-2/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 - https://magshadow.github.io/tech/set_up_hugo/ - Owned By 高桥凉介.</description>
         </item>
