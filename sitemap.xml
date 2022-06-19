@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://magshadow.github.io/censor/</loc>
-    <lastmod>2021-11-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://magshadow.github.io/quoting/</loc>
-    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/censor/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/tags/boston/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/tags/diary/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/tags/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/2021_a_space_odyssey/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/tags/poem/</loc>
     <lastmod>2021-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/posts/</loc>
-    <lastmod>2021-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://magshadow.github.io/tags/</loc>
-    <lastmod>2021-08-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://magshadow.github.io/posts/fawn/</loc>
-    <lastmod>2021-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://magshadow.github.io/</loc>
     <lastmod>2021-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/tech/set_up_hugo/</loc>
@@ -41,12 +50,6 @@
     <loc>https://magshadow.github.io/posts/a_bostonian/</loc>
     <lastmod>2021-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/tags/boston/</loc>
-    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://magshadow.github.io/tags/diary/</loc>
-    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://magshadow.github.io/photos/hawaii/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -61,6 +64,9 @@
   </url><url>
     <loc>https://magshadow.github.io/posts/proust_questionnaire/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/me_in_2000/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/posts/piao_ke_de_you_shang/</loc>
     <lastmod>2020-12-05T00:00:00+00:00</lastmod>
@@ -83,6 +89,9 @@
     <loc>https://magshadow.github.io/posts/2020.9.15/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://magshadow.github.io/posts/optimism/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://magshadow.github.io/posts/chun_qiu/</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -92,8 +101,14 @@
     <loc>https://magshadow.github.io/posts/hui_xing_chu_xian/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://magshadow.github.io/posts/fuck_romance/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://magshadow.github.io/posts/a_summer_night/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/choose_life/</loc>
+    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/tags/politics/</loc>
     <lastmod>2020-06-04T00:00:00+00:00</lastmod>
@@ -107,11 +122,35 @@
     <loc>https://magshadow.github.io/posts/sea/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://magshadow.github.io/posts/lisbon/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://magshadow.github.io/posts/di_er_li_ge/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://magshadow.github.io/posts/cemetery/</loc>
+    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/love_story_1990/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/father/</loc>
+    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/drunk_dream_death/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/auditory_hallucinations/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/walls_and_kisses/</loc>
+    <lastmod>2019-10-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://magshadow.github.io/posts/li_ge/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/evangelion/</loc>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/categories/</loc>
   </url>

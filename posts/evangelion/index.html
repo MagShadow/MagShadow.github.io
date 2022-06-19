@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html><head>
+<title>新世纪福音废物</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="“去他妈的新年聚餐，老子在办公室看EVA。”">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    新世纪福音废物
+                    
+                    <div class="post-subtitle">
+                        “去他妈的新年聚餐，老子在办公室看EVA。”
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-03-29 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>我其实一直很疑惑，“自卑”是怎样的一种感情。</p>
+<p>从小到大，我似乎不记得有什么类似的体验。硬要说有，也还真有那么几次似是而非的经历。小学的时候搞数学竞赛和计算机竞赛，有一回考的差了，王校长把我们班几个人拎到教室外面站成一排，挨个训了一顿，然后对着我说“看来你就是个千年老二了”（因为我计算机已经考了二等奖，那次数学竞赛大概也是二等奖）；后来又有一回，另一个老师让我做一道题，我站在台上站了很久还是做不出来，他就请一个我平日觉得水平很一般的同学上来给我演示了做法，非常简单，可是我就是死活想不出来；又后来还有一次秋游前的模拟考，我考的太烂，在春游的大巴车上，班主任就拎着我面车门思过。或许这就是小学为数不多的不开心时刻了。不过细想起来，这些也都不是自卑，不过是有些丢脸，面上无光罢了。</p>
+<p>到了初中，大家还是一起搞计算机奥赛。班上几个比较厉害的，小学时候就高我一筹，于是课间就经常围着讨论一些beyond my ability的东西。最初我是有些格格不入的感觉，但是也没什么，埋头学了一年半，也就慢慢能够赶上来大部队了。尖子生的部分，很快明白自己力有不能及，也就放弃了。高中的日子或许是人生最顺利的部分，刚上高中就考了校内物理竞赛班选拔的第一名，此后虽有波折，但大体是一帆风顺的来到了中关村。</p>
+<p>人生中离自卑最近的一次，或许是刚上大学那会追一个“真·白富美”。人家愿意带我一起玩，但是我很快意识到消费水平上的巨大差距，进而发现见识、谈吐、眼界上都有很大的差距。当时顿生“自惭形秽”之感，挣扎了几个月，以人家有了高富帅男友而高中。不过这种自惭形秽感并没有很快消散，在那之后一段时间还常常会有“我不配”之感。再后来我痛下苦心，花了不少时间把高中专注念书而忽略的那些东西一点一点地补回来了。再后来无论面对什么样的女孩子，哪怕是上海的富家大小姐，也不觉得人比我有什么特殊之处了。</p>
+<p>回首种种，这些感情说到底也不是自卑，不是自我否定：被当众“羞辱”了，就下次努力找回场子；比不过同龄人，不过是peer pressure罢了，认清事实告诉自己不是天下第一很难，但也不是不能活下去；配不上人家，要么放手找个势均力敌的对手，要么就努力成为配的上的人。</p>
+<p>为什么会有人因为某些地方不如别人，就要自卑自弃呢？</p>
+<p>我是真的不明白。我是真的很想明白。</p>
+<p>这也是我缺乏和他人共情的能力的一个表现吧。</p>
+<hr>
+<p>想起来，之前一个关系很好的学长和我聊天，一段关于EVA和废物的讨论很有趣，深得我心。</p>
+<p>Z：“话说，XX买了一个明日香的手办。EVA有什么好看的？他和我说&hellip;$$当你觉得自己是废物的时候就觉得好看了。$$”</p>
+<p>我：“一点没错。”</p>
+<p>Z：“我推荐雷蒙德卡佛的诗集。”</p>
+<p>&hellip;&hellip;</p>
+<p>Z：“去他妈的新年聚餐，老子在办公室看EVA。”</p>
+<p>我：“成长。”</p>
+<p>我：“看到shinji哭喊 逃げ駄目だ 的时候，你就能体会，为什么废物喜欢看。”</p>
+<p>我：“当你已经觉得自己是个废物的时候，再看看shinji在明日香的病床前打手冲的样子。”</p>
+<hr>
+<p>一切会好起来的。</p>
+<p>加持在战场边缘的鼓励，美里最后的吻。</p>
+<p>我们也可以的，在心之壁把彼此分隔的世界里，不那么光荣地活着。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-03-29</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/li_ge/">
+			Next<br>离歌
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

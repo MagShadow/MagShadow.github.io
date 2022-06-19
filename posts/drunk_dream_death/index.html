@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html><head>
+<title>醉生梦死</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="不如我们重头来过">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    醉生梦死
+                    
+                    <div class="post-subtitle">
+                        不如我们重头来过
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-10-31 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/beijing">Beijing</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>当我骑着花花绿绿的共享单车，在保安面前晃了晃其实早已失效的红色校园卡，穿过被绿网蒙住、已经面目全非的东门回到这个才刚刚离开不久的校园里时，突然有一种强烈的反差。</p>
+<p>四个月前，我的代步工具还是小电驴，我还是个贴着地面飞行回头率百分之二百的滑板少年。多少个夜晚，从成府路上的物院大门出来，地铁站早已关门，在一百多秒的超长红灯前无言地等待，然后从缩在灯光下的保安面前一闪而过。这样的画面几乎成了大学时光最坚固的记忆，以至于这一次回来，第一次出门掏出手机扫码开车的时候，一股中年的沧桑和不适感没缘由地向我涌来，让我恍惚又让我难过。</p>
+<p>大概，毕业的时候谁也不会想到，我竟然这么快又重返了这里，以一个过客的身份。</p>
+<hr>
+<p>出了地铁站，拎着箱子就直奔东楼那个呆了三年的实验室。轻车熟路地穿过昏暗的门厅和漫长的走廊，推开门的时候，一切仿佛都还没有变过。我那最显眼的座位依然空空荡荡无人占据，两个小朋友在对着电脑屏幕疯狂刷题，甚至走之前丢在沙发后面的包也还没被扔进垃圾桶。在车上没吃午饭，于是第一顿就是和兄弟出门去蓝旗营吃了麻辣烫，交流了一下撸铁和煮鸡胸肉心得。说是“兄弟”，其实是大我两届的师兄。这个名字的来源也很好玩，我院某位老师常常在健身房和我们一起练深蹲（那时他还不知道我们是物院的学生），张嘴就是“兄弟，换着练一下”。于是后来，我和师兄之间的聊天记录就成了“兄弟，今晚释放不？”的重复。离校前的最后一练，也是和兄弟一起在邱德拔冲了三大项，或许是一种非常特别的毕业仪式吧。</p>
+<p>吃完回来，最重要的事情就是见老板。虽然天天在背地里黑他，但我真的太喜欢我老板了。当初加入这个实验室纯粹是误打误撞。另一个师兄在足球队里发了招生广告，我虽然一个字也看不懂，但是见面被老板使劲一阵忽悠，什么“拓扑量子计算”啊、什么“中国最强”啊，觉得酷的不行，就在组里先呆了下来。组里的师兄又特别热情，每天拉着给讲这讲那，老喊着晚上一起液氮冰啤酒看球，又是一阵糊涂就决定加入了这里。本科期间我其实非常摸鱼，进度总是一拖再拖，老板却对我十分宽容，说“组里其他人都有进度要求，但是你没有”，只要我在这里有收获就可以。最后也是靠着老板的强力推荐信和游说才帮我捞了个不错的Offer，把我推上一个漂亮的山巅。</p>
+<p>我最最喜欢我老板的一点是，他实在是太懂我了。他对我的乱搞精神十分宽容，甚至带有一点点赞许。哪怕是给我做学术方面的建议，也常常用我的前女友ABC（我没有！！！）打比方。某次曾经跟我说，“你就是什么都想要，就像你同时谈了很多个女朋友（我也没有！！！），但是你要小心，也许有一天你就被某个特别厉害的女朋友管住了呢？”他笑嘻嘻地这么说，让我常常好奇他年轻的时候是不是也很会玩。这次见面，除了安慰我签证问题、给我建议以外，又聊到我的感情生活。老板听说我正在“反省期”，反省自己在过去一段时间内犯下的荒唐错误，不打算勾搭别的小姑娘，非常不屑：“什么反省期，我看你就是在‘心虚期’，肯定长不了，等你哪天闲的没事做，肯定又要开始蠢蠢欲动了。”他这么一戳破，我也只好不好意思地嘿嘿一下。</p>
+<p>啊，为什么会有这么懂我的老板！</p>
+<hr>
+<p>见完老板，谈完推荐信的事情，来北京的所有正事都已做完，接下来的唯一任务就是，醉生梦死。</p>
+<p>会见了一位可爱的友邻。闻到了友邻身上好闻的奶香味无花果香水。和她讲述了四个月前发生在港丽的隔壁桌的惨案，亦即我人生悲剧高潮乐章的开始。饭后友邻带我去了Live House，坐在门外的空地上教会我抽了人生中第一支烟。出来又见到她的朋友，一位陌生人，递给我一支兰州。临走时友邻赠我一本很可爱的小书作生日礼物。我们约定好以后用短信联系，仿佛在徒劳地追寻某种复古的美感。</p>
+<p>见到了室友们，包括那位被本菩萨歪打正着发功发上火速脱处的小朋友。吃早茶的时候大家都忙着追问他的进展，再对着他的不成熟与青涩发出一些善意的笑声，最后敲诈他把这一顿记在了他的账上。另一位室友的文章在五次投稿直接被编辑拒绝之后终于成功送审，我们又说好，等他发出来还要再请我们一次。</p>
+<p>去一体看了球队新生杯的最后一战。赛前就在群里面看他们做数学题，我心说别做了，俺们北大中国队当然是和国足同命运的。到场边一看，穿着红色战袍的我们果然踢得非常曼联，最后以一个非常丢人的比分告别了本次新生杯之旅。想想不过一年半以前，作为物院黄金一代最后的谢幕演出，我们闯进了北大杯四强，创造了八年来的最好战绩，那时作为领队的我又是何等兴奋与风光。再往后，我卸任领队，球队连着两届比赛小组赛都不能出线，那套首发十一人里也只剩下一两个人还在了。想到这里，亦有一种英雄迟暮的感觉。</p>
+<p>小王是这次出门最早约好的那一个。早在暑假里他就非常热情地表示要请优秀学长吃饭，那么非常不要脸的我当然是毫不犹豫地同意了。结果事到临头他还要上讨论班，足足拖到了电影开场前才急匆匆地跑出来。来不及吃晚饭，就在便利店买饮料。小王买了阿华田，我想了想，还是买了三元牛奶。看完电影准备去School开整，结果无论是小王还是我都没有料想到现场没票这个大难题。吃了越南粉，吃了一点也不甜的大白兔奶糖冰淇淋，我们灰溜溜地转回了五道口接着喝。坐在Lush里吃了会薯条，喝了友邻提到的百利甜牛奶。先听小王说了会他的失败约会经历，然后正轮到我慢条斯理地明暗双线叙事讲故事呢，小王收到几条消息脸色一变。这是出了个什么事呢？要我说这就应该是一个日剧跑时刻，小王应该扔下我冲下楼打上出租跑回学校，然后今晚的未名湖旁可能就会多出几滴眼泪和几个吻。但小王没有。等我喝完酒，我们慢吞慢吞地沿着成府路往回走，在走到东门外的时候，小王又收到消息——太晚了，今天不会有故事了。最后的最后，我又走回了全家，想了想没买朝日，又买了一盒三元牛奶。</p>
+<p>和小基佬们吃了水木锦堂。我们故事的开始是军训结束那天，江苏群里说要聚餐，大家都说不能光是男生吃、要喊上几个妹子一起云云，结果在楼下见面的时候，只有七个小基佬面面相觑不知所措。再往后，每个学期都要仪式性地搞聚餐，还有十分重要的带妹任务——这个任务在大四终于从1/9实现了历史性的突破。说起来，这种前现代的炫耀有一点点好笑一点点幼稚，但是不经意间，去年冬至大家一起在金谷园吃饺子的记忆涌入脑海，却充满了家人的温馨感和失去乐园的苦涩。</p>
+<p>彩妹本来国庆前就和我大吐苦水，于是早早约好了喝酒。但是毕竟南师附中人都是属鸽子的，最后只好改喝咖啡。我们从东门走出去，不巧的是咖啡厅里都人满为患，最后我们只好坐在五道口的星巴克外面的石阶上，聊一聊彼此操蛋的人生。彩妹对我的判断还是十分准确：没脑子，也没有道德准则。怎么办呢？只好继续放浪地活着。</p>
+<p>晚上，和学姐以及她的营业男友一起吃涮肉。饭后去了一家地方很难找的神秘小酒吧。在二十二岁最后的夜晚，我终于不再能装出一切都无所谓的样子。我已记不清那天晚上喝了多少酒，我只记得从嘻嘻哈哈，到摘下眼镜沉默，到愤怒地揉搓着餐巾纸团，再到抱着学姐嚎啕大哭。学姐温柔地抚摸着我的脑袋，跟我说，真的很幸运，你二十三岁的时候竟然还能为一个人这样哭泣。稍稍冷静下来以后，我打了一个跨洋电话。虽然我完全清楚无论说些什么都是无意义无价值的噫语，但那个时刻，我还是很想把这种迟来的糟糕的悔恨与歉意通过电波传递到十二个小时以外。电话那头传来带着哭腔的呜咽，我渐渐平静下来。</p>
+<p>从酒吧出来，生日夜的零点，我站在成府路的天桥上。我从未在这个时间站在这个角度俯瞰过成府路。我也从未预想过这一时刻的出现。风很大很冷，趴在栏杆上抽烟的我被吹得浑身颤抖。吐出的烟气被拍回脸上，眼睛酸酸的，却没有再流一滴眼泪。一位友邻私信送我一首《第十支烟》——太过巧合，那时我还能数清正正好抽了九支。我不知该如何才能入睡，只好又买了一罐旺仔牛奶，站在天桥上重新审视这过往的一切。听李志。</p>
+<p>二十三岁，宜重头来过。</p>
+<p>第二天醒来，心情明显好了很多。坐在新太阳里处理了一会邮件，谈好了所有的推荐信，重办了成绩单，还买了新一年的日程本。学妹请我吃了寿喜锅，聊了聊申请的事情，给了些建议。回实验室处理下后事，给师姐找出来我过去的样品作为参考。</p>
+<p>晚饭和最好的几个朋友一起吃。一起拍毕业照的我们，居然也不约而同地被卡住了签证。他们倒也痛快，先接了学校的保研Offer回到了海淀桥北快乐摸鱼，因此只有我一人远来是客。我早早地定了蛋糕，但是蛋糕上究竟要写些什么却难倒了我。我翻出去年的照片，那时我写的是“做个盖世英雄”——申请季的我，大概真的是豪情万丈。而这一岁，大起大落，我曾经拥有一切美好，却在转眼间又失去了一切。写“前尘隔海”太过伤悲，写“亲爱精诚”又太永恒，想来想去，最后也只好老老实实地取一句，“不如我们重头来过”。</p>
+<p>饭后和lili喝了一场酒。结束的早，又绕回实验室，尝了尝师兄煮的鸡胸肉。在二十八楼楼下和一个东北老哥抽了根烟，最后站在邮局门口等秋刀鱼。秋刀鱼带来了nana，并且还是洗过澡之后才出门的，一下让我感觉受宠若惊。老乡带我爬上了小屋顶，站在她们的秘密基地里，我们分享了彼此的香烟——在北京的最后的一颗烟。</p>
+<p>离开北京前的最后一个局，在南站附近见到了另外一位经常互寄明信片的网友。网友给我的生日礼物里夹了一张明信片，结尾写到，“永远记得你给我寄来的明信片上写着‘前路多艰，但别怕呀’，在我人生中最艰难的冬天，它始终在我书包的夹层里。”</p>
+<p>这句话勾起了我一些久远的回忆。或许我的温柔永远只能体现在这些我自己都不曾留意的瞬间。高中时班上暗恋我的小姑娘在毕业时给我写下长长的信，令我意外的是她特别指出的一件小事：在考完竞赛我顺利进入省队回到班上的时候，同学围过来庆祝，我远远地看到她趴在桌子上哭。我知道她没考好，错失了和北大已经签下的降分协议，就轻声和同学说，与其来庆祝我，不如去安慰安慰那些没考好的同学。这是件多么不起眼的小事啊！她还提到我贴在柜子里的充满中二气息的台词：“你以为成长是变得冷漠。不是的。成长是变得温柔，对所有人都温柔。”</p>
+<p>今天再回想这些有什么意义呢？大概没有。但这也许就是我的人生旁生蔓枝的一个剪影吧。</p>
+<p>坐上火车，我回到了南京。这一次没有再在火车上从头哭到尾。今天，我已经回到南大的实验室继续搬砖，在北京的这几日仿佛什么都不曾发生过，一场幻梦而已。只有此时此刻在键盘上敲下无意义且无美感的文字，试图在流水账的字里行间抓住些什么，哪怕是一颗泪滴。</p>
+<p>可那过去的四年是真实的吗？它又能算是什么呢？是另一场特别特别漫长的醉生梦死吗？</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-10-31</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/father/">
+			Next<br>喝酒父子兵
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/auditory_hallucinations/">
+			Previous<br>幻听
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

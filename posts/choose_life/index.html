@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html><head>
+<title>选择生活</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="但我才二十三岁，我还年轻">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    选择生活
+                    
+                    <div class="post-subtitle">
+                        但我才二十三岁，我还年轻
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-06-19 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/beijing">Beijing</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <blockquote>
+<p>我只想生活得强烈一些。</p>
+</blockquote>
+<p>余虹的这句话猛烈地冲击着我的胸口。</p>
+<p>长久以来，我渴望过那样的生活。高中时我就写下过“愿意拥有诗人那样敏感的心灵，哪怕会因此受伤也无所谓”这般的句子。虽然回头看去，作为一个普通高中生，那两年的情感故事已经足够Drama，可当时的我依然觉得我尚未体验到足够强烈的感情。</p>
+<p>懵懵懂懂地进入大学，在第一段感情受挫的同时，我的价值观也在逐渐地改变。最重要的转变是，我开始认识到“关系”可以和“情感”分离——或者用自那时我开始慢慢体悟到的一个词，“情欲”。我开始认可浪子的爱情，因为它“与一切责任感分离，与一切形式上的束缚分离，与一切传统意义上爱情的附加物分离 ”，因为它是一种直接而强烈的情欲 ——与相互关心、相互照顾无关的、纯粹的奔流的情感冲击。</p>
+<p>这样的转变不能不说和众多文学影视作品相关，例如《阿飞正传》，例如《苏州河》，例如《情人》，例如《色戒》，例如《69》。支离破碎闪烁变换的生活轨迹是那样动人，但并未让少年放弃那正“像小孩子一样喜欢”的女孩。但正是这感情上的幻灭带来了更大的转变，和那个女孩接近、分开、再接近、再坠入谷底的两年，也是彻彻底底地重塑了自我的两年。</p>
+<p>我还记得某个失败的夜晚，我躺在床上暗暗发誓，从这一次之后，“再也不要像小孩子一样地去喜欢一个人，要像大人一样，成熟地恋爱。”可是什么是“大人的成熟的恋爱”？我不知道，我没有切身的经验，我只好从头脑中寻找可能的模板——加持和美里、旭仔和咪咪、周慕云和苏丽珍。这无疑和我长久以来的价值观的转变也是契合的。</p>
+<p>“做渣男不做老实人”，这么说或许太过极端，但这确确实实代表着我的一种价值追求。我认可对自己身体和精神的完全掌控，我反对以承诺和责任感维系的感情（但并不反对稳定的社会关系例如婚姻，因为关系和感情并不是一回事）。我认可一夜情，我认可约炮，我认可出轨，我认可开放式关系，我认可一切诚实面对自己感情的选择，唯二的底线是不能双标和不能欺负不持有这种观点的老实人。要玩也得是棋逢对手见招拆招，不然那就是真正应该唾弃的人渣和流氓。</p>
+<p>这大概和社会上主流的价值观相互冲突，但在明白了“是——应该”悖论之后，我已经不再认为价值观有对错之分，它们都只不过是从不同的Nonsense出发而得到的无意义的逻辑推论之后了，它们存在的唯一价值是达到人与人的共情。我相信这世上有大把的人和我持有类似的观点，并且随着社会的发展这样的想法也会逐渐成为主流。</p>
+<p>但上帝总喜欢给人生开许多无意义的玩笑。因为对他人感情观的误判而意外开始的一段感情，跌跌撞撞走到今天。我终于无法逃避这样的选择：是“追逐破碎、短暂、刺激而情欲横流的危险生活”，还是“和女友过安安稳稳平平淡淡的小日子”，这是个让我彷徨无措的Dilemma。从感情和价值观的角度我欲选择前者，但从“终将会有走向婚姻的稳定关系”这一点的理性考虑来说又该选择后者。</p>
+<p>对照自己的生活轨迹，大三一年，和前女友恩怨难断，和前前女友旧情复燃，和学姐眉来眼去，和学妹棋逢对手，不承担责任，不留下后果——几乎是我梦想中的生活方式。而大四落入稳定的关系，却失去了生活的激情，每每考虑的都是“责任”、“承诺”，开始努力维系一段关系——而非感情。我甚至空虚到需要打游戏来分散注意，否则失望感会使我不断地想结束这段感情。我并非不喜欢女友，恰恰相反我相当地喜欢，甚至觉得她可以是我的结婚对象——但我才二十三岁，我还年轻，我还要去过我的青春。结婚是十年后的事情。</p>
+<p>需要指出的是，做比较的并不是现在的女友和具体的某位吸引我的女性——事实上也并不怎么存在这样的女性——作比较的是这两种抽象的生活方式。做一个浪子也并不是想做就能做，潘驴邓小闲总得占个几样，卢瑟常有而段正淳不世出。但，哪怕可能失败，哪怕可能一无所有，我还是渴望那种被肆意奔流的情欲完全支配的沉醉感，那种被汹涌的爱意裹挟而无力反抗的迷失，仿佛浸没在黑暗无光的海底，甚至溺亡。</p>
+<p>“选择生活吧！”这警世恒言常常在我脑中回荡，可我依然是个胆小鬼。我没有做出选择，我只是随波逐流，顺着最简单最安全的选项往前走。快要毕业了，意味着又要到了做选择的时候。“诗歌是一场烈火”，我也该更热烈地活着。</p>
+<p>选择生活吧！</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-2ab669ec06b5e31625cf8436dc3b343a">
+  <a href="https://magshadow.github.io/posts/choose_life/black_coal_white_snow.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/choose_life/black_coal_white_snow_hu2284db5d00c03c3cae828a1dbd65c856_18254_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-2ab669ec06b5e31625cf8436dc3b343a">
+    愿做摩天轮内转瞬即逝的花火
+  </figcaption>
+</figure>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-06-19</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/a_summer_night/">
+			Next<br>夏夜
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/xian_shi/">
+			Previous<br>献诗
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

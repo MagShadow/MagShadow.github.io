@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html><head>
+<title>我去2000年</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="一个充满朝气和希望的新世纪">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    我去2000年
+                    
+                    <div class="post-subtitle">
+                        一个充满朝气和希望的新世纪
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-12-31 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/boston">Boston</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <ol start="0">
+<li></li>
+</ol>
+<p>从各种意义上，今年都是很特殊的一年，所以今年的年终总结也发生了一点点小小的改变。以往都是拖到年终岁末的最后一天下午才急急忙忙打开文档糊弄点东西，然后赶在日期变更之前发出来。现在有了难得的假期，来实验室视察了一圈我亲爱的顽皮的不省心的仪器们，坐在办公室里也不想干点啥活，于是早早地就开始动笔了。另一个变化是，按照惯例，去年的标题写作《恋曲1990》， 今年就该是大国解体的1991了，但既然要发生改变，不如直接一步十年，迈入新世纪。不过，说是改变，写了这么多年年终总结，最后会写下哪些东西其实也早有预期。</p>
+<ol>
+<li></li>
+</ol>
+<p>和去年相比，今年的轨迹倒是简单了不少。按城市计：南京、射阳、上海、波士顿、里斯本（New Hampshire的某一山中小镇）、Rochester（纽约上州那个）、Providence（罗德岛那个），Falmouth（Cape Cod那个）。</p>
+<p>一月底离开中国落地波士顿，在波士顿匆匆忙忙呆了不到两个月就遇上了前所未有的shutdown。和室友合计了一下，觉得这是千载难逢的机会，于是趁着实验室全部关停，学校也鼓励大家搬出宿舍的东风，打包了家当脚底抹油从波士顿跑了，跑毒去了New Hampshire大山中的小镇，住进了荒郊野外的一个小木屋。小镇离波士顿两个半小时车程，镇上可能只有几百户居民，离最近的M记开车也要二十分钟。。小镇民风淳朴热情好客，人人家里二十来把枪，夜里偶尔还有熊熊来访，可以说真的是一个跑毒圣地了。</p>
+<p>在NH的三个月，生活十分惬意，早上起来开个组会，开完组会睡个回笼觉，爬起来进山里走一圈，回来以后室友做好了饭，下午随便上上课做做作业，或者读读文献，晚上和朋友打游戏。每两个礼拜去一趟沃尔玛，采购整整一冰箱食材。有闲情逸致的时候，就动动手做次饭，也给室友放个假。楼下还有烧烤架，切点肉弄点酱，随时都能搞BBQ。室友有时有事要回波士顿，还可以从波士顿的中超带回点奶茶粉、辣条、冬瓜茶种种战略物资，真真是啥也不缺的神仙日子啊。</p>
+<p>当然，美好的时光总是短暂的。六月初，随着实验室逐步开始复工，不得不从世外桃源又搬回了查尔斯河边。再往后，出行的次数就非常少了。去Rochester是有个新仪器要验收加培训，于是老板带着组里三个学生，从凌晨四点的波士顿出发，三人轮流开车六小时赶到Rochester，培训一天之后又开回来，凌晨一点多才回到家里。师兄的老婆在布朗，有时会开车送他去和老婆团聚，顺便去罗德岛拜访一下老同学。唯一的出游是在夏天，和一个朋友开车去到Cape Cod上的小岛Martha&rsquo;s Vineyard，短暂地玩了一个周末。</p>
+<p>再后来，九月份开学之后，课程和实验室的双重压力让我逐渐变得忙碌起来。另一方面，随着全美感染人数节节攀升，焦虑感也开始时隐时现。期待了很久的感恩节去纽约的行程，也因为种种原因最后未能成行。现在年终岁末，甚至都失去了规划远行的动力。在这个黎明将至未至的时点，一切都不确定了。</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-78fea53f9e50f0b277fc44363d714b0c">
+  <a href="https://magshadow.github.io/posts/me_in_2000/world_fog_2020.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/me_in_2000/world_fog_2020_hua6cd67ca0883ba1c3d0fcde4f470a7cc_32392_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-78fea53f9e50f0b277fc44363d714b0c">
+    2020飙车图鉴
+  </figcaption>
+</figure>
+<p>这一年里坐的唯一一班飞机是如今已经不复存在的海航。落地之后，出行方式便只剩下一个——开车。我是真的很喜欢开车，喜欢到现在的ID和头像就是在秋名山飙车的冠希哥。因为没有自己的车，所以这一年开过很多很多不一样的车。不管开什么，在开车的时候，我都能保持一种高度的精神集中，插上手机，放上音乐，然后进入一种人车合一的感觉。特别是在恶劣天气开车，大雨中双手紧握方向盘，雨刮器疯狂摇摆也看不清路，然后从咆哮的大卡车身侧滑过稳稳超车，给人以特别的安心感。一路开下来，到停车的时刻，踩下手刹，熄火，长舒一口气，有说不清的痛快。</p>
+<p>另一个爱好是在水边开车。特别是傍晚，斜阳照在被风吹动的水面上破碎开，是我永远着迷的画面。住在NH的时候，I93经过白山的那一段从山谷中过的路，一直贴着小河，河中的石块阻拦水流，掀起小小的浪花，两侧是威严的山，路弯弯绕绕伸向远方，也是极为难忘的记忆。</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-2695610f130c7a19461e8e7b28ded5ac">
+  <a href="https://magshadow.github.io/posts/me_in_2000/Hudson%20River.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/me_in_2000/Hudson%20River_hu7d0593d4be5472dde296419373369ab3_24494_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-2695610f130c7a19461e8e7b28ded5ac">
+    低空飞行，危险动作，请勿模仿
+  </figcaption>
+</figure>
+<p>一个苦恼是还没有买得起属于自己的车。凉介的FC肯定是买不到也买不起了，GTR也只在梦中存在着。很想买辆BRZ去做一个真正的飙车手，但是又觉得自己完全没有时间精力投入到严肃的汽车运动当中去。也可能就买辆普通的家用车，又觉得有些失去了个性。最重要的是，要做爹系男孩的第一要义是经济独立，所以不找家里要钱的话，看看钱包，只能走一步看一步了（笑</p>
+<ol start="2">
+<li></li>
+</ol>
+<p>四舍五入是上了两个学期的网课，还是有点失望的。第一个学期初来咋到，选了一门非本专业的AMO课和一门英语课。AMO课是诺奖大佬教的，学得倒是还行，就是第一次在美帝上课非常焦虑，总觉得这也没学好那也没学好。也是第一次感受到美帝课程的惊人的workload，时间管理水平不佳，到期末的时候也好生赶了一阵作业才放心过关。上英语课是因为入学英语能力测试里面写作放飞自我，所以被加入了推荐列表，academic advisor看到之后大笔一挥就让我务必来好好学学。最大的感触就是，同样是写作课，同样是上课讨论 - 回家写essay - 课上同学讨论修改的模式，摆京大学的高级英语写作和这里的课完全不是一个level。在鳖大上高写的时候，写作内容都四平八稳，同学讨论也基本上限于修改语法错误，随便看个十几分钟就完事。而在这边，上来就给你发一张表格，讨论之前得先一项一项写评价意见，别人的文章哪里好，哪里不好，哪里用到了课上教的技巧，哪里流露真情，完全不存在划水的可能。另一个突破在于，第一次尝试用英文写了non-scientific的内容，在老师的鼓励之下，把自己毕业时的drama故事用英文做了一次尽量克制的叙述，并且作了文学化的处理。</p>
+<p>第二个学期也是两门课，一门是本专业的必修课，老师是搞理论的，但是上课极度无聊，比读ppt还难接受，约等于是自言自语。再加上面对Zoom的聊天框，完全没有兴致听本科几乎全部学过的东西，于是这门课就变成了纯做作业课。期末考试是开卷，所以考试之前随便突击了一下，就顺利结束了。另一门是在哈佛注册了一门比较advance的课，不能计算毕业学分，但是对内容很有兴趣，所以咬咬牙也注册了Pass/Fail而不是旁听。现在看来这个决定有好处也有坏处，好处是前半学期的时候有作业驱动，把老师教的东西都认真地啃了下来，还读了不少一直以来想要读的经典教材；坏处是到了后半学期进度越落越后，实验室也越来越忙，为了通过课程不得不抄了同学作业，浪费了许多时间。最后的报告也是偷懒选了本科就比较熟悉的课题，稍加准备就糊弄过去了，学到的新东西并不多。</p>
+<p>科研上面的东西倒是可以好好说说。虽说是和本科方向不太一样的实验室，但是一月份初来咋到接到的工作，还基本上是和本科在林老板那里好好历练过的东西。没做多久，高我一级的博士师兄烧了一块非常重要的样品，无法承受，决定转组离开，紧接着就是shutdown，一下子打乱了所有节奏。在shutdown期间，接手了师兄留下来的数据，又从合作者那里拿到了模拟代码的框架，开始做模拟和分析。这部分工作在年底终于收尾，因为种种原因，一作没有比我更合适的人，所以如果能够顺利发表的话，应该会是整个博士期间第一篇一作的paper。</p>
+<p>复工之后，我一下子成为了组里最重要的一套仪器的负责人。这半年里可以说我是受尽折磨。里面有各种原因：老板贪便宜买的烂仪器本身的质量问题，师兄留下来的系统的设计问题，楼里面非常不稳定的冷却水的问题，还有各种各样我完全无法控制的意外。从八月份开始，整整大修了两次，再加上无数次的小修小补，又改了系统设计，一直弄到十月底，才勉勉强强把系统整到了一个可用的状态。那段时间常常被噩梦惊醒，梦里面都是仪器花式爆炸的画面。早上去了学校，也时常没有勇气走进lab，生怕一打开实验室门，就是一个烂摊子等着我去收拾。从某种程度上来说，这是我选择了一个刚刚建立的实验组的一个闭然结果，这些坑是每个组都要踩的。只是，从本科时代那种随随便便干干也有师兄顶着的玩票状态，转换到如今要真正扛起组里最核心的重任，对于刚刚开始phd生活的我还是有些难熬。好在最近两个月除了楼里的冷却水依然不够稳定，没再出过什么特别大的幺蛾子，我的日子也好过了很多。老板又新招了一个博后，有人分摊重任，压力也没之前那么大了。</p>
+<p>把仪器整好之后就开始了测量。我们组的技术比较独特，算是光学和输运的交叉领域，虽然想法很简单，但是没有什么别的组能做得来。一开始我还不太能理解，但是上手以后，老板要求我push信噪比的极限，又煎熬了好几个礼拜，我才能理解其中的独特之处。一套技术，决定它能不能用的，很多时候只是细节。在文章里老板比较了我们当前的噪声水平和他三年前做博后时搭的那套东西的表现，可以说是前进了两大步，这也就是为什么我们能够测量到别人完全无法触及到的能量区间——也就是能够测到别人无法玩到的物理。技术差不多玩会了，就开始和博后师兄合作，推进一个比较现实的课题。这部分工作也已经成稿投出，我负责了大部分的测量，所以理所应当地拿了二作。在测量过程中还顺便为另外一篇文章积累了数据，等理论分析的部分搞完投出去，估计也会有个三作。</p>
+<p>总的来说，虽然因为shutdown耽误了很多，但是作为真正开始科研的第一年，还是可以算得上收获颇丰的。比较遗憾的部分是由于把绝大部分精力投入到了推进实验进度上，后半年paper读的太少了一点，只读了很少的和项目直接相关的东西。后来seminar去得也不够勤，经常一忙起来就抛在脑后，所以对其他人在做什么了解的还是不够。另外一个遗憾是很多细节处也偷了懒，明明知道要保持好给仪器做log的习惯，还准备写些manual把经验累积下来，不过到最后都没有做成。</p>
+<ol start="3">
+<li></li>
+</ol>
+<p>托隔离的福，读书记录总算不是很难看。在森林小屋里的住的时候，常常晚饭后搬一把椅子下楼，倒杯酒，坐在门厅里一边看雨一边读书。今年读的第一本书是《奥德赛》，读完的最后一本书是《暗室手册》。最喜欢的可能是黄锦树的《雨》，摄人心魄的短篇小说，南洋胶林无边无际的大雨里的魔幻生活。读了不少诗，摘抄本落在了国内没有带来，所以又新开一本，最喜欢的应该是臧棣老师的长诗《在埃德加·斯诺墓前》。</p>
+<blockquote>
+<p>埃德加·斯诺：梦想的长子<br>
+理想主义最卓越的患者<br>
+像马刀一样寒光灼灼<br>
+出没于历史之鞘。像漂木在歌词的拐弯处</p>
+<p>撞到了耸立的慧血<br>
+一个神秘的创伤有着井底的形状<br>
+它的幽暗和潮湿是简单的，但在其中<br>
+水触及到的深度，引得我们心跳加快</p>
+</blockquote>
+<p>今年看的第一部电影是《如沐爱河》，最后一部是《紫蝴蝶》。唯一一部走进电影院里看的片子是《八佰》。比较喜欢的是《燃烧女子的肖像》和《美国丽人》，看了期待已久的《热带雨》和《火口的两人》，全年最最最最喜欢的是徐克的《梁祝》。最最最最喜欢。杨采妮唱的同名歌曲也好听极了。因为饭桌上放了台电视，所以有时候和室友会随便一起看看Netflix，但总得来说没什么值得一提的东西。明年比较期待能看到的片子有EVA的新剧场版和《兰心大剧院》，真的不要再鸽我了，球球了。</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-811c3bb98a51b353ebe1e58b2fc8c0fa">
+  <a href="https://magshadow.github.io/posts/me_in_2000/liang_zhu.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/me_in_2000/liang_zhu_huea52b3cbf13b6f9773c301192fe92add_12962_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-811c3bb98a51b353ebe1e58b2fc8c0fa">
+    今世前世 双双飞过万世千生去
+  </figcaption>
+</figure>
+<p>听的倒是比较随意。不出意外地，连续第三年了，王菲都是我的网易云年度歌手。QQ音乐告诉我我最喜欢的是叶倩文的《伤逝》，但是我看看播放列表，私心想选梁博的《日落大道》——开车的时候我总听这一首。出国以后用spotify多一些，年度歌手变成了南京市民李先生。这也挺正常，但今年毕竟有所进步，睡不着的时候不再听《山阴路的夏天》，而是一遍遍地听《结婚》。如果这个列表上要再多选一首，我就选张敬轩的《春秋》。</p>
+<p>打游戏应该认真说一说。我还记得去年年底发了条广播，统计了去年一年的游戏时间，因为大四下无所事事加上家里蹲半年，所以打了五百小时游戏。原话是“我疯了！！太奢侈了吧！！以后再也不会有这么多时间给我打游戏了！！”——谁晓得，才过去一年，事情就不一样了。在搬去NH隔离之前，做的最重要的一件事就是光速买了一台PS4pro，又趁着免税州的福利配了台配置相当OK的台式，再加上从国内带过来的Switch，设备完全不缺，钱也不缺，缺的只是时间。光是打dota就超过两百小时，只狼三个周目加上刷Boss Rush超过110小时，粗略估计下来今年打游戏超过七百小时。今年玩得最投入的肯定是《只狼》，但年度游戏我还是选《最后生还者2》。再选一个的话我选《极乐迪斯科》，可惜篇幅有些短。还有《WA2》，这游戏真是，常玩常新。略微有些失望的是《2077》。明年希望能玩到的游戏是老头环和血源2——好吧能看到新消息就成。另一块有可能的饼是《珍珠/钻石》的重置，今天刚刚看到增田在推特上放了新图，看来大有希望。</p>
+<p>今年喝了很多酒。自己拿工资之后，买酒也很有底气，在家里整了一柜子，虽然没什么好酒，但是也尝试了不少新东西。整了调酒工具和好看的杯子，朋友来家里的时候，也可以玩一玩招待一下（维护了一个Cocktail Home Menu！有机会来波士顿玩的友邻可以找我喝酒！）。今年试出来我最喜欢的是Whisky Sour，其次是Vesper；做出来最受欢迎的是Moscow Mule。明年的话，愿望是搞一瓶山崎12年。另一个小目标是，作为真正的爹系男孩，一定得搞一瓶飞天茅台，发大paper了就喝！</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-e88093fa8b0ee2e6b56153a83129d5e8">
+  <a href="https://magshadow.github.io/posts/me_in_2000/liquor_time.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/me_in_2000/liquor_time_hufd62470e9a6ff3ae6e4c7b51f356c26f_45808_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-e88093fa8b0ee2e6b56153a83129d5e8">
+    酒鬼生活
+  </figcaption>
+</figure>
+<p>最后，终于有一年，写下关于体重的年终总结的时候我可以不用无地自容。今年十一月，终于瘦到八十公斤以下，这是两三年来从未见过的数字了。年中刚刚复工的时候因为压力大又天天熬夜，胡吃海喝，健身房也不开放，一度胖到过八十七公斤。后来痛定思痛，开始用健身环监督自己重新开始运动。室友买了篮球，常常两个人在夏天宜人的晚风中去家旁边的篮球场打篮球。接着朋友拉我进了偷偷踢球的群，又回到了每周踢一次球的状态。虽然仍然没有办法恢复到大二大三那会的身体状态，但是已经算是很有进步了。</p>
+<ol start="4">
+<li></li>
+</ol>
+<p>接下来的东西值得单独放一段。今年，终于打破内心的恐惧，开始练习写诗。</p>
+<p>这个事情说起来也挺难为情的，因为写的确实很烂。2020年，文艺青年在大部分语境下已经像是个贬义词，但是我本人并不介意自认为是一个失败的文艺青年。一方面，确实长久以来有写作的冲动——毕业的时候我还写下了《去他妈的文学梦》作为自嘲；另一方面，就像前两天摘的那句话一样——“持续地写诗。尽可能用源语言和汉语多练习写作，哪怕是隐蔽地写也是必要的。只有写才能体会诗歌语言的痉挛。”——在写诗的过程中，也刺激了我读诗的神经。</p>
+<p>豆瓣上有很多友邻也写诗，我看了总是自愧弗如。不过既然我并不在意丢不丢人，所以除了未完成的断章与碎片，剩下来写的东西基本也都放上来了。今年成稿的诗总计写了十一篇，写得最好的可能是《彗星出现》。我最喜欢的是六月初写下的《献诗》，可惜只活了一个多小时就惨遭豆娘铁拳，还附带了七日套餐。一个问题是，始终无法进行“离于我”的写作，所以写下来的东西几乎始终以自己的生活与经历为蓝本，无法进行想象的创作。对文字的把握也始终很“钝”，只有极少的句子能让我自己都眼前一亮。我是真心希望各位朋友能够给我的写作提出建议，这也是我把东西放上来的初心。</p>
+<blockquote>
+<p>我痛恨你们
+因为你们总让我无地自容
+时时刻刻刺痛我的软弱和苟且
+让我想起，我们就这样欺骗自己
+把曾属于你们的一切拱手让出
+让给他们</p>
+</blockquote>
+<p>我记得大概是高一或者高二的时候，我曾经写下了人生梦想的职业：物理学家，程序员，诗人。今天，七八年过去了，我在物理学家这条路上走得比较坚实，也掌握了成为程序员的基本本领并时常在工作和生活中写点码为自己提供便利。如今开始写诗，并不是想要以此作为职业，而是对诗歌的喜爱过了这么些年仍然没有改变，那么，在有条件的时候，就应该勇敢尝试。现在回想那时写下的三个梦想，我想我是自豪的。</p>
+<p>很小男孩。</p>
+<ol start="5">
+<li></li>
+</ol>
+<p>本该在这段写下来的东西，想想还是删掉了。有些累了。没必要在年终总结里发表观点，就只说一句，我真的是个左派，我也在努力做个像样的左派。永不忘记，永不放弃。</p>
+<ol start="6">
+<li></li>
+</ol>
+<p>刚刚翻到今年年初许下的愿望，emmmm，三个愿望里还真有一个没有实现。所以这次就不许什么特别的愿望了。朴树在《我去2000年》里面描绘了一个充满朝气和希望的新世纪，那么我就希望在下面一年里，我也能活得充满朝气和希望吧！</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-1dc206e39b310c5b9e9f5d197f7c69e4">
+  <a href="https://magshadow.github.io/posts/me_in_2000/strawberry.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/me_in_2000/strawberry_huc6593122d02faef000f05c033881f2ab_59120_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-1dc206e39b310c5b9e9f5d197f7c69e4">
+    三选一的世纪难题，猜猜没实现的是哪个
+  </figcaption>
+</figure>
+<p>2020.12.31 于Cambridge, MA</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-12-31</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/proust_questionnaire/">
+			Next<br>普鲁斯特问卷 - 2021.01.12
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/piao_ke_de_you_shang/">
+			Previous<br>嫖客的忧伤
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

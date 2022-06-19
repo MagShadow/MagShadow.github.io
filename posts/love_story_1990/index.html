@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html><head>
+<title>恋曲1990</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="为我跌宕起伏的十年画上一个句号">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    恋曲1990
+                    
+                    <div class="post-subtitle">
+                        为我跌宕起伏的十年画上一个句号
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-12-31 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/beijing">Beijing</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <ol start="0">
+<li></li>
+</ol>
+<p>为每年的年终总结取标题总是一件很玄妙的事情。因为早年的一次草率，里面的数字总要提前迈入下一年；而奇妙的是，这一个标题和当年的故事不太搭，却总能冥冥暗示着下一年的命数走势。经历了一个糟糕透顶的2017之后，那年的年终总结取的标题却是《相约九八》——于是在2018年开始了生命中最深刻的一场恋爱；在充满欢乐的2018的年末再动笔时，我却偏偏要取一个《伤心一九九九》作题，那么今年那么多的刻骨铭心和泪流满面也似乎早已命中注定。</p>
+<p>今年呢？琢磨来，琢磨去，千年之交的2000年竟然没有什么朗朗上口的名字供我借用，索性再往前跳个十年，取罗大佑的《恋曲1990》作题。希望这个题目也能为新十年的开头带来好运吧！</p>
+<ol>
+<li></li>
+</ol>
+<p>没有什么前奏铺垫，2019的开始就是一个高潮。刚刚结束申请季的我还没来得及忐忑，就趁着现在的老板回国的机会见面套了一下磁。运气当然是极好的，过了一个礼拜老板突然给我打了个微信电话，我猝不及防间被告知我有offer了——操！！！那可是MIT啊！！！</p>
+<p>在别人申请还没交完的时候，我的申请季已经结束了。翻了翻朋友圈，接完电话我直接非常不隐晦地发了一条大写的“我 是 人 生 赢 家”，配图是和ex去看莫文蔚演唱会出来时候拍的狂野照片。那时候的我大概真的非常笃定自己是个人生赢家了，有女友，有学上，不缺钱，不缺爱。</p>
+<p>接下来的日子仿佛每天出门都带着主角光环一般。二月的时候去了趟慕尼黑，参加马普所的面试，权当是公费旅游，连春节也没有在家过。面试完，一个老师又邀请我顺路去了趟斯图加特，参观了他们的实验室。旅行的最终目的是斯特拉斯堡——可惜那时积雪已化，也不是圣诞季没有集市和弥撒，只好进行了一次不那么完美的白学圣地巡礼。打完了一直留着的冬马TE，走过克勒贝尔广场、大教堂和那个分手的街角，最后买了一件印了Touma的斯特拉斯堡球衣当作卒业式纪念。</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-70a8cfe9a619de384d3fcdd7ee3704d8">
+  <a href="https://magshadow.github.io/posts/love_story_1990/touma.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/love_story_1990/touma_hu89e3333678d024328720de159d54dcf2_31774_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-70a8cfe9a619de384d3fcdd7ee3704d8">
+    我永远喜欢冬马和纱！
+  </figcaption>
+</figure>
+<p>回来以后依然是过着到处旅行的生活。又借着Campus Visit的机会公费去波士顿旅游了一趟，没怎么玩，参观了一下老板的实验室，还被热情地邀请参加了第一次组会。和交换的学弟吃了顿饭，见了见未来的同学就溜了。见识到了波屯四月不化的雪。</p>
+<p>四月中和ex、她闺蜜和男友一起去了趟成都重庆，算是被鸽了两年的一次旅行。在成都的时候吃小郡肝太过奔放，涮没涮熟都不管，直接把自己吃进了医院，先是挂了一夜水、又在宾馆躺了一整天才慢慢缓过来。重庆也没怎么玩，就住在洪崖洞，坐了游船，在解放碑逛了逛就算来过了。</p>
+<p>北京放假大学连校庆带五一总共放十天假，于是和俩哥们一起去福尔摩沙环岛旅行——当然，没有国际驾照，不能进行真正的机车环岛旅行。在蒋公纪念堂前看了降旗，参观了周董母校（的校门），去诚品买了禁书。在高美湿地拍裸足性感写真。在高雄做马杀鸡（正规的），大姐姐好温柔嗷！在垦丁租了电机车，在雨夜狂飙直到天涯海角。在伯朗大道Cos金城武。在花莲的酒店大堂弹钢琴。台湾的夜市真是人间天堂，每天吃都吃不腻，便宜大碗还干净。</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-c36c97bfb8b3767027451c7f4df39851">
+  <a href="https://magshadow.github.io/posts/love_story_1990/shark_punch.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/love_story_1990/shark_punch_hu6a984618454276b92c69b7f2165f1c40_62978_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-c36c97bfb8b3767027451c7f4df39851">
+    吃我一记社会主义铁拳啦！@垦丁国立海洋生物博物馆
+  </figcaption>
+</figure>
+<p>然后，迎来了毕业季。</p>
+<ol start="2">
+<li></li>
+</ol>
+<p>毕业有必要专门拿一节出来写一写。</p>
+<p>毕业季的生活其实还是很丰富的。从六月初的足球队滚蛋杯开始，最后一场篮球，最后一局台球，和兄弟在邱德拔的最后一练，两场毕业典礼，四组毕业照，无数顿告别饭，寄回家的四个大纸箱，撕心裂肺的分手，在未名湖、百讲广场和全家度过的最后一夜，在最后的最后和最好的哥们一同离开宿舍楼，在南站泳抱作别。</p>
+<p>可那时候，我什么也写不出来。两个月后，看到李喜悦写的毕业巡回喝酒纪实文学，最后写到，“所有的酒，都已在海淀桥北的夏天喝完。”我突然明白了那是什么感觉，所有的感情都冻结在了那个夏天，痛哭着坐火车离开北京的我，流干了所有的眼泪，再说什么都显得苍白无力。时至今日，在经历了大起大落之后，我终于有勇气和毅力写出点东西，即使写到这里眼角已有止不住的酸意。</p>
+<p>对我的大学四年，总的来说还是很满意的，列几个我很满意的数字：2门满绩，所有专业课最低分86，六门研究生课最低分94；申请时排名第5；各类奖金奖学金总计11项50800元，包含国奖2次；发表论文1篇；担任物院男足领队期间带领球队创造9年最佳战绩北大杯四强；累计献血4次共1000cc；恋爱2次。</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-b16938533a0e0fc8d23ed3940bd76add">
+  <a href="https://magshadow.github.io/posts/love_story_1990/blood_giving.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/love_story_1990/blood_giving_huab0c7e3738874dff7cfddd33b80f46ba_67272_100x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-b16938533a0e0fc8d23ed3940bd76add">
+    热血挽救生命
+  </figcaption>
+</figure>
+<p>但你现在问我，大学有遗憾吗？那遗憾可太多了。</p>
+<p>我清楚地明白，没有人能不留遗憾地活着，但是不谈别的，哪怕是在我最花时间花心思的念书这件事上，我还是没有做好。咋一看履历，物院、北大、北京市三料优秀毕业生，拿到全世界专排第一综排也第一的学校的phd offer with fellowship，怎么也能算最优秀的那几个之一。可是，履历漂亮不代表水平真的高，要想在学术界做出点成就，靠的是真本事而不是漂亮的简历——在摆大的日日夜夜，我偷懒多于勤奋，投机取巧多于重剑无锋，懂得刷分却不懂得踏实苦学。我常常幻想等到了下一阶段再来补差也不迟，可浪费掉的那些时光，是再也回不来了。</p>
+<p>在北大没上过几门真正的好物理课。掰着手指头能数出来的，川哥的理力、垡哥的高量、郭卫的多体、我老板的低温课。比较讽刺的是，上过最最好的课可能还是去隔壁旁听的亚愚的实验凝聚态物理选讲。</p>
+<p>在学业上最幸运的事情是遇到了我老板。毕业典礼之后的最后一次组会，我坐在座位上，就回想起三年前差不多同一时候第一次坐在东103听组会的情形。那时也是毕业典礼之后，竺大来开组会，老板还和他开玩笑。后来我听说他是年级第二，去了MIT，我好生羡慕，却绝没有想到我也能走出一条和他相似的轨迹。那时愿意加入这个组也是误打误撞，被老板一忽悠，师兄们也很热情，觉得挺喜欢的就迷迷糊糊地待了下来。一呆三年，我也从听啥都不懂需要师兄一点点讲解的萌新变成了啥都能说上一两句的老油条。开完组会，老板又和我聊了一下，最后说到，“看到你们都往上走，在我这里的三年没有耽误你们，我就觉得很自豪了。”我也很自豪，在这里的三年我是幸福的。</p>
+<p>2015年9月5号，报到的第一天，北京下了暴雨，我和去清华的高中同学没心没肺地在被水淹没的陌生校园里奔跑。2019年7月5号，离校的最后一天，北京也下着淅淅沥沥的小雨，我拖着行李箱目送熟悉的宿舍楼、食堂、校门渐渐远去。</p>
+<p>可是，还能走回那个懵懂的雨天吗？</p>
+<ol start="3">
+<li></li>
+</ol>
+<p>以毕业的时间点为界，我的二零一九可以准确地划成两部分。前面半年有多快乐，后面半年就有多苦涩。苦涩的原因主要是两方面的，一半是因为感情问题的混乱，另一半是因为签证受阻没有去成美帝。</p>
+<p>感情问题，除了胡闹二字，我想不到什么别的什么合适的词来形容。两个真心喜欢我我也真心喜欢的女孩，长达四年的明暗纠葛，命运的重逢与离别，全部在毕业的时间点爆发出来。最终的最终，我成为了一个无可争议的渣男，两个女孩全部被我远远推开。</p>
+<p>糟糕啊。大概很难有人比我更傻逼了。</p>
+<p>不提也罢，还是说说签证的事情。今年签证受阻，大概率和国际形势特别是中美关系有关，但究竟是谁倒霉那只能说是运气问题。而我就成为了那个幸运儿。五月底签证，六月份本就该毫无音讯，七月份不慌不忙，八月还没有消息开始着急，九月份接近报道deadline惊慌失措，十月份沉沦自闭不知所措，十一月开始放弃幻想准备重新申请欧洲项目——终于，在十二月的尾声等来了签证，没有把问题留到20年代。</p>
+<p>虽然从结果上来看，似乎我什么都不做也没有区别，还比别人凭空多出来了半年假期。但没有真正经历过的人很难理解那种恐惧和压抑。没有人能保证你的签证什么时候会下来，甚至没有人能保证你的签证一定会下来。是否要重签？重签成功率如何？是否能用旧签证走？法律上是否合规？旧签证是否还有效？一系列问题和选项摆在我的面前。联系大使馆，联系议员，联系学校，联系律师，联系海关，联系老板，查找法律文件，询问有相关经历的人；重新申请，请老师重写推荐信，重写PS，写Proposal，做公证，寄成绩，寄材料，套磁，网申；同时老板还给我送到了南大一个朋友的组里，于是又要读文献，学新技术，做实验，准备组会报告，和老板每周skype meeting。既在过申请季，又在搬砖，还在为签证问题煎熬。放弃了北京大学提供的保研资格作为保底之后，家里也时常为此发生矛盾。每天我的头脑都处于高度的紧绷状态，但我很开心，我咬牙熬过来了，做出了正确的选择，同时准备好了plan b和plan c，再加上一点点运气，把问题顺利解决。</p>
+<p>朋友都会说，好事多磨。但不能否认的是，就算精神上经受住了考验，但这半年的时间基本也算是浪费了。前两天我另外一个签证受阻的物理系同学和我聊起这半年的经历，说到自己换了方向在商汤实习，还是做出了不少成绩，然后平淡地说，“看到去美国的同学在朋友圈里秀生活，总想证明点什么。”我又觉得很惭愧，因为我确实没有证明些什么，我充其量只是没有落下深渊罢了。</p>
+<p>签证受阻的这半年，算是我一帆风顺的人生中遇到的第一个坎。时至今日算是解决了，为这糟糕的下半年画上了一个句号。我相信日后一定还会有意想不到的苦难，希望下次我能做的好一点。</p>
+<ol start="4">
+<li></li>
+</ol>
+<p>说点轻松的。</p>
+<p>今年因为结束申请之后基本放空，加上免了毕业论文，所以上半年基本放假，下半年被迫也放假，所以电影游戏书都很多。</p>
+<p>今年看的第一部电影是侯孝贤的《悲情城市》，最后一部是《毕业生》，最喜欢的电影是《美国往事》，在电影院里看的最好的是《风中有朵雨做的云》。看完了八季《权力的游戏》，SHAME！！！</p>
+<p>今年读的第一本是《海边的卡夫卡》，最后一本是《伊利亚特》。最喜欢的书是洪子诚老师编的《在北大课堂读诗》，最喜欢的小说是来自可爱友邻的生日礼物，巴塔耶的《不可能性》。</p>
+<p>今年打通的第一个游戏是《刺客信条奥德赛》，最后一个是《最终幻想12 黄道时代》。最喜欢的几个都是JRPG，FF12和异度神剑2。《赛博朋克酒保行动》应该是今年玩过的最好的独立游戏。</p>
+<p>今天网易云和QQ音乐的年终总结都出来了。虽然nobody cares your spotify，但我还是要说一下。不出所料年度歌手又是王菲；网易云的最高播放是《冷酷到底》；QQ音乐的最高播放是《年少有为》——这倒是不意外，和本人的傻逼恋爱有关。其实我觉得这个榜单肯定有问题，自我评估播放次数最多的肯定是二校歌《转身之间》，要不然就是“宝贝人和人一场游戏”。算了，反正都挺糟糕的。</p>
+<p>毕业的时候最后一练在邱德拔冲了下重量，卧推70深蹲80硬拉100，三大项250比上不足比下有余。回家这半年勉强能保持住没有掉太多。从二月从顿顿猪肘的德国回来，体重达到了惊人的XX公斤，在毕业前狂瘦十五斤达到了勉强能拍毕业照的水平，回家之后饮食权不受自己控制又飞了。暑假还可以对着镜子凹凹造型拍点NSFW照片，现在再拍可能是not suitable for human了。</p>
+<ol start="5">
+<li></li>
+</ol>
+<p>前段时间日推上流行<a href="https://twitter.com/search?q=%2310%E5%B9%B4%E9%96%93%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8B%23%20&amp;src=typed_query">#10年間を振り返る#</a>挑战，之前我在广播上发过一次。在10年代的最后一天，我也把它再次放在年终总结的末尾，为我跌宕起伏的十年画上一个句号吧。</p>
+<blockquote>
+<p>2010 开始追学姐
+2011 NOIP拿到一等奖
+2012 中考轻松进入南师附中
+2013 3+3分班 初恋
+2014 分手 拿到物理竞赛银牌 签约摆大
+2015 高中毕业 在北大的第一天晚上与喵喵相遇
+2016 玉渊潭 加入课题组
+2017 苦追无果放弃、重逢、再分手  国家奖学金
+2018 和初恋纠缠许久终于复合 加州的夏天 漫长的申请季
+2019 拿到技校Offer 胡闹的情感 毕业季 关系全部搞砸 签证受阻</p>
+</blockquote>
+<ol start="6">
+<li></li>
+</ol>
+<p>依照惯例许三个新年愿望：</p>
+<p>一. 在波士顿好好安顿下来，在陌生的城市里找到适合自己的生活节奏；</p>
+<p>二. 在组里好好干活，不要重蹈本科的摸鱼路线；</p>
+<p>三. 做个好人。</p>
+<p>祝大家新年都能届到，不再胃痛。也祝大家武运昌隆，早日打响20年代的第一炮！</p>
+<p>新年快乐！</p>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure align="Center" role="group" aria-describedby="caption-836c64b76a5f801baa29de51a9c5f5e8">
+  <a href="https://magshadow.github.io/posts/love_story_1990/best_me_in_2019.webp" class="img-link">
+    <img src="https://magshadow.github.io/posts/love_story_1990/best_me_in_2019_hub4a57c5b8a4684fc634146dd91fb0c9f_100564_700x0_resize_q75_h2_box.webp">
+  </a>
+  <figcaption id="caption-836c64b76a5f801baa29de51a9c5f5e8">
+    以年度精选照片作结. Credit to @海王星黎明
+  </figcaption>
+</figure>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-12-31</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/cemetery/">
+			Next<br>小城墓园
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/father/">
+			Previous<br>喝酒父子兵
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

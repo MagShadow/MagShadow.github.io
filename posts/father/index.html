@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html><head>
+<title>喝酒父子兵</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="老爹问我今晚准备喝多少？我头也没抬，跟你平起平坐。">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    喝酒父子兵
+                    
+                    <div class="post-subtitle">
+                        老爹问我今晚准备喝多少？我头也没抬，跟你平起平坐。
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-11-11 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>今天是老爹的五十四岁生日。</p>
+<p>从早上开始我就在琢磨要给老爹带点啥回去当礼物。带条烟不合适，我爹戒烟十三年了，只在逢年过节跟兄弟姐妹几个连襟吃饭的时候才会抽上几根。想拎瓶好酒，但是想想自己口袋里那几个钱，飞天茅台买不起也抢不到，要是就拎瓶小二回去也太寒酸。螃蟹就更别提了，周末连吃了两天红膏蟹，估计也正腻着呢。</p>
+<p>想来想去，索性也不准备整啥了。等老爹回家，我一开门，厚着脸皮跟他说，今天你过生日，咱爷俩喝两杯？</p>
+<p>老爹倒是很爽快，从柜子里面翻出来放了十多年的茅台王子。瓶盖一拧开，厚重的酒香就飘出来。我把杯子拿过来，也不客气，两边倒齐。老爹问我今晚准备喝多少？我头也没抬，跟你平起平坐。</p>
+<p>说完这句话，我自己也笑了。</p>
+<p>很久以来，和老爹喝酒平起平坐就是我一个不大不小的愿望。我爹对我喝酒一直很宽容，根据他的描述，我第一次喝酒时还躺在摇篮里的时候。那时候我妈看了什么育儿书，小孩子要尝各种各样的味道，美其名曰“培养味觉”。我家当时住的还是平房，摇篮就放在饭桌旁边，我爹吃饭的时候倒杯白酒喝，我妈就也就拿筷子沾点塞我嘴里。后来到了小学，跟着我爹参加各种各样的饭局，席上也都会跟着混上一口两口。再大些出去玩，在夜市上面和我一起拿啤酒当水喝。印象深刻的是有一回在他同事的婚礼上，他拉着另外一个同事说，我儿子都比你能喝，还让我和他比酒量。那个同事摆摆手，落荒而逃。</p>
+<p>等我再大些，开始野起来以后，我爹倒是开始管我了。初三的夏天，和同学一起在外面参加数学夏令营，中间有场考试，考完之后在学校外面的烧烤摊吃夜宵，我带头拎了半打啤酒，“庆祝一下”。结果不知道被哪个旁边桌的学生家长拍了照片发到家长群里，我爹眼睛尖看到了桌上的啤酒瓶，等我回去把我臭骂一顿。上了高中，各种婚礼年会参加的也少了，也就失去了和老爹一起喝酒的机会。</p>
+<p>高中毕业考上摆大，老爹很是高兴，摆席宴请多年的老朋友、老同事，几家玩的好的同学也一起。大人嘛，这种时候总是会劝刚刚成年的小朋友“学着喝点”。同学大多不能喝，我倒是一点不客气，逮着机会喝了好些茅台国窖五粮液梦之蓝。我爹已经不管我了，但是我妈还是非常生气，每喝一杯都要叫我少喝点。等上了大学，一年到头不回家，只有过年的时候回老家，才会再和老爹一起喝酒。但是碍于我妈的干涉，我还是不能喝的太多。</p>
+<p>有一回过年去我表哥家吃饭。表哥已经早早结婚带了俩娃，是个小中年男人了。午饭时刻他和他爹忙前忙后，都没来得及吃上饭。等我们其他亲戚吃完准备出去玩的时候，他和他爹就对坐下来，开瓶酒，就着桌上还热腾的饭菜，爷俩一起喝酒。当时我爹看到了，就跟我说，等你大学毕业，我们也可以这样痛快地一起喝。</p>
+<p>这个夏天刚回家那会，因为要让我练车，所以出去吃饭总是我开车，我只能被迫滴酒不沾。而到了今天，因为种种原因阴差阳错没有去成波士顿，因此终于陪我爹过上了一次生日，也终于得偿所愿可以和老爹“平起平坐”地喝上一回。</p>
+<p>吃饭的时候，老爹显然也很开心。聊了半天，又神神秘秘地跟我说，他还藏着不少好酒呢，等要是哪天签证下来，可以再开瓶正儿八经的飞天茅台庆祝一下。听到这里，我又有点失落，如果签证下来，那么在接下来的很多年里，我都不会再有机会和老爹像这样坐在家里对坐小酌了。</p>
+<p>汪曾祺曾写《多年父子成兄弟》，我本来也想用这么个标题，但是想想也有些言过其实。和老爹虽然很聊得来，从中东局势聊到中美冲突，从技术突破聊到政治风波，但是毕竟还没有到真的无话不说的地步——毕竟我还不能把我那一地鸡毛的混乱感情史拿出去和老爹分享。</p>
+<p>我敲敲脑袋，试图另找一个我理想的父亲形象来作标题。想来想去，我也只想起94年魔岩三杰在红磡那场演唱会的开始，何勇唱完《钟鼓楼》以后介绍乐器演奏——“三弦演奏，我的父亲，何玉笙”——那个中国摇滚史上最温情的时刻。我爹虽然也是学物理的，但是他早已金盆洗手脱离苦海，发文章父子兵也是不太可能了。那么，剩下来我们能做的，也只有一起喝酒罢了。是有此题。</p>
+<p>说实话，有的时候我挺羡慕我爹的。五十几岁的中年男人，事业平平顺顺，和朋友一起合伙开的小公司，业务不好不坏，不能大富贵，但过个中产小日子还是没有问题的。家里几套小房子，也没有什么房贷要背，闲暇时还炒炒股。虽然时而身体有些小毛病——比如明天就要去看牙——但是整个人还是很硬朗的，两天去游一次泳，几乎是风雨无阻。每天吃过晚饭，不是看球就是看电影，有时陪我妈一起去江边上散散步。老人身体也很好，住在二叔家里，每周打一次视频电话，其乐融融。儿子也还算有出息，这些年没花家里什么钱，除了今年的签证问题以外一路顺顺利利，几乎也没怎么让他操过心——总之，已经过了下班以后要熄了火独自坐在车里抽一根烟的阶段了。</p>
+<p>从小我也就和我爹比较亲而和我妈矛盾不断。老爹管我是只管大方针，有些小细节睁只眼闭只眼，提醒一句也就过去了。有时候实在有点过分了，发火，就在我脑袋上“叮毛栗子”。也有些时候会趁我妈不在的时候单独和我谈心，严肃地说些道理。我离家上大学前，我爹给我塞了张纸条，“责任、诚信、善良、正直、宽容、感恩”，权当是对我最重要的嘱托。</p>
+<p>写到这里，我不由得问自己：三十年后，你能让你儿子对你也像你对你爹一样满意吗？我不是很有信心。虽然我爹有时有些粗鄙有些倔有些自大，但是作为他的儿子，我实在不能再从他的身上挑出些什么不足。就像我刚上高中的时候，他很严肃地跟我说，“你爹是南大毕业的，儿子不能比老子差；但是你们家一没关系二出不起点招的一百万，一切全靠你自己努力”——或许这就是他给我的最好的教育了。有这么一个爹，我很幸运，我很满足。</p>
+<p>流水账式的回忆一写就停不下来，那么还是停笔于此吧。虽然他看不到这篇文章，我还是要在最后的最后祝他生日快乐，五十五岁，依然生猛。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-11-11</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/love_story_1990/">
+			Next<br>恋曲1990
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/drunk_dream_death/">
+			Previous<br>醉生梦死
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>
