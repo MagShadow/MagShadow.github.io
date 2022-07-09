@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Posts</title>
+<title>一天</title>
 
 
 
@@ -50,6 +50,8 @@
 
 
 
+
+  <script src="/js/toc.js"></script>
 
 
 
@@ -186,6 +188,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div id="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -198,24 +205,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 dark_mode
             </span>
         </a>
-        
-        
-        
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    4<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>4
-                </span>
-            </div>
-            
-            
-            <a class="pagination-action" href="/posts/page/3/">
-                <i class="material-icons pagination-action-icon">
-                    chevron_left
-                </i>
-            </a>
-            
-
-            
         
         
     </div>
@@ -310,6 +299,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -351,139 +345,88 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 <div id="streamContainer" class="stream-container">
 
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2019
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <div class="post">
             
-            <a href="/posts/auditory_hallucinations/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                幻听
-                            </div>
-                            <div class="post-item-meta">
-    2019-10-22
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="/posts/walls_and_kisses/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                几堵墙和几个吻
-                            </div>
-                            <div class="post-item-meta">
-    2019-10-13
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    一天
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2022-07-08 00:00
+                        </time>
+                        
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="/posts/li_ge/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                离歌
-                            </div>
-                            <div class="post-item-meta">
-    2019-05-28
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+                        
 
-                        </div>
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/boston">Boston</a>
+                                &nbsp;
+                            
+                        
+                        
                     </div>
                 </div>
-            </a>
+            </div>
             
-            <a href="/posts/evangelion/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                新世纪福音废物
-                            </div>
-                            <div class="post-item-meta">
-    2019-03-29
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>讲Talk，吃三明治，睡午觉，听Talk，整理数据，处理邮件，下班，骑车回家，和小武一起去吃乌冬面，去Wholefoods买瓜，开车回去上班，车窗打开，听《河流》，吹吹夏夜晚风。</p>
 
-                        </div>
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2022-07-08</p>
+                    
                 </div>
-            </a>
+            </div>
             
-        
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/quoting/">
+			Previous<br>为了忘却的纪念
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
 
 
-
                     </div>
-            </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" href="/posts/page/3/" style="opacity:1">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>4/4</span>
-        </div>
-
-        
-            <a class="pagination-action" style="opacity:0">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-</div>
-
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
