@@ -7,7 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Owned By 高桥凉介.</copyright>
-    <lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://magshadow.github.io/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://magshadow.github.io/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boston Life</title>
+      <link>https://magshadow.github.io/photos/boston/</link>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://magshadow.github.io/photos/boston/</guid>
+      <description>MIT Sailing Pavilion, 2022. By Minolta X-700 &amp;amp; Kodak 5207.
+Charles River &amp;amp; Beacon Hill, 2022. By Minolta X-700 &amp;amp; Kodak 5207.
+Whale Watching at Boston Harbor, 2022. Credit to June. By Konica Hexar AF &amp;amp; Fuji X-Tra 400.
+Charles River Esplande, 2022. By Minolta X-700 &amp;amp; Cinestill 50D.
+Newbury St, 2022. By Minolta X-700 &amp;amp; Street Candy ATM400.</description>
+    </item>
+    
+    <item>
+      <title>虚拟法庭N日游 - 续</title>
+      <link>https://magshadow.github.io/posts/virtual_court_trip_2/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://magshadow.github.io/posts/virtual_court_trip_2/</guid>
+      <description>书接上文：《虚拟法庭一日游》
+上回说到，在NJ吃了莫名其妙的罚单，在Zoom法庭里转了一圈，交钱消灾罚单三变一。当时我觉得事情已经搞定，也没管他们最后给我留的是哪一张，但没想到这个法官随意的选择给我带来了更多的麻烦。
+二月的一天，我开开心心地早下班，准备打会游戏，回家时在信箱里却发现了RMV的一封信。我寻思着registration和parking permit不是早就renew过了吗，而驾照renew还早得很，这时来信是个啥子哦！没想到一拆信就是开幕雷击，说大哥您好！您的驾照被吊销了！60天！因为你有一个“Careless/Improper Driving”的offence！谢谢！
+想必各位和我当时一样十分懵逼，怎么人在家中坐，罪从天上来？仔细一看这条offence就是我在NJ吃的那条careless driving，应该就是那边法庭处理完了，把信息transfer回了麻省的RMV。可是我没超速没逆行，一个没让警车的小错，何以至于吊销60天这么狠的操作？
+于是赶忙开始网上冲浪搜索相关信息，大概花了半个小时就把事情的原委搞清楚了。事情还得要从麻省RMV早年的不作为说起。多年以前，你在外州犯了事驾照给吊销了，麻省的RMV是不会管你的。据说RMV甚至看都不看一眼外州送来的相关记录的信件，就随手往档案库里一丢，这就导致许多危险司机依然在麻省逍遥法外随便开车。直到某一次一个司机酿下大祸撞死了好几个人，结果发现他麻省的驾照早已在NH被吊销，却依然可以在麻省开车。这件事引起了不小的民愤，19年的时候RMV终于在人民群众的骂声中搞起了一个半自动的处理系统，实现了对外省送来的违章记录的快速导入。
+但是好景不长，大家很快发现这个半自动系统有点弱智。最明显的例子就是我吃到的这一条careless driving。在NJ、VA、NC、FL等几个州，这是一条非常轻的罪名，交警也很喜欢开。你超速可以吃一条，胡乱变道可以吃一条，甚至不小心撞了路边上的分隔栅栏也可能会吃一条。真正严肃的罪名叫reckless driving，表明你可能严重地违反了交规，例如大幅超速、酒驾醉驾毒驾等等。但是问题在于麻省的code system里既没有M81 (careless)也没有M84 (reckless)，当transfer回麻省时这两种罪名都会被归到一个类似于&amp;quot;like to endanger others&amp;quot;的重罪上，which will 狠狠地扣了你的驾照。
+这么弱智的事情在2020年的时候就已经被NBC所报道了。在他们调查的500多个案例中，只有14个最终被证明是正确的suspension。甚至还有个老姐吃到了suspension以后十分懵逼，查来查去最终查到源头是自己十五年前在FL吃的一张非常minor的超速罚单。NBC取的标题是《The Mass. RMV Issued Hundreds of Invalid Suspensions. It Doesn&amp;rsquo;t Plan To Stop.》，紧接着下一年还有一份报道《Mass. Lawmaker Files Bill To Stop ‘Nightmare&#39; License Suspensions》。只可惜它说的太对了，不然我也不会到2023年还要再遭遇一回这么离奇的事情。
+那该怎么办呢？继续上网搜索，发现有些律所专门就写了文章评析这类案件。大概流程是先向RMV提出申请做hearing，在hearing之后如果不满意结果则需要向Board of Appeal提交一个case来进行仲裁。律所和Reddit上都说RMV的hearing基本上屁用没有，都还得走appeal的流程。我差一点点就要点下按钮花钱找律所帮忙了，不过想了想凡事重在体验，不如还是先自己试一试。
+RMV的hearing依然是virtual的，甚至用的是电话而不是zoom。在hearing前我十分紧张，不知道该如何同不讲理的RMV工作人员battle。我甚至还写了一份情真意切的statement，告诉他们这个问题非常离谱并且由来已久，已经被NBC和律所报道多次，请你们好好想想，给咱把这莫名其妙的罪名卸了！（注：润色这个statement还是本人第一次使用ChatGPT）等电话的时候站了坐坐了站，不知道该说些什么。没想到电话一响，对面的老姐上来就说，你这情况，小意思了！咱老鼻子熟悉了！我搞了50多个case了都你这款的！我喜出望外，说那你能给我把这suspension去了不？老姐嘿嘿一笑，不行，咱们没这权限，你还是得去交appeal，得等他们下一个order of removal咱才能合法合规地处理你的case。我又小心翼翼地问，那board of appeal的hearing我是不是得找个律师啊？老姐又嘿嘿一笑，不用！他们都是忽悠你的！完全没必要！
+做完这个hearing，悬着的心下来了一大半，接下来就是漫长的等待流程。从收到RMV的吊销驾照通知到开hearing过了一周，等RMV给我寄appeal表格又是一周。二月底寄出了appeal后（还痛失五十块钱处理费+邮费！）一直处于焦急的等待状态，每天看信箱有没有寄来新的hearing通知。一直到上周三的晚上，滞留纽约在陪护小武的时候，打完游戏一看手机，board of appeal给我发了个邮件说大哥你好！你的case我们看过了！我们开了内部的讨论会，给你把这弱智suspension给annul了！你也不用来跟我们开hearing，直接回去找RMV吧！我心说好在这通知不是纸质的，不然我人不在家还真就错过了。于是今天又和RMV打电话开hearing，接了电话老姐也不说话，就说你等一下，就开始噼里啪啦狂敲键盘，过了几分钟跟我说好了哥，你的case结束了！立刻马上就能开车了！
+终于，在兜兜转转了这么久之后，我又能重新开车了。虽然我的suspension是个完全错误的decision，但是RMV的信件上专门指出，即使你要hearing/appeal，在此期间依然不能开车，否则将被视为felony！所以从2月17号开始，我就老老实实地一次也没碰过车。小武在就小武开，小武不在就要么骑车要么打车。最麻烦的事情是上上个周末去纽约玩，小武突发阑尾炎做了个手术没法开车，我也没有办法违法开车，我俩只好大眼瞪小眼滞留纽约。朋友问了一圈，差点就要把我室友摇来纽约接人了，最后好在小武恢复的比较快，宾馆躺了一礼拜后还是由她开回去了。今天重新获得驾车权利，60天已经过去了一大半。期间因只能打车造成的经济和时间损失，我只能说是不计其数。
+本人现在感想就是，你们搞法制社会搞得很好，但是下回还是动动脑子吧。虽然事情是有惊无险地解决了（让我们看看这个系列还会不会有续二！），但是真的让人精疲力尽。我有计划等忙完手里这一阵，给state senator写个信反应一下，虽然效果估计聊胜于无，但还是准备尝试一下。如果有比较懂美国law/policy或者有过类似经历的朋友欢迎联系我，给我一些小小的指南。</description>
+    </item>
+    
+    <item>
+      <title>虚拟法庭一日游</title>
+      <link>https://magshadow.github.io/posts/virtual_court_trip/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://magshadow.github.io/posts/virtual_court_trip/</guid>
+      <description>今天为了处理之前在NJ吃到的一个莫名其妙的ticket，上了一回Zoom法庭，实在是大涨见识，别开生面，决定在此做一个简单的记录，想到哪写到哪，仅供一乐。
+  我自己的Case没啥可说的，开Uhaul的时候后面有警车打闪灯但是没鸣笛。我愣了一下没有siren要不要让，大概半分钟到一分钟，警车超过去把我pull停了。警察是个傻逼白男，趾高气昂地给我教育了一番，然后刷刷刷开了5张ticket——没有move over，没有pull over，careless driving（说我乱变道？），然后外加车子没有registration和insurance（这两个甚至一开始都没找我要registration和insurance card）。然后他想了想好像uhaul不会没有，也太离谱了，就问我要，于是把后面两张给删掉了。后来上网一搜，NJ的警察是臭名昭著的，就喜欢一天到晚给你找麻烦。
+  然后就是上庭，一开始发传单说是要回NJ上庭，但是后来又改为Zoom。一开始有律师给我发广告，我开始还想着要不要找个他们代劳，后来一看反正也不用大老远跑一趟，就这点屁事，不如自己亲自体验一番。大概流程和网上说的差不多，进去先和prosecutor谈，给你一个plea offer，认一两个然后dismiss剩下的。然后plea了以后就和法官走个流程。认罪认罚，交钱了事。不plea guilty的话就得battle了。
+  今天的procecutor是全场态度最差的一个人，迟来不说，说话一顿一顿的，但是别人以为她说完了开始说话，她就会巨不高兴然后开始说don&amp;rsquo;t interupt me。在我的case里，一开始我还想和她解释一下发生了什么，但是显然她并没有兴趣听，上来就说给你dismiss两个，你要不要这个plea offer？我心说这和我之前网上online plea的不是一模一样吗，为啥不干脆给我直接accept了非要让我再进来一趟？不过我表现的很开心说sure sure i will accept it.
+  等到了judge那边发现不太对，法官说你有4个，plea guilty for 2 of them。我说不对啊我刚和prosecutor谈完是留一个dimiss两个，法官说我这里看就是4个，还把一张小纸条伸到摄像头前面来给我看。我说那我再和prosecutor确认一下。切回到prosecutor room之后她一开始根本不听，上来就是the court is absolutely right, you have four。我就和她说我一开始有5个但是有两个当场就划掉了，summon上面就是三个。她迟疑了一下问我original court在哪，然后就开始翻材料，接着就像变了一个人一样，和和气气地和我说 you are very kind, yes you are absolutely right, you only have three&amp;hellip;呵呵。
+  然后就再回去见一次法官，这回就没啥问题，直接plea guilty for one，然后交钱走人。但是法官说话实在是太快了，快的像机关枪一样，感觉读一些文本条例的时候根本就不是想让人听完，而是按流程她必须读完。等到和人交流的时候会稍微慢一点，但是还是super hard，所以我最后也没听清楚到底有没有罚分——应该是没有的，因为我没有听到points这个词，并且罚款增加了。这应该就是常见情形，即认一个稍微高一点的罚款但是不计分，这样来年保险不会大涨。全弄完之后就进payment room，一个慈祥的老奶奶搁那慢悠悠地收钱，收完以后就结束了，网上立刻能查到ticket clear了。
+  说完了我的事情，再说说我观察到的东西。我一开始想，是不是上法庭好歹尊重一点，换个衬衫，但是太懒就没换。等进到Zoom里面一看，好家伙，绝大多数人就拿个手机，穿个背心或者短袖搁那晃来晃去，除了律师都没几个人用的是电脑，好几个人是一边开车一边上庭，还有个老哥带着安全帽，看起来是在打灰。好多人明显是第一次用，不知道怎么设置，也有用的是小孩的手机的。负责的工作人员倒是非常和善，一个个地确认姓名，再告诉他们应该干些什么。
+  律师的优先级比较高，不管是prosecutor还是法官都是优先和带了律师的或者由律师代理的人谈。不过很遗憾没有听到任何一个真正的法庭辩论，凡是提这个的似乎都说有新的discovery之类的东西，要求延后。大部分case法官都同意，只有一个老哥说他的client今天刚刚跟他说有新的discovery所以他还需要至少一个月才能把它处理完，法官就很不乐意说这踏马都去年九月的case了，拖了这么久才给你，意思是还想继续拖？然后两人拉拉扯扯选了一个时间。</description>
+    </item>
+    
+    <item>
+      <title>California Road Trip</title>
+      <link>https://magshadow.github.io/photos/ca_road_trip/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://magshadow.github.io/photos/ca_road_trip/</guid>
+      <description>Golden Gate Bridge. By Minolta X-700 &amp;amp; Lomo Metropolis XR 100-400.
+CA Route 1. By Minolta X-700 &amp;amp; Lomo Babylon 13.
+San Clemente Pier. By Minolta X-700 &amp;amp; Rollei Infrared 400.</description>
+    </item>
+    
     <item>
       <title>一天</title>
       <link>https://magshadow.github.io/posts/one_day/</link>
@@ -66,7 +126,7 @@ Well, welcome to Boston ^ ^</description>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://magshadow.github.io/photos/hawaii/</guid>
-      <description>  Kihei, Maui   </description>
+      <description>Kihei, Maui. By Samsung Galaxy S9.</description>
     </item>
     
     <item>
@@ -144,20 +204,6 @@ Term Paper，去他妈的。</description>
     </item>
     
     <item>
-      <title>嫖客的忧伤</title>
-      <link>https://magshadow.github.io/posts/piao_ke_de_you_shang/</link>
-      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://magshadow.github.io/posts/piao_ke_de_you_shang/</guid>
-      <description>拆开包裹，是新买的裤子。你擦擦手，套上试试大小。想着要不要去拿条皮带。
-不必了。内侧有条腰带，可以直接系上。一个似曾相识的设计。
-你的心跳停了一拍。
-你是那样地猴急，进门就扑倒在沙发上。一只手扯掉细细的皮带，你却没法扯下那窄窄的牛仔裤。她咯咯地笑。她的手拉着你触摸到内侧，一条腰带系着结，一个你从未见过的设计。
-你后来再也没有解过这样或那样的腰带。
-因为你再也没有一颗心可以用来付嫖资了。</description>
-    </item>
-    
-    <item>
       <title>打游戏不许嘻嘻哈哈</title>
       <link>https://magshadow.github.io/posts/game_no_xixihaha/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
@@ -202,27 +248,6 @@ Term Paper，去他妈的。</description>
 等签证等到绝望，同学上学的上学出国的出国，在南京也找不到人玩，为了摆脱自闭我跑回北京，四五天的时间每一顿都安排的满满当当。在喝酒喝到抱着学姐痛哭之后，打越洋电话，然后回到住的宾馆，站在成府路的天桥上，喝旺仔牛奶，抽兰州。一位友邻给我点了mla的《第十支烟》。北京的风把吐出的烟雾吹回我脸上。
 和那个难忘的生日夜相比，穿着拖鞋无比cozy地站在停车场里的今天的我，无疑要幸福得多。这一年里，虽然难过的时候也常常一个人站在楼下抽烟，已经抽了不知第多少个十支烟，可我并无甚理由可以抱怨或需要抱怨。我吃了那么多的苦也没有放弃，正是为了能够来到这里。更何况，在经历过那样的考验和折磨之后，从今往后，也不该再被什么别的东西所击垮。
 所以，二十四岁，祝我年少有为。</description>
-    </item>
-    
-    <item>
-      <title>2020.9.15</title>
-      <link>https://magshadow.github.io/posts/2020.9.15/</link>
-      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://magshadow.github.io/posts/2020.9.15/</guid>
-      <description>梦见了你。
-梦见我们意外地相遇在洗手台前。
-你很慌张。我也很慌张。
-你抬眼。我也抬眼。
-你躲闪。我也躲闪。
-水就这样一直一直地流。
-一直一直地流。
-我向你走去。抱住你。
-你把我推开。
-“现在还不行。但总有一天我们一定会再见面的。”
-你又抱了我一下。然后向后退去。
-你的眼睛里有光。
-可我无论怎样都看不清你的脸了。</description>
     </item>
     
     <item>

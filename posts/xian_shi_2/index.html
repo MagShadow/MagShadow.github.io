@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html><head>
+<title>献诗（其二）</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="献给一位坚韧纯真却从未安眠的女神">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    献诗（其二）
+                    
+                    <div class="post-subtitle">
+                        献给一位坚韧纯真却从未安眠的女神
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2023-06-04 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/politics">Politics</a>
+                                &nbsp;
+                            
+                                <a href="/tags/poem">Poem</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <blockquote>
+<p>我期待我的国家是一片可以自由表达的土地，在这里，每一位国民的发言都会得到同等的善待；在这里，不同的价值、思想、信仰、政见……既相互竞争又和平共处；在这里，多数的意见和少数的意见都会得到平等的保障，特别是那些不同于当权者的政见将得到充分的尊重和保护；在这里，所有的政见都将摊在阳光下接受民众的选择，每个国民都能毫无恐惧地发表政见，决不会因发表不同政见而遭受政治迫害；我期待，我将是中国绵绵不绝的文字狱的最后一个受害者，从此之后不再有人因言获罪。——刘晓波《我没有敌人：我的最后陈述》</p>
+</blockquote>
+<hr>
+<p>诗到语言为止<br>
+失语的你我<br>
+早已被割下写诗的权力<br>
+所以 请允许我为它献上一场迟到的葬礼<br>
+献给泥土 献给齑粉 献给尘埃<br>
+献给这葬礼本身</p>
+<p>我们用很多名字寻找它<br>
+孤岛 酒馆 讲台 或是山脉<br>
+但它仍不得不躲在假名后面<br>
+就像参加葬礼的我们<br>
+带着贴满胶布的假面<br>
+假面下双瞳泣血</p>
+<p>愚钝者上台发言<br>
+说我们痴情<br>
+我们虐恋<br>
+我们兽交<br>
+我们生死相许<br>
+胆大者沉默不语<br>
+却在心里狠狠记下那些名字<br>
+那些等价于真金白银乌纱帽的名字</p>
+<p>可死者在哪里？<br>
+我们只看见不灭的水晶棺<br>
+我们只看见光辉伟岸的遗像<br>
+还有那永远正确永远不死百炼成钢的舵手<br>
+他们雄赳赳气昂昂<br>
+闯入墓地<br>
+试图藏起腐朽的尸体<br>
+黑色的血 灼伤他们的脸和手</p>
+<p>今天<br>
+或是很多个昨天<br>
+地球上的一个角落<br>
+或是很多个角落<br>
+独独除了一个角落<br>
+都在下雨<br>
+冷雨濡湿这首破碎的诗 汇成大江大河<br>
+流上干涸的高地<br>
+流向咬牙切齿的错愕的他们<br>
+这雨水洗不净他们的手和脸<br>
+因为<br>
+这是一首献给女神的诗<br>
+献给一位坚韧纯真却从未安眠的女神</p>
+<p>所以 这注定失败的葬礼唾弃他们<br>
+他们知道 我们也知道<br>
+可是天桥上大火里铁链下石阶前 <br>
+属于他们的钟声也已敲响<br>
+我们知道 他们也知道<br>
+请不要着急<br>
+到那时<br>
+我定会为你们献上一首<br>
+仇恨的诗</p>
+<p><em>2023.6.3 于波士顿</em></p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2023-06-04</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/photos/boston/">
+			Next<br>Boston Life
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/photos/ai_gc/">
+			Previous<br>Kizuna
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

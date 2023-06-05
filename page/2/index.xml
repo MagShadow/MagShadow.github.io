@@ -6,9 +6,177 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Owned By 高桥凉介.</copyright>
-    <lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jun 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://magshadow.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Hugo &#43; Github Pages 踩坑指南</title>
+        <link>https://magshadow.github.io/tech/set_up_hugo/</link>
+        <pubDate>Fri, 16 Jul 2021 23:20:24 -0400</pubDate>
+        
+        <guid>https://magshadow.github.io/tech/set_up_hugo/</guid>
+        <description>高桥凉介 https://magshadow.github.io/tech/set_up_hugo/ -&lt;ul&gt;
+&lt;li&gt;记录一下本人在使用Hugo + Github Pages搭建个人网站过程中的诸多困难。&lt;/li&gt;
+&lt;li&gt;开发环境: Ubuntu 18.04 in WSL2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;安装&#34;&gt;安装&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;deploy到github-pages&#34;&gt;Deploy到Github Pages&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;最初按照&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;官方指南&lt;/a&gt;所讲述的方法配置了[actions-gh-pages]，放在另外一个repository&lt;a href=&#34;https://github.com/MagShadow/HugoSiteBlog&#34;&gt;HugoSiteBlog&lt;/a&gt;当中。能观察到，部署等步骤都一切正常，通过所有检查，但是进入根目录却只有404页面&lt;/li&gt;
+&lt;li&gt;解决方法是使用&lt;code&gt;hugo&lt;/code&gt;命令生成静态页面后（存放在&lt;code&gt;./public&lt;/code&gt;文件夹中），将该文件夹推送到个人页面仓库&lt;code&gt;username.github.io&lt;/code&gt;当中，即可正常访问。（参考：https://w01fb0ss.github.io/2020/010/ ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;无法加载css格式&#34;&gt;无法加载CSS格式&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;使用的theme为“diary”&lt;/li&gt;
+&lt;li&gt;在本地使用&lt;code&gt;hugo server&lt;/code&gt;生成的网页格式一切正常，但是上传到github.io后不能正常显示，检查网页后发现错误如下：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Mixed Content: The page at &#39;https://magshadow.github.io/&#39; was loaded over HTTPS, but requested an insecure stylesheet &#39;http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css&#39;. This request has been blocked; the content must be served over HTTPS.
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;仔细检查后，将&amp;rsquo;config.toml&amp;rsquo;中的&lt;code&gt;baseURL&lt;/code&gt;由&lt;code&gt;http&lt;/code&gt;改为&lt;code&gt;https&lt;/code&gt;，即解决问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;wsl2无法访问本地页面&#34;&gt;WSL2无法访问本地页面&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;参考 &lt;a href=&#34;https://www.saotn.org/hugo-development-environment-in-wsl-2/&#34;&gt;https://www.saotn.org/hugo-development-environment-in-wsl-2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;插入图像&#34;&gt;插入图像&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;使用&#39;&lt;img src=&#34;https://magshadow.github.io/XX/image.jpg&#34; alt=&#34;image&#34;&gt;&#39;，需将图像文件保存在&#39;/static/XX&amp;rsquo;文件夹下。&lt;/li&gt;
+&lt;li&gt;自动适配网页宽度，但没有标题&lt;/li&gt;
+&lt;/ul&gt;
+- https://magshadow.github.io/tech/set_up_hugo/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>重返伊瓦利斯</title>
+        <link>https://magshadow.github.io/about/</link>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/about/</guid>
+        <description>高桥凉介 https://magshadow.github.io/about/ -&lt;p&gt;一个不受审查的个人空间。
+施工中。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;figure align=&#34;Center&#34; role=&#34;group&#34; aria-describedby=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
+  &lt;a href=&#34;https://magshadow.github.io/about/li_hai.png&#34; class=&#34;img-link&#34;&gt;
+    &lt;img src=&#34;https://magshadow.github.io/about/li_hai_hu787ccbe55dfc7396b9d75affc46623e0_1601753_700x0_resize_box_2.png&#34;&gt;
+  &lt;/a&gt;
+  &lt;figcaption id=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
+    This is an example figure.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+- https://magshadow.github.io/about/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>肖陶扩</title>
+        <link>https://magshadow.github.io/posts/xiao_tao_kuo/</link>
+        <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/xiao_tao_kuo/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/xiao_tao_kuo/ -&lt;p&gt;在空无一物的粉红色沙漠里&lt;br&gt;
+失去记忆&lt;br&gt;
+我醒来&lt;br&gt;
+沙砾并不灼热&lt;br&gt;
+舔舐我 舔舐我的幻梦&lt;br&gt;
+在春天&lt;br&gt;
+穆念慈告别杨康&lt;br&gt;
+波德莱尔和莱蒙托夫一齐在巴黎复活&lt;br&gt;
+蔬菜被劈开&lt;br&gt;
+肮脏的血却依然在流淌&lt;/p&gt;
+&lt;p&gt;对了，“流淌”&lt;br&gt;
+这个音节忽地激起我强旺的欲念&lt;br&gt;
+对，要站起来，要往前走&lt;br&gt;
+向海洋进军&lt;br&gt;
+很久以前我就住在海边&lt;br&gt;
+对，海边，那么多那么多的水&lt;/p&gt;
+&lt;p&gt;为了复仇，或是为了自毁&lt;br&gt;
+我听说大人们都是背负着秘密才走个不停&lt;br&gt;
+可没有秘密的我&lt;br&gt;
+痛恨又热爱废墟之歌的我&lt;br&gt;
+胆小却虚张声势不敢停下脚步的我&lt;br&gt;
+是大人吗?&lt;/p&gt;
+&lt;p&gt;一条石板路上印着许多名字和日期&lt;br&gt;
+是诞辰而非卒日&lt;br&gt;
+这一事实默哀着他们共享的最后一天&lt;br&gt;
+我停下脚步&lt;br&gt;
+蹲下来触摸那个曾与我同龄的名字&lt;br&gt;
+任由另一只手触摸我的头发&lt;br&gt;
+远处，旋转木马下&lt;br&gt;
+熔岩和比喻一起沉默地流出&lt;br&gt;
+这么久这么久&lt;br&gt;
+我终于看到海&lt;/p&gt;
+&lt;p&gt;执紫玫瑰的法外之徒&lt;br&gt;
+你讲述的血腥传说我至今还记得&lt;br&gt;
+  “不能发光的栉水母&lt;br&gt;
+  会残忍地吞食发光的同伴&lt;br&gt;
+  以期在铁黑的海底获得半点瞩目&lt;br&gt;
+  至死方休”&lt;br&gt;
+这想象令我战栗 令我失落 却令我恢复五感&lt;br&gt;
+我闻到蓝莓点燃草莓&lt;br&gt;
+尝到禁忌的泪水和越界的问题&lt;br&gt;
+苹果 冰淇淋 莫吉托 通通都成了灰&lt;br&gt;
+在十年的最后一天&lt;br&gt;
+快门落下 银盐质变&lt;br&gt;
+冰雕的手臂忽地断折 坠入海里&lt;br&gt;
+然后&lt;br&gt;
+一块冰很慢很慢地从领口滑落&lt;br&gt;
+水母淹没我&lt;/p&gt;
+- https://magshadow.github.io/posts/xiao_tao_kuo/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>A Bostonian</title>
+        <link>https://magshadow.github.io/posts/a_bostonian/</link>
+        <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/a_bostonian/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/a_bostonian/ -&lt;p&gt;在夏威夷冲浪的时候，教练问大家都是哪里来的，我自然而然地说我们是boston过来的。过了一会冲起来的时候，教练喊，look at our Bostonian!&lt;/p&gt;
+&lt;p&gt;我一下子有点没反应过来。我是Bostonian了吗？&lt;/p&gt;
+&lt;p&gt;不知不觉在美帝已经待了一年半了，回答问题的习惯也都变了：从哪里来，答案不再是南京而是Boston；在哪里读的本科，答案不再是北京而是国内；以后要做什么，答案不是去读phd，而是含含糊糊的，可能会留在学术界吧。&lt;/p&gt;
+&lt;p&gt;苦涩的感觉。确实不知不觉人生已经又走出去一大步了。&lt;/p&gt;
+&lt;p&gt;今天独立日，想起来有烟火表演，晚上十点多开车出去，把车停在实验室，撑了伞慢慢走到查尔斯河河畔。查尔斯河那么美那么美，可我凝视它的时间少的可怜。河畔站满了人，河滨的公寓阳台上也都是人影。&lt;/p&gt;
+&lt;p&gt;沿着河畔走，我一边就在想上一次看烟火表演是什么时候？想来想去大概是一六年去日本在大阪看的花火大会。再想就只能想到错过的那些烟火，日本的，长沙的。但这些都不重要了，从明天起，这个问题的答案就会变成二零二一年七月四日。于波士顿。&lt;/p&gt;
+&lt;p&gt;烟火表演不长，二十分钟就结束了。在度过了一年半的疲惫生活之后，哪怕是一场不那么精彩的演出，也是很有意义的。一边想着，一边沿着河往回走，突然闻到了熟悉的大麻的味道。&lt;/p&gt;
+&lt;p&gt;Well, welcome to Boston ^ ^&lt;/p&gt;
+- https://magshadow.github.io/posts/a_bostonian/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Hawaii: Big Island / Maui</title>
+        <link>https://magshadow.github.io/photos/hawaii/</link>
+        <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/photos/hawaii/</guid>
+        <description>高桥凉介 https://magshadow.github.io/photos/hawaii/ -&lt;p&gt;&lt;img src=&#34;https://magshadow.github.io/images/Hawaii/Maui_Kamaole_Condo.jpg&#34; alt=&#34;Kihei, Maui. By Samsung Galaxy S9.&#34;&gt;
+&lt;em&gt;Kihei, Maui. By Samsung Galaxy S9.&lt;/em&gt;&lt;/p&gt;
+- https://magshadow.github.io/photos/hawaii/ - Owned By 高桥凉介.</description>
+        </item>
     
     
     
@@ -326,23 +494,6 @@
     
     
         <item>
-        <title>嫖客的忧伤</title>
-        <link>https://magshadow.github.io/posts/piao_ke_de_you_shang/</link>
-        <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://magshadow.github.io/posts/piao_ke_de_you_shang/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/piao_ke_de_you_shang/ -&lt;p&gt;拆开包裹，是新买的裤子。你擦擦手，套上试试大小。想着要不要去拿条皮带。&lt;/p&gt;
-&lt;p&gt;不必了。内侧有条腰带，可以直接系上。一个似曾相识的设计。&lt;/p&gt;
-&lt;p&gt;你的心跳停了一拍。&lt;/p&gt;
-&lt;p&gt;你是那样地猴急，进门就扑倒在沙发上。一只手扯掉细细的皮带，你却没法扯下那窄窄的牛仔裤。她咯咯地笑。她的手拉着你触摸到内侧，一条腰带系着结，一个你从未见过的设计。&lt;/p&gt;
-&lt;p&gt;你后来再也没有解过这样或那样的腰带。&lt;/p&gt;
-&lt;p&gt;因为你再也没有一颗心可以用来付嫖资了。&lt;/p&gt;
-- https://magshadow.github.io/posts/piao_ke_de_you_shang/ - Owned By 高桥凉介.</description>
-        </item>
-    
-    
-    
-        <item>
         <title>雨天日记</title>
         <link>https://magshadow.github.io/posts/diary_of_a_rainy_day/</link>
         <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
@@ -412,133 +563,6 @@
 逃出着这模糊又雷同的一日？&lt;/p&gt;
 &lt;p&gt;2020.10-11&lt;/p&gt;
 - https://magshadow.github.io/posts/diary_of_a_rainy_day/ - Owned By 高桥凉介.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>打游戏不许嘻嘻哈哈</title>
-        <link>https://magshadow.github.io/posts/game_no_xixihaha/</link>
-        <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://magshadow.github.io/posts/game_no_xixihaha/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/game_no_xixihaha/ -&lt;p&gt;好久没有在豆瓣上发表爹系言论了，趁着今晚结束了只狼更新的三个Boss Rush挑战，哔哔赖赖两句。&lt;/p&gt;
-&lt;p&gt;第一件事当然是，开除云玩家。或者说，开除云玩家和真正抄手柄打过游戏的人的同等发言资格。&lt;/p&gt;
-&lt;p&gt;视频直播时代，主播多了，“云玩家”也多了。没有时间精力打，就看看别人的视频，云一下，也算是望真梅止渴一下。或者干脆就是没打算买没打算玩，了解一下而已。&lt;/p&gt;
-&lt;p&gt;这完全可以理解，我去年困在家里的时候，没条件买PS4，当时想着《最后生还者2》来年就要出了，不如把第一部云一下，后面好无缝衔接玩第二部。断断续续看了几个小时实在是没有意思，遂弃坑。&lt;/p&gt;
-&lt;p&gt;为什么云某个游戏不重要，重要的是，如果你云了一个游戏，你是否对这个游戏有发言权。我的答案当然是no。取最近一个引发巨大争议的游戏《最后生还者2》为例.&lt;/p&gt;
-&lt;p&gt;《最后生还者2》(The Last of Us 2)的第一部是PS3时期的名作，Metacritic上评分高达95，全时期排名第7；高清重制版登陆PS4之后依然获得95分高分，排名全时期第四。就是这么一部有着光辉起点的游戏，续作当然也是万众瞩目。在大家都关在家里隔离的时候发布，发售前媒体评测好评如潮，“电子游戏的奇迹”（机核语）之类的赞誉不计其数。但是发售之后在短短几个小时之内，用户评分急剧下滑，一度跌落到三分（满分十分）以下，在当时各个论坛上引发了不计其数的争吵。&lt;/p&gt;
-&lt;p&gt;==============================剧透线======================================&lt;/p&gt;
-&lt;p&gt;所以究竟是发生了什么呢？第一部的男主人公Joel，在预告片里似乎会在女主人公Ellie的旅途上重新归来，但是玩家在游玩了两个小时左右，却要亲手操作本作的另一女主人公Abby亲手挥着高尔夫球杆，一杆一杆击打Joel的脑袋直至死亡，为父亲复仇。&lt;/p&gt;
-&lt;p&gt;这还了得？观看直播的云玩家瞬间就炸了，不管是在MC还是豆瓣，凡是能打分的地方，一分零分接踵而至，评分低到吓人——这个时候，根据奖杯统计，全世界的通关率才刚过10%，更不要提还有很多人没买没有打开游戏了。&lt;/p&gt;
-&lt;p&gt;那么现在这个游戏评分是多少呢？MC的评分已经上升到5.7分。如果仔细看评分分布，是极为罕见的U型分布，用户评分两极分化，几乎全部集中在最高分和最低分当中。这只能说明一个很简单的道理——打了游戏的人，对这个游戏评价高，没打游戏的人，对这个游戏评价低，而且是超脱理性的低。&lt;/p&gt;
-&lt;p&gt;我本人当然很喜欢这个游戏。它不是完美的，前期沙盒部分节奏拖沓，敌军AI虽然有提升但是依然很蠢，甚至为了政治正确塞入脸谱化的少数族裔等等。但是这是一部1分游戏吗？显然不是，但是为什么云玩家会放大乃至点燃这种不满？很简单，因为看游戏和打游戏真的是不一样的。当你握着手柄挥打那根球杆的时候，你会被迫面对自己的愤怒。玩家当然喜欢Joel，但是设计者没有给你选项，你只能强迫自己去体验这种一杆一杆的击打之下的猛烈情绪。带着这种猛烈的愤怒，随着游戏的进行，你会逐渐抓到一个一个碎片，慢慢拼凑出故事，慢慢理解两个女主角如同镜像结构一般的轨迹，直到终局。&lt;/p&gt;
-&lt;p&gt;但是你永远不能体会到这种感觉，如果你是一个云玩家的话。握着手柄和恶心恐怖的感染者战斗时，心跳的加速，手柄模拟的地面的振动，都是游戏完整体验的一部分。如果你没有沉浸在那种末世的恐怖绝望当中，没有亲手扣动扳机杀死对方重要的人，你就很难理解终局时刻，两个伤痕累累的女人在海洋中拖着沉重身体的打斗，为什么会走向那样的结局。&lt;/p&gt;
-&lt;p&gt;========================剧透终结线===================================&lt;/p&gt;
-&lt;p&gt;很不幸，虽然我对云玩家们不负责任的评分非常愤怒，但是我什么也做不了。我当然没办法开除他们的发言资格，在这个短平快的时代，看视频的云玩家必将成为主流。写到这里，我不禁想起来我一个朋友，人不坏，“那么普通却那么自信”的标准直男。他就是我所最厌恶的那一类云玩家——什么游戏都不打，甚至连视频通关都没有，就看看游戏区Up主的剪辑和解说，就开始头头是道的和别人讨论游戏。&lt;/p&gt;
-&lt;p&gt;说到底，这也是我本人做人的一个哲学：你必须体验过什么，才有对什么发言的资格。没有在山路上飙过车握着方向盘体验过横移带来的肾上腺素，如何评价开车有没有乐趣？没有卿卿我我在床上精疲力竭过，凭什么评价恋爱有没有意义？打游戏也是这样，你必须认真地玩一个游戏，才有资格对一个游戏发表评论。有时我会开玩笑说垃圾游戏原神，垃圾游戏撸啊撸，垃圾游戏王者荣耀，but I never mean that seriously. 我没有玩过，我没资格评论。&lt;/p&gt;
-&lt;p&gt;说到这个，另一个我想说的话题是游戏的艺术性。有的时候看到有些豆列写什么“第九艺术”，点进去看看觉得还挺好笑的，收集的都是一些广为人知的“艺术游戏”，比如《This is the war of mine》，比如《Cyberpunk Bartener Action: Va-11 Hall-a》。不是说这些游戏不好，这些都是很好的游戏，有着非常好的创意和主题。但是，作为一个严肃的游戏玩家，如果我们想谈论游戏的艺术性的时候，是不能够只谈论这种小品级的游戏的。一个称得上艺术品的游戏，首先要有它作为一个好游戏的重量。换句话说，3A级别、或者至少是准3A体量的作品才是我们谈论游戏艺术性的起点。&lt;/p&gt;
-&lt;p&gt;游戏之所以有别电影小说音乐，在于它能结合多个要素并且让玩家真正地参与进去。这个时候不得不提回《只狼：影逝二度》。赢下TGA2019的年度游戏几乎没什么悬念的只狼，是一款将玩法和内容高度结合的杰作。扮演战国时代的独臂忍者，上天入地，在充满奇缘的苇名国死斗到尽头，那么玩法上就必须表现这种刀剑相交千钧一发的刺激感。宫崎老贼在魂类游戏的系统上做了改进，把传统的精力槽取消，改成了敌我双方都有的架势槽。这一改动不允许再像魂一样慢节奏举盾绕击，而是逼迫玩家上前拼刀打铁，一招不能错。在一次次的死亡又重生之后，看破敌人的所有变化，呼吸急促，一招一招拆解并最后击垮看似强大的敌人的时刻，玩家可以非常自然地体会到那种活在刀尖上的危险又诱人的魅力。&lt;/p&gt;
-&lt;p&gt;而小品游戏的问题，在于它能够提供的东西实在是太少了。《这是我的战争》常常令人称道的一点是让玩家面临道德选择，是活下去还是偷走好人的最后一块面包，可那其实只是几行字和一个头像而已，它并没有让你沉浸进去。与之对比，《最后生还者2》里面为了逼问仇人的下落，你要挥着水管击打毫无还手之力的护士，一下一下直到血肉模糊。你甚至还要扮演护士的朋友，目送她离开，走向那个你已经预知的她的结局。只有通过游戏性把想要表达的东西传达出去，我们才能真正严肃地谈论游戏是否可以称得上是第九艺术。再想想DND，要想体验那种奇幻冒险，你就必须提供足够重量的文本背景和足够自由的游戏系统，才撑得起角色扮演这四个字。&lt;/p&gt;
-&lt;p&gt;《最后生还者2》的巨大争议之后，我和一个高中同学谈论到这个。他也很沮丧，说“这次失败之后，可能十年之内都不会有游戏公司再拿重要的游戏项目来尝试一这种肃的话题，或许我们只能玩到媚玩家的爽游戏了”。我倒没有那么沮丧，毕竟打游戏也就只是打游戏而已，不同人有不同人的需求，也没什么鄙视链之分。但我就想起，大四在上呆呆老师的游戏通论课的时候，第一节课就问我们：“你是否自认为是一个核心玩家？”我的答案当然是yes，不过这一年，会不会是我们游戏婆罗门的消亡史的开始呢？&lt;/p&gt;
-- https://magshadow.github.io/posts/game_no_xixihaha/ - Owned By 高桥凉介.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>第十支烟</title>
-        <link>https://magshadow.github.io/posts/the_tenth_cigarette/</link>
-        <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://magshadow.github.io/posts/the_tenth_cigarette/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/the_tenth_cigarette/ -&lt;p&gt;和朋友分食完蛋糕之后，收拾收拾桌子，突然意识到好几天没抽烟了，遂披衣下楼，站在空无一人的停车场里享受二十四岁的第一支香烟。&lt;/p&gt;
-&lt;p&gt;过生日的时刻总是会想的很多。&lt;/p&gt;
-&lt;p&gt;有些习惯养成之后就会忍不住地每年回溯之前的仪式。在北京订生日蛋糕总是会在上面写字。大四申请季的时候，豪情万丈，蛋糕上写“做个盖世英雄”。去年于绝望的等待中回到北京过生日，在大起大落之后，思考了很久，决定写“不如重头来过”。今年没法让美国人给我写字了，但是今年想这六个字却没费多少功夫——若是能写，我一定写的是“祝我年少有为”。&lt;/p&gt;
-&lt;p&gt;年少有为。&lt;/p&gt;
-&lt;p&gt;这首歌真的于我有很特别的意义。但如今，当附加在它之上的其他意义都消散而无法追及，我还是很喜欢很喜欢它。青年才俊这四个字，是我一直渴望成为却一直担不起的。开始PhD生涯，才算是在做研究这条道路上刚刚起步。舍弃其他可能而开始钻进象牙塔里的人，说没有点学术梦想那肯定是骗人的。现在的生活虽然和我想象中有些偏差，但大体上还算是我想要的样子。&lt;/p&gt;
-&lt;p&gt;前几天，出现了一次突然的情绪崩溃。很难讲究竟是什么触发了这一次的崩溃。自六月复工以来从未真正休息过；在一个刚刚建立又人手紧缺的实验室面对随时可能出问题的仪器；网课始终使我无法集中精神；美国新增病例一日更比一日多完全看不到头&amp;hellip;&amp;hellip;如此种种，一直积压在心里。直到周日晚上做作业，其中一问要用到我完完全全学过不止一遍的东西，我却头脑空白一个字也写不出来。想到第二天早上的组会报告还没有准备，一瞬间就绷不住了。先是趴在床上，再是躺在地上哭，在微信里和所有活人说话，歇斯底里。那时在怀疑我究竟为什么要走到这里。第二天和老板请了假，解释了一下原因，然后在家又自闭了一整天。&lt;/p&gt;
-&lt;p&gt;慢慢恢复过来以后，也和老板聊了一下。想来想去，和本科最艰苦的日子相比，多出的最大的一份压力其实来源于我自己。本科时候做的项目说好听叫独立，说不好听就是玩票。本来就是难度很大风险很高的课题，交给本科生做无非是试试看，并不求什么成果。所以我也只要对我自己做的东西负责。而现在的我，负责的是组里最重要最核心的仪器，做的也是组里最promising的课题。换句话说，我们组的命运是扛在我肩膀上的。如果我不能把整套东西整work，那么不管是我老板还是我自己，或是我的同学和师兄，都不会有什么有价值的产出，更别提survive这件事了。这种身份的转变——虽然老板说不用如此紧张，我们毕竟还有别的technique——是这份焦虑感的核心。老板还指出，我似乎太想做一个independent的学生了，每次他提出什么要求，我都想漂漂亮亮地交出一份clean sheet。但这显然是不可能的，做实验永远会出问题。&lt;/p&gt;
-&lt;p&gt;但值得欣慰的是，至少我在感觉不对劲的时候我还可以发出信号，表现出我的异常。在朋友圈发出了绝望的呼喊之后，很多朋友跑来私聊我，关心我究竟发生了什么。兄弟们也在群里疯狂拍一拍我，然后给我找各种各样的理由。泄洪一般，将压力释放掉以后，我又重新回到了正轨上。&lt;/p&gt;
-&lt;p&gt;此时此刻我又想起去年在北京过生日的情形。&lt;/p&gt;
-&lt;p&gt;等签证等到绝望，同学上学的上学出国的出国，在南京也找不到人玩，为了摆脱自闭我跑回北京，四五天的时间每一顿都安排的满满当当。在喝酒喝到抱着学姐痛哭之后，打越洋电话，然后回到住的宾馆，站在成府路的天桥上，喝旺仔牛奶，抽兰州。一位友邻给我点了mla的《第十支烟》。北京的风把吐出的烟雾吹回我脸上。&lt;/p&gt;
-&lt;p&gt;和那个难忘的生日夜相比，穿着拖鞋无比cozy地站在停车场里的今天的我，无疑要幸福得多。这一年里，虽然难过的时候也常常一个人站在楼下抽烟，已经抽了不知第多少个十支烟，可我并无甚理由可以抱怨或需要抱怨。我吃了那么多的苦也没有放弃，正是为了能够来到这里。更何况，在经历过那样的考验和折磨之后，从今往后，也不该再被什么别的东西所击垮。&lt;/p&gt;
-&lt;p&gt;所以，二十四岁，祝我年少有为。&lt;/p&gt;
-- https://magshadow.github.io/posts/the_tenth_cigarette/ - Owned By 高桥凉介.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>2020.9.15</title>
-        <link>https://magshadow.github.io/posts/2020.9.15/</link>
-        <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://magshadow.github.io/posts/2020.9.15/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/2020.9.15/ -&lt;p&gt;梦见了你。&lt;/p&gt;
-&lt;p&gt;梦见我们意外地相遇在洗手台前。&lt;/p&gt;
-&lt;p&gt;你很慌张。我也很慌张。&lt;/p&gt;
-&lt;p&gt;你抬眼。我也抬眼。&lt;/p&gt;
-&lt;p&gt;你躲闪。我也躲闪。&lt;/p&gt;
-&lt;p&gt;水就这样一直一直地流。&lt;/p&gt;
-&lt;p&gt;一直一直地流。&lt;/p&gt;
-&lt;p&gt;我向你走去。抱住你。&lt;/p&gt;
-&lt;p&gt;你把我推开。&lt;/p&gt;
-&lt;p&gt;“现在还不行。但总有一天我们一定会再见面的。”&lt;/p&gt;
-&lt;p&gt;你又抱了我一下。然后向后退去。&lt;/p&gt;
-&lt;p&gt;你的眼睛里有光。&lt;/p&gt;
-&lt;p&gt;可我无论怎样都看不清你的脸了。&lt;/p&gt;
-- https://magshadow.github.io/posts/2020.9.15/ - Owned By 高桥凉介.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>积极乐观主义</title>
-        <link>https://magshadow.github.io/posts/optimism/</link>
-        <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://magshadow.github.io/posts/optimism/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/optimism/ -&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在人心中，历史似乎总是越来越糟的。佛灭之后历经正法、像法和末法三个时期，修行渐衰佛法日颓，直至法灭；自旧约上帝创世的伊甸园始，人类犯下诸多罪行，终要面临启示录所预言的末日审判；赫西俄德笔下的希腊人自黄金时代以降一步步堕落，虽曾有英雄时代的短暂荣光，仍逃脱不了被众神彻底抛弃，落入黑铁时代的命运。&lt;/p&gt;
-&lt;p&gt;正如李维不无伤感地在《自建城以来史》的开头写道：“&amp;hellip;&amp;hellip;随着纲纪逐渐废驰，道德可以说先是倾斜，继而愈加下滑，直至我们既不能忍受我们的罪恶，亦不能忍受补救措施的今日。”&lt;/p&gt;
-&lt;p&gt;但我们的宇宙并不像人间。怎样的字眼都不足以描述它在发展过程中所经历的惊心动魄的挑战和不可思议的变迁。随着早期宇宙的迅速膨胀，引力、强力、弱力和电磁力渐次分离，待到光子在最后散射面和物质脱耦之后，宇宙便进入了漫长的“黑暗时代”。可无知如我，又如何能够想象，在无边的黑暗中经历了四亿年的等待之后，随着星系和大尺度结构的形成，类星体和第一代恒星的出现再次电离宇宙，让这个宇宙被重新点亮。&lt;/p&gt;
-&lt;p&gt;了解到这个事实的时刻，我久久无法呼吸。即使相信弱人存原理，相信我们的存在这件事本身就是一个奇迹宇宙的产物，回看它的生命历程，我依然确信它是一切历史中最波澜壮阔者。无情的自然法则，竟然能从一团高温致密的混沌热汤里创造出今日星光璀璨温情脉脉的宇宙，这是怎样的历史学家都无法想象的！&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;曾经和一位网友争执，他坚定地认为，地球在整个银河系、整个宇宙中不过是沧海一粟，所以人类说什么做什么都是没有意义的。我已不记得是为了什么话题和他争执而他又为什么会说出这样的话，但我为此十分生气。我并不是责怪他这种充满着虚无主义思想的观点，而是他根本没有意识到，认识到地球在宇宙中不过沧海一粟、认识到人类历史相对宇宙寿命不过时间长河之一滴，这件事本身就是人类文明最大的奇迹之一。&lt;/p&gt;
-&lt;p&gt;试想，坐落在地球上的我们，原始的生命经验被限定在一个非常狭窄的范围里：短不过一毫长不过千里，快不过一瞬慢不过百年。我们眼中不过山河湖海花鸟鱼虫，哪怕是抬头望去，也只能见到太阳月亮和夜空中的点点繁星。可是，就是如此渺小的我们，竟然可以通过一代一代人的努力，从看到太阳，到看到太阳系，再到将天穹上的一个个光点逐个分辨出它究竟是我们的邻居，是银河系的其他居民，还是远远地属于某个河外星系。&lt;/p&gt;
-&lt;p&gt;让我们看得仔细一些。&lt;/p&gt;
-&lt;p&gt;人类的认知进步是缓慢而坚实的，点缀着无数科学家的灵光闪现和大自然的意外恩赐。古老的观星术虽是迷信，却为人类积累了最原始的资料。用本轮作修正的地心说一直统治人类认知直到哥白尼的呐喊，开普勒、伽利略和牛顿第一次将真正的自然科学带入了人类历史。随着科学认知和各类观测技术的进步，我们的眼睛越望越远。在久远的过去人们已能从地面上用三角视差法定出日地距离，于是这日地距离就可以作为第一把尺用周年视差定出恒星位置。第二把尺的到来着实是个意外，造父变星的周光关系被从浩如烟海的观测数据中找到，一下子将人类的目光拉远了几个数量级，还清楚无误地用仙女座大星云（M31）定出了河外星系地存在。超新星爆发作为最猛烈最壮丽的天文现象之一，只能用可遇不可求来形容，然，就是这短暂的一瞬之光，作为锚点又将更远处的世界拉到了我们的图谱当中。&lt;/p&gt;
-&lt;p&gt;我们看得越来越远，对宇宙的认知也推向越来越深的早期。观测的大发展推动了理论的进步，理论被同样在突飞猛进的其他实验技术交叉验证，被证实的理论作为新的方法又再一次地带来观测的突破。就这样循环往复着，我们甚至摸出了宇宙深处的超大尺度结构，听见了暗夜中来自遥远过往的低鸣，看见了鸿蒙初开时代的最初的光。这一切的一切，都不过是一群饱受战乱和自然灾厄困扰的脆弱碳基生物在短短数千年时间里在拉尼亚凯亚超星系团里普通得不能再普通的银河系的猎户旋臂上的毫不起眼的太阳系的第三颗行星及其左近空间里做到的。&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;豆瓣有个话题叫“你从科普读物中感受到的科学的浪漫性”，一位友邻摘的是：“你身体里的每一个原子都来自一颗爆炸了的恒星，你左手的原子与右手的原子也许来自不同的恒星。这实在是我所知道的物理学中最富诗意的东西： 你的一切都是星尘&amp;hellip;&amp;hellip;因此，忘掉耶稣吧，星星都死去了，你今天才能在这里。 ”&lt;/p&gt;
-&lt;p&gt;这个事实本身很浪漫不假，但是知道这事实背后的来龙去脉的人往往并不很浪漫。费曼半戏谑地写到：“给人印象最深的发现之一是使星球不断发出光和热的能量来源问题。有一个参与这项发现的人，在他认识到要使恒星发光，就必须在恒星上不断地进行核反应之后的一天晚上和他的一位女朋友出去散步。当这个女朋友说：“看这些星星闪烁得多美啊！”他说：“是的，在此刻我是世界上唯一知道为什么它们会发光的人。”他的女朋友不过对他笑笑。她并没有对于同当时唯一知道恒星发光原因的人一起散步产生什么深刻的印象。的确，孤单是可悲的，不过在这个世界上就是这个样子。”&lt;/p&gt;
-&lt;p&gt;很多人也许知道，“漂亮的姑娘都被人追走了，只能去追一些不那么漂亮的姑娘了”，这句话是“最后一个全能物理学家”朗道说的。但大概不是所有人都知道，这句话其实是朗道对于自己生不逢时的叹息。二十世纪的前三十年可谓是物理学的黄金时代，从两朵乌云中结出了相对论和量子力学这样的现代物理学真正的奠基性工作，特别是1925-1927年间波动力学和矩阵力学的建立，让朗道十分惋惜自己晚了几年。于是他非常谦虚地在朗道排名（对数，每增加1表明水平相差十倍）中把量子力学的奠基者们排在了1的位置而把自己放在了2.5上——直到他完成了二级相变理论，才心满意足地把自己提到了2，“我终于是一个二流物理学家了。”&lt;/p&gt;
-&lt;p&gt;但残酷的是，即使聪明绝顶如朗道，即使有“朗道十诫”这样光辉灿烂的生涯成就，即使“被颁诺奖是诺奖的光荣”，错过了物理学黄金时代的他，也未能追到白银时代的三大美女——重整化、对称性破缺和规范场。虽然去世前他曾说“我这一生过得不坏，我万事如意”，但我想，立志于做最漂亮问题的他，还是会有些遗憾的。&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;现在连Ph.D. Candidate都算不上的我，说是“入坑”实在太早，但我还是想审视一下这些年里的心动时刻。&lt;/p&gt;
-&lt;p&gt;抛开初中的竞赛课不谈，最初的震撼来源于坐在高中语文课上百无聊赖读赵凯华老师的《新概念物理教程》。第一次站在普物的层面上居高临下地理解那些做过的题目，有醍醐灌顶茅塞顿开的痛快感觉，并且朦朦胧胧体验到一种“美”的感觉。&lt;/p&gt;
-&lt;p&gt;这套书的图标是一只衔尾蛇，从蛇尾到蛇头画着从原子核到宇宙，象征着我们世界的不同尺度。可是，因为加速器有限度在研究粒子物理时人们常常利用高能宇宙射线，在研究宇宙早期演化时又需要在粒子物理实验中获得的最坚实的结果作为参考，最大和最小的尺度就这样奇妙地联系在了一起。后来在北大面试的时候，刘川老师问我如果来了北大想做什么研究，我就老老实实地把这个给我带来无限冲击感的事实说了一通。那时我第一次听说“粒子宇宙学”的名字，只是后来来了北大，最终也没有选择这个方向，是后话了。&lt;/p&gt;
-&lt;p&gt;和我老板的第一次谈话也是难忘的。令我激动不已的是他指出的如下一个事实：人类在几乎所有领域中都还未能战胜大自然，最强的加速器LHC也不过13 TeV，而宇宙射线可以轻松达到10^20 eV的数量级；人造太阳EAST不过一亿度，而这仅仅是宇宙创生一个小时左右左右的温度。唯一的例外或许就是低温，最冷不过空无一物的宇宙空间，但这里仍然有着2.73K的背景辐射回荡着；而人类早在百年之前就通过对液氦抽气获得了仅有它一半左右的温度，随着制冷技术的进步，今天哪怕是商业化的稀释制冷机可以稳定持续地获得10 mK以下的低温，而如果要论记录，甚至在四十年前核磁矩的绝热去磁已经获得了25nK的惊人结果——它比宇宙温度低了八个数量级。什么概念？地球比一只蝴蝶也不过就大了八个数量级！&lt;/p&gt;
-&lt;p&gt;这个事实在我心中留下的印痕是难以用语言描述的。很快我就晕乎晕乎地进了组，走上了修冰箱的不归路。不管风花雪月多么动人，唯有在这里，我才能坚实地感受到“人定胜天”是触手可及的真实。&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;穆法师在第一节热学课上提过一个说法。他说物理学家大多是“积极乐观主义者”。什么叫“积极乐观主义”呢？大意是，所谓乐观指相信总有一天研究会有进展，人类会将且必将抵达究极真理；所谓积极是愿意花毕生精力为此而努力。后来和穆法师单独聊天，他也是这么劝我的，哪怕没有什么天资，但是掌握一门实验技术，踏踏实实地做一做实验，也可能做出非常了不得的成就的。&lt;/p&gt;
-&lt;p&gt;我大概还不配对自己做出这样的判断。但我真的很喜欢这个形容词。学物理的学生大多是有点理想主义和浪漫主义的气质的。我也不例外，在挑选课题时，我希望它是美的，也希望它是有用的，最希望它是既有用又美丽的。但也正因如此，在被卷入到某个我曾怀有无限热情的领域的学术丑闻时，我的幻灭感也是空前的。好在，花了一些时间，我也克服了厌恶感，重新上路，又在新的领域里找到了新的热情。就像老张那年的鼓励一样，做物理，就是要去做一些Big Problems，就是要向着Holy Grail发起大无畏的冲锋。&lt;/p&gt;
-&lt;p&gt;“希望你记得，曾有一个小姑娘为你的梦想和坚持而动容，一直喜欢你，永远支持你。”告别那天，读到信里这一句时我终于抑制不住失声痛哭。那是高中时代懵懵懂懂的充满中二气质的我，那是暗下决心要赢得一颗星的命名权并将其赠予女友的我，那是能说出“哪怕一生也做不出什么成就，但也甘心探一条失败的路，为人类的进步做一块垫脚石”的我呀。&lt;/p&gt;
-&lt;p&gt;一路走来，走到今天，虽然仍充满热情和勇气，但已经不能像天不怕地不怕的小孩子一样说出什么惊人的豪言了。辜负了感情的我，是否又能不辜负这一份期待呢？&lt;/p&gt;
-&lt;p&gt;就让我先做一个积极乐观主义者吧。十年二十年后，我再来回答这个问题。&lt;/p&gt;
-&lt;p&gt;2019.9.2 于家中&lt;/p&gt;
-- https://magshadow.github.io/posts/optimism/ - Owned By 高桥凉介.</description>
         </item>
     
     

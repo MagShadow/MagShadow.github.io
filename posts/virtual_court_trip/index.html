@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html><head>
+<title>虚拟法庭一日游</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="上庭一回长长见识！">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    虚拟法庭一日游
+                    
+                    <div class="post-subtitle">
+                        上庭一回长长见识！
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2023-01-28 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/boston">Boston</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>今天为了处理之前在NJ吃到的一个莫名其妙的ticket，上了一回Zoom法庭，实在是大涨见识，别开生面，决定在此做一个简单的记录，想到哪写到哪，仅供一乐。</p>
+<ol>
+<li>
+<p>我自己的Case没啥可说的，开Uhaul的时候后面有警车打闪灯但是没鸣笛。我愣了一下没有siren要不要让，大概半分钟到一分钟，警车超过去把我pull停了。警察是个傻逼白男，趾高气昂地给我教育了一番，然后刷刷刷开了5张ticket——没有move over，没有pull over，careless driving（说我乱变道？），然后外加车子没有registration和insurance（这两个甚至一开始都没找我要registration和insurance card）。然后他想了想好像uhaul不会没有，也太离谱了，就问我要，于是把后面两张给删掉了。后来上网一搜，NJ的警察是臭名昭著的，就喜欢一天到晚给你找麻烦。</p>
+</li>
+<li>
+<p>然后就是上庭，一开始发传单说是要回NJ上庭，但是后来又改为Zoom。一开始有律师给我发广告，我开始还想着要不要找个他们代劳，后来一看反正也不用大老远跑一趟，就这点屁事，不如自己亲自体验一番。大概流程和网上说的差不多，进去先和prosecutor谈，给你一个plea offer，认一两个然后dismiss剩下的。然后plea了以后就和法官走个流程。认罪认罚，交钱了事。不plea guilty的话就得battle了。</p>
+</li>
+<li>
+<p>今天的procecutor是全场态度最差的一个人，迟来不说，说话一顿一顿的，但是别人以为她说完了开始说话，她就会巨不高兴然后开始说don&rsquo;t interupt me。在我的case里，一开始我还想和她解释一下发生了什么，但是显然她并没有兴趣听，上来就说给你dismiss两个，你要不要这个plea offer？我心说这和我之前网上online plea的不是一模一样吗，为啥不干脆给我直接accept了非要让我再进来一趟？不过我表现的很开心说sure sure i will accept it.</p>
+</li>
+<li>
+<p>等到了judge那边发现不太对，法官说你有4个，plea guilty for 2 of them。我说不对啊我刚和prosecutor谈完是留一个dimiss两个，法官说我这里看就是4个，还把一张小纸条伸到摄像头前面来给我看。我说那我再和prosecutor确认一下。切回到prosecutor room之后她一开始根本不听，上来就是the court is absolutely right, you have four。我就和她说我一开始有5个但是有两个当场就划掉了，summon上面就是三个。她迟疑了一下问我original court在哪，然后就开始翻材料，接着就像变了一个人一样，和和气气地和我说 you are very kind, yes you are absolutely right, you only have three&hellip;呵呵。</p>
+</li>
+<li>
+<p>然后就再回去见一次法官，这回就没啥问题，直接plea guilty for one，然后交钱走人。但是法官说话实在是太快了，快的像机关枪一样，感觉读一些文本条例的时候根本就不是想让人听完，而是按流程她必须读完。等到和人交流的时候会稍微慢一点，但是还是super hard，所以我最后也没听清楚到底有没有罚分——应该是没有的，因为我没有听到points这个词，并且罚款增加了。这应该就是常见情形，即认一个稍微高一点的罚款但是不计分，这样来年保险不会大涨。全弄完之后就进payment room，一个慈祥的老奶奶搁那慢悠悠地收钱，收完以后就结束了，网上立刻能查到ticket clear了。</p>
+</li>
+<li>
+<p>说完了我的事情，再说说我观察到的东西。我一开始想，是不是上法庭好歹尊重一点，换个衬衫，但是太懒就没换。等进到Zoom里面一看，好家伙，绝大多数人就拿个手机，穿个背心或者短袖搁那晃来晃去，除了律师都没几个人用的是电脑，好几个人是一边开车一边上庭，还有个老哥带着安全帽，看起来是在打灰。好多人明显是第一次用，不知道怎么设置，也有用的是小孩的手机的。负责的工作人员倒是非常和善，一个个地确认姓名，再告诉他们应该干些什么。</p>
+</li>
+<li>
+<p>律师的优先级比较高，不管是prosecutor还是法官都是优先和带了律师的或者由律师代理的人谈。不过很遗憾没有听到任何一个真正的法庭辩论，凡是提这个的似乎都说有新的discovery之类的东西，要求延后。大部分case法官都同意，只有一个老哥说他的client今天刚刚跟他说有新的discovery所以他还需要至少一个月才能把它处理完，法官就很不乐意说这踏马都去年九月的case了，拖了这么久才给你，意思是还想继续拖？然后两人拉拉扯扯选了一个时间。</p>
+</li>
+<li>
+<p>还有个律师小哥跟法官说，哎呀，我的client离开美国了，并且似乎没有回美国的打算，我也联系不上他。法官就说，哦！那正好，你给我写一个cover letter，阐述一下你已告知client不按期上庭会收到额外罚款以及可能的更多惩罚，然后也抄送一份给他假装他能收到，然后我就可以free you from this duty。律师小哥开开心心地说yes yes 就走了。</p>
+</li>
+<li>
+<p>大部分case都和我一样是traffic tickets，什么no registration, no insurance之类的，大部分人也不逼逼。有一个暴躁老哥显然很生气不想认，说自己有evidence，然后动不动就要把东西拿到摄像头前面给法官和prosecutor看。法官没叼他，因为他也没有律师，就让他慢慢等，估计是要到其他比较容易的case都结束再来和他battle。直到我走也没看到他是如何defend自己的，有点可惜。</p>
+</li>
+<li>
+<p>除此之外还看到有几个瘾君子的case。一个老哥坚决否认之前被抓的时候身上有drug，但是法官和他解释啥啥的marijuana也算，他好像就蔫了。他人就在rehab里，然后法官说要发个email给你你去follow操作，他显然也不知道该咋整，只能叫旁边的工作人员来帮他，一边还嘟囔着it&rsquo;s my first time to use this fxxking shit you know? i don&rsquo;t know blabla&hellip;另外一个老哥看着就还挺正常，他还有个律师。律师和法官说最近他的client正在按时去rehab然后一切表现都很好。法官也很高兴，就说那我们把court day推晚一点推到三月，如果那个时候他还是在rehab表现很好的话我们就可以easily close this case。</p>
+</li>
+<li>
+<p>接上，在一开始法官还特别强调了他们有一个Project SAVE可以帮助有困难的人，特别是related to drugs。接着就专门解释说我知道这个可能问题不在你们，在于你们的家人朋友，他们没有钱，他们让你沾上了drug，但是没关系，we are here to help you。感觉说这些的时候是整场庭审里法官说话最慢最仔细的时刻。</p>
+</li>
+<li>
+<p>付钱的部分也很有意思。之前就知道很多美国人其实没有信用卡，也没有储蓄卡，所有东西都靠cash，资产基本为零。在谈完plea deal之后就有很多人和法官谈payment plan，一个老哥挨罚了280，然后跟法官说今天只能付50，后面每两周付50，法官也没为难他，但是说如果付cash的话要求他必须今天十二点之前到窗口来把钱付了，不然的话case没法close，他还得再上庭一回。另外一个老太，倒是有储蓄卡，但是90块钱的罚款想了半天要不要分两次付。后来还是决定怕自己忘了干脆一次付完了事。</p>
+</li>
+</ol>
+<p>总的来说，这是一次很有意思的人间观察。虽然早就知道作为留学生，能接触到的美国社会是极其狭窄的，但是上庭一回长长见识，也算是能多触摸到一些真实吧！</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2023-01-28</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/virtual_court_trip_2/">
+			Next<br>虚拟法庭N日游 - 续
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/censor/">
+			Previous<br>不可闻之语
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

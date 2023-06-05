@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html><head>
+<title>虚拟法庭N日游 - 续</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="你们搞法制社会搞得很好，但是下回还是动动脑子吧！">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    虚拟法庭N日游 - 续
+                    
+                    <div class="post-subtitle">
+                        你们搞法制社会搞得很好，但是下回还是动动脑子吧！
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2023-03-30 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/boston">Boston</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>书接上文：《虚拟法庭一日游》</p>
+<p>上回说到，在NJ吃了莫名其妙的罚单，在Zoom法庭里转了一圈，交钱消灾罚单三变一。当时我觉得事情已经搞定，也没管他们最后给我留的是哪一张，但没想到这个法官随意的选择给我带来了更多的麻烦。</p>
+<p>二月的一天，我开开心心地早下班，准备打会游戏，回家时在信箱里却发现了RMV的一封信。我寻思着registration和parking permit不是早就renew过了吗，而驾照renew还早得很，这时来信是个啥子哦！没想到一拆信就是开幕雷击，说大哥您好！您的驾照被吊销了！60天！因为你有一个“Careless/Improper Driving”的offence！谢谢！</p>
+<p>想必各位和我当时一样十分懵逼，怎么人在家中坐，罪从天上来？仔细一看这条offence就是我在NJ吃的那条careless driving，应该就是那边法庭处理完了，把信息transfer回了麻省的RMV。可是我没超速没逆行，一个没让警车的小错，何以至于吊销60天这么狠的操作？</p>
+<p>于是赶忙开始网上冲浪搜索相关信息，大概花了半个小时就把事情的原委搞清楚了。事情还得要从麻省RMV早年的不作为说起。多年以前，你在外州犯了事驾照给吊销了，麻省的RMV是不会管你的。据说RMV甚至看都不看一眼外州送来的相关记录的信件，就随手往档案库里一丢，这就导致许多危险司机依然在麻省逍遥法外随便开车。直到某一次一个司机酿下大祸撞死了好几个人，结果发现他麻省的驾照早已在NH被吊销，却依然可以在麻省开车。这件事引起了不小的民愤，19年的时候RMV终于在人民群众的骂声中搞起了一个半自动的处理系统，实现了对外省送来的违章记录的快速导入。</p>
+<p>但是好景不长，大家很快发现这个半自动系统有点弱智。最明显的例子就是我吃到的这一条careless driving。在NJ、VA、NC、FL等几个州，这是一条非常轻的罪名，交警也很喜欢开。你超速可以吃一条，胡乱变道可以吃一条，甚至不小心撞了路边上的分隔栅栏也可能会吃一条。真正严肃的罪名叫reckless driving，表明你可能严重地违反了交规，例如大幅超速、酒驾醉驾毒驾等等。但是问题在于麻省的code system里既没有M81 (careless)也没有M84 (reckless)，当transfer回麻省时这两种罪名都会被归到一个类似于&quot;like to endanger others&quot;的重罪上，which will 狠狠地扣了你的驾照。</p>
+<p>这么弱智的事情在2020年的时候就已经被NBC所报道了。在他们调查的500多个案例中，只有14个最终被证明是正确的suspension。甚至还有个老姐吃到了suspension以后十分懵逼，查来查去最终查到源头是自己十五年前在FL吃的一张非常minor的超速罚单。NBC取的标题是《The Mass. RMV Issued Hundreds of Invalid Suspensions. It Doesn&rsquo;t Plan To Stop.》，紧接着下一年还有一份报道《Mass. Lawmaker Files Bill To Stop ‘Nightmare' License Suspensions》。只可惜它说的太对了，不然我也不会到2023年还要再遭遇一回这么离奇的事情。</p>
+<p>那该怎么办呢？继续上网搜索，发现有些律所专门就写了文章评析这类案件。大概流程是先向RMV提出申请做hearing，在hearing之后如果不满意结果则需要向Board of Appeal提交一个case来进行仲裁。律所和Reddit上都说RMV的hearing基本上屁用没有，都还得走appeal的流程。我差一点点就要点下按钮花钱找律所帮忙了，不过想了想凡事重在体验，不如还是先自己试一试。</p>
+<p>RMV的hearing依然是virtual的，甚至用的是电话而不是zoom。在hearing前我十分紧张，不知道该如何同不讲理的RMV工作人员battle。我甚至还写了一份情真意切的statement，告诉他们这个问题非常离谱并且由来已久，已经被NBC和律所报道多次，请你们好好想想，给咱把这莫名其妙的罪名卸了！（注：润色这个statement还是本人第一次使用ChatGPT）等电话的时候站了坐坐了站，不知道该说些什么。没想到电话一响，对面的老姐上来就说，你这情况，小意思了！咱老鼻子熟悉了！我搞了50多个case了都你这款的！我喜出望外，说那你能给我把这suspension去了不？老姐嘿嘿一笑，不行，咱们没这权限，你还是得去交appeal，得等他们下一个order of removal咱才能合法合规地处理你的case。我又小心翼翼地问，那board of appeal的hearing我是不是得找个律师啊？老姐又嘿嘿一笑，不用！他们都是忽悠你的！完全没必要！</p>
+<p>做完这个hearing，悬着的心下来了一大半，接下来就是漫长的等待流程。从收到RMV的吊销驾照通知到开hearing过了一周，等RMV给我寄appeal表格又是一周。二月底寄出了appeal后（还痛失五十块钱处理费+邮费！）一直处于焦急的等待状态，每天看信箱有没有寄来新的hearing通知。一直到上周三的晚上，滞留纽约在陪护小武的时候，打完游戏一看手机，board of appeal给我发了个邮件说大哥你好！你的case我们看过了！我们开了内部的讨论会，给你把这弱智suspension给annul了！你也不用来跟我们开hearing，直接回去找RMV吧！我心说好在这通知不是纸质的，不然我人不在家还真就错过了。于是今天又和RMV打电话开hearing，接了电话老姐也不说话，就说你等一下，就开始噼里啪啦狂敲键盘，过了几分钟跟我说好了哥，你的case结束了！立刻马上就能开车了！</p>
+<p>终于，在兜兜转转了这么久之后，我又能重新开车了。虽然我的suspension是个完全错误的decision，但是RMV的信件上专门指出，即使你要hearing/appeal，在此期间依然不能开车，否则将被视为felony！所以从2月17号开始，我就老老实实地一次也没碰过车。小武在就小武开，小武不在就要么骑车要么打车。最麻烦的事情是上上个周末去纽约玩，小武突发阑尾炎做了个手术没法开车，我也没有办法违法开车，我俩只好大眼瞪小眼滞留纽约。朋友问了一圈，差点就要把我室友摇来纽约接人了，最后好在小武恢复的比较快，宾馆躺了一礼拜后还是由她开回去了。今天重新获得驾车权利，60天已经过去了一大半。期间因只能打车造成的经济和时间损失，我只能说是不计其数。</p>
+<p>本人现在感想就是，你们搞法制社会搞得很好，但是下回还是动动脑子吧。虽然事情是有惊无险地解决了（让我们看看这个系列还会不会有续二！），但是真的让人精疲力尽。我有计划等忙完手里这一阵，给state senator写个信反应一下，虽然效果估计聊胜于无，但还是准备尝试一下。如果有比较懂美国law/policy或者有过类似经历的朋友欢迎联系我，给我一些小小的指南。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2023-03-30</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/photos/ai_gc/">
+			Next<br>Kizuna
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/virtual_court_trip/">
+			Previous<br>虚拟法庭一日游
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>
