@@ -46,7 +46,7 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;插入图像&#34;&gt;插入图像&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;使用&#39;&lt;img src=&#34;https://magshadow.github.io/XX/image.jpg&#34; alt=&#34;image&#34;&gt;&#39;，需将图像文件保存在&#39;/static/XX&amp;rsquo;文件夹下。&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;![image](/XX/image.jpg)&lt;/code&gt;，需将图像文件保存在&#39;/static/XX&amp;rsquo;文件夹下。&lt;/li&gt;
 &lt;li&gt;自动适配网页宽度，但没有标题&lt;/li&gt;
 &lt;/ul&gt;
 - https://magshadow.github.io/tech/set_up_hugo/ - Owned By 高桥凉介.</description>
