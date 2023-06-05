@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html><head>
+<title>平成最後の夏</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="这个世界会好吗？">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    平成最後の夏
+                    
+                    <div class="post-subtitle">
+                        这个世界会好吗？
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2018-10-03 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/beijing">Beijing</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <blockquote>
+<p>だけどいつか気付くでしょう その背中には 遥か未来めざすための 羽根があること<br>
+但是总有一天会发觉到吧 就在你的背后 有为了前往遥远的未来而萌发的 羽翼存在着</p>
+</blockquote>
+<p>这是一个月前遗留下来的标题了。<br>
+彼时的我心态糟糕透顶，想要写点什么，却只能写下破碎的字符和无意义的句子，终于是无法忍受自己的无能为力，一怒选择自闭。关闭了朋友圈，退出了电脑和手机上的知乎、豆瓣和微博，试图用最激烈的方式对抗焦虑。<br>
+很遗憾，这当然是没有用的。<br>
+但我确实也已发现，我整个人已经在这个碎片化的时代里渐渐腐烂，再也写不出流畅完整的文字。这也不能只怪罪于时代，因为这样的堕落也是我的自我选择：每天早上醒来刷刷手机，中午吃完饭先上会网再午睡，晚上总是一边和朋友吹牛一边浪费着时光。规划再也不能完成，也放弃了每日记录工作情况的习惯。于是就日复一日地堕落下去。<br>
+只是，不能写文章事小，不能想问题事大。暑假开始的时候在飞机上看《禅与摩托车维修艺术》，“肖陶扩”就已经该让我意识到这一点。可直到最近，看到高研院的孔良老师写博客，要我们做“思想的长征”，我才突然惊醒。那篇短文有如惊雷炸响在我的耳旁。<br>
+太糟了。<br>
+光是看到别人提这个问题，我就已经意识到我的状态有多么的糟糕。无法完整地写一篇短文，无法坐下来一项项地解决任务清单上的事情，乃至无法思考人生、未来与世界，这些问题的本质都是一样的：我没办法将自己的精神集中起来，它每日涣散在安逸的生活里，像一个无所事事的败家子。而我那糟糕的生活方式，无疑又加剧了这一点，于是便整日变着法子消磨着时间，全然不顾紧迫而残酷的现实。</p>
+<hr>
+<p>写到这里，已经无法再继续集中精神，只好起身去洗了个澡，再回来继续写。<br>
+上次敲下这个标题是八月底，那时的我仍在洛杉矶燥热的夏天里百无聊赖，可我前几日回家时北京已冷得像深秋。所幸南京仍然还留着夏天的尾巴，此时此刻还有烦人的蚊子从电脑屏幕上爬过，让我可以勉勉强强写完这一篇夏末的回忆。<br>
+九月初是CSST的一系列活动，Poster、Final Pre、大会、晚宴，一项一项的日程让我猝不及防，然后在某日戛然而止；暑期的科研工作出现了一点点曙光，却在最后的时刻被自己否认，接着就是一拖再拖，恐怕要被我拖到再无下文为止；回了国，马不停蹄地投入课业和科研中，还接下了新的合作项目——于是，在日历上安排满满的日程，逐条写下学期的众多任务，可到目前为止也只有在高铁上看完的两部电影算是推进了计划；回家前的最后一个星期，第三次也是最后一次参加奖学金答辩，再一次拿到了国奖。然后回家，开始一个残酷的申请季。<br>
+人生有失有得是常态，因此对于我这些并不很小的失败我也已见怪不怪。令我惊讶且不安的是，对于成功，我的反应越来越淡，甚至连国奖也无法给予我精神上足够的刺激——这是真实的苦恼，可几乎没有人可以设身处地地理解我。三年三次高额奖学金答辩，第一年仅仅是侥幸入围了答辩就已让我开心了一礼拜；第二年意气风发，拿下全年级综排第一，毫无悬念地拿下国奖，也让我接下来的几天兴奋不已；可到了今年，答辩之前就基本知道自己能稳拿国奖，所以无论是答辩还是最终的结果公布的时刻，都只是很平静地笑一笑，一个小时后就一切如常。<br>
+成功的阈值被调得太高了，我想。三年，不，从小学四五年级起至今已是十二年的努力，让我一步步从“众人”中逐渐显出来，从小地方的小学，走到最好的初中、最好的高中、最好的大学，我始终以最优秀的学生（诚实地说，最优秀学生的几分之一，但几不太多）的身份离开。外人看来这当然是好事，但对我来说未必。每走一步，我就感觉少了一分退路，标记“失败”的那条基准线离自己越来越近；另一方面，糖果越来越少，也越来越难从生活中尝到甜味了。这样的轨迹还能保持到何时呢？下一次，走到将要去的graduate school，面对整个世界上最聪明的脑袋，我还能做到吗？做不到的话，我要如何面对自己的失败呢？<br>
+我不知道。<br>
+曾博可以把人生之一切不如意归因于高考的失败，归因于没有复读，所以他可以说“我没有&hellip;我没有&hellip;我没有&hellip;我不能&hellip;我不能&hellip;我是傻逼。”我呢？我能怪罪于谁？怪我前二十二年的成长环境里的人都太温柔，没有给我以残酷人生的教育吗？当我因为只能成为一个不那么优秀的人而崩溃的时候，又有谁能把我从这思维的陷阱中拯救出来呢?</p>
+<hr>
+<p>这是平成最后的夏天，也是我最后最后的暑假了。下一年的夏天，主题是毕业与出发；再下一年，或许就不再会有暑假的概念了，做一个研究生，日复一日地工作，直到挣得那个象征着无上光荣的“Doctor of Philosophy”。<br>
+这是平成最后的夏天，是一个风起云涌的时刻。下一年，下一年世界还会是这样吗？中国的经济会好转还是会更坏？中美关系是会和解还是会更糟？大时代的小人物，也可以提前感知到风吹草动。大家都在问，“这个世界会好吗？”<br>
+这是平成最后的夏天，这是最好的夏天，这是最坏的夏天，这是绝望的时代，这是希望的时代。<br>
+因为，我有98%的概率被生活打败，可我会变得更强。</p>
+<p><img src="/images/posts/Koshien_Stadium.jpg" alt="Koshien Stadium"><br>
+<em>阪神线甲子园站：“98%的高中生球员在这里被打败，然后变得更强。”</em></p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2018-10-03</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/sad_1999/">
+			Next<br>伤心一九九九
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/shinji/">
+			Previous<br>逃げだちゃ駄目だ
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

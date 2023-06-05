@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html><head>
+<title>逻辑问题二则</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="不能逃。">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#1-%e7%9c%bc%e8%a7%81%e4%b8%8d%e4%b8%ba%e5%ae%9e" onclick="onNavClick(`#1-眼见不为实-nav`)" id="1-眼见不为实-nav">
+									1. “眼见不为实”
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#2-%e5%85%88%e5%85%a5%e4%b8%ba%e4%b8%bb%e7%9a%84%e5%88%a4%e6%96%ad" onclick="onNavClick(`#2-先入为主的判断-nav`)" id="2-先入为主的判断-nav">
+									2. 先入为主的判断
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#1-%e7%9c%bc%e8%a7%81%e4%b8%8d%e4%b8%ba%e5%ae%9e" onclick="onNavClick(`#1-眼见不为实-nav`)" id="1-眼见不为实-nav">
+									1. “眼见不为实”
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#2-%e5%85%88%e5%85%a5%e4%b8%ba%e4%b8%bb%e7%9a%84%e5%88%a4%e6%96%ad" onclick="onNavClick(`#2-先入为主的判断-nav`)" id="2-先入为主的判断-nav">
+									2. 先入为主的判断
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    逻辑问题二则
+                    
+                    <div class="post-subtitle">
+                        不能逃。
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-08-07 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/politics">Politics</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>中午饭后和母亲又产生了争执，现摘录两个讨论中遇到的问题，或许也是当今墙内语境下的常见逻辑问题。有些脱力。</p>
+<h2 id="1-眼见不为实">1. “眼见不为实”</h2>
+<blockquote>
+<p>我：“在同等智力水平条件下，是否可以承认，能看到十种不同消息来源的人，比只能看到一种消息来源的人得出正确判断的可能性更大？”<br>
+母：“你知不知道有句话叫‘眼见不为实’？可能我们看到的消息都是假的。”</p>
+</blockquote>
+<p>没有人能保证一个消息绝对不是假的，但是它总有可能是真的，或者至少partly是真的。但是一条消息的真假对于所有读到消息的人来说是一样的，只要它包含真实的成分，智力正常的人既可以通过多条消息进行交叉对比，以还原事情的（部分）真相。</p>
+<p>退一步说，就算消息都有可能是完全假的，无论如何一个单一消息来源的人嘲笑能看到不同消息来源的人——在当前语境下，可以特指仅能看到境内媒体的人和既能看到境内媒体又能看到不被允许在境内存在的声音的人——认为其不能获取正确信息这件事本身就是可笑的，因为境内媒体显然也被包含在了后者的消息来源当中。</p>
+<p>可现实是怎样呢？只能看到境内媒体的人，居然可以理直气壮地嘲笑别人是被洗了脑。如果你告诉他，境内媒体已经被强力管控，是一种Propaganda，他的回复必定是“你怎么知道境外的报道不是Propaganda呢？”</p>
+<p>一个从未看过境外媒体报道的人可以信心满满地确认，不允许存在的报道都是境外势力的Propaganda，这可真是太文化自信了。</p>
+<h2 id="2-先入为主的判断">2. 先入为主的判断</h2>
+<blockquote>
+<p>我：“目前这个问题，所有的分析都从台湾发生的杀人案开始讲起，认为这是推动修例的开端。但是这次之所以会引起港人如此大的不满，可能事情还要从铜锣湾书店事件开始。”<br>
+母：“我不知道铜锣湾书店是什么事情，但我觉得这不是主要矛盾。”</p>
+</blockquote>
+<p>每个人都可以对某件事情有自己的判断，但是这个判断应当是建立在获得了足够多的事实的基础上。当只知道一件事情的一部分时却坚定自己认识了这件事情的真相，别人提出的任何观点都可以用“不重要”来反驳时，这个人其实已经落入了自己先入为主的思维陷阱里。</p>
+<p>更糟糕的事情是，没有条件的时候我们可以理解，看不到除了官方钦定的信息之外的东西是能力不足；可如果条件放在你面前，别人给你指了路告诉你那里有东西值得去看，还要捂上耳朵我不听我不听，这只能说是一种悲哀。</p>
+<p>一个稍有正常判断能力的人都会预见到，在如此强力的Censorship及防火长城的双重作用下，必然有很多信息被隐藏了。但如今让我喘不过气来的事情是，很多人连这样基本的判断能力都没有。之前美国有一个报道，留学生当中还是有很大比例的人只用微信和国内交流，依然也只看国内新闻。就算今天那堵有形的墙拆掉了，那堵无形的墙可能也要再高高矗立一两代人之久。</p>
+<hr>
+<p>或许我也不该如此悲观，至少不可以说他们是没有希望的。列宁曾经批判那些不愿加入“落后”工会的德国左派：</p>
+<blockquote>
+<p>害怕这种“反动性”，企图避开它、跳过它，是最愚蠢的，因为这无异于是害怕无产阶级先锋队的作用，即训练、启发、教育工人阶级和农民中最落后的阶层和群众并吸引他们来参加新生活。&hellip;&hellip;因为共产党人的全部任务，就是要善于说服落后分子，善于在他们中间进行工作，而不是臆想出一些幼稚的“左的”口号同他们隔离开来。</p>
+</blockquote>
+<p>既然我们想为改变这糟糕的世界做些什么，就不能绕开“教育群众”这件事。或许很艰难，或许会被误解，或许会觉得徒劳无功，但这是我们义无反顾的责任。</p>
+<p>不能逃。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-08-07</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/discussion_with_a_young_man/">
+			Next<br>和一位年轻网友的讨论
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://magshadow.github.io/posts/li_ge/">
+			Previous<br>离歌
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html><head>
+<title>相约九八</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="未必是坏事，也未必是好事">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/journal.min.3f72a5fc8f5b5dd732a4b476aced0eece2156958d9d414316494ddb10593ddf7.css" integrity="sha256-P3Kl/I9bXdcypLR2rO0O7OIVaVjZ1BQxZJTdsQWT3fc=" media="screen">
+
+
+
+<link rel="stylesheet" href="https://magshadow.github.io/scss/dark-mode.min.f7c2efa7183435a6bd1842f91c541481c7a5137b5991629a870f24e4a516ad4b.css" integrity="sha256-98Lvpxg0Naa9GEL5HFQUgcelE3tZkWKahw8k5KUWrUs=" media="screen">
+
+
+<script src="/vendor/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+
+
+
+
+  <script src="/js/toc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://magshadow.github.io/">
+    
+        <div class="nav-title">
+            高桥凉介
+        </div>
+        
+        <div class="nav-subtitle">
+            一颗流弹打中我胸膛
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                写作
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tech">
+                技术
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/photos">
+                图像
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/censor">
+                噪声
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/quoting">
+                碎片
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                标签
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    写作
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tech">
+                    技术
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/photos">
+                    图像
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/censor">
+                    噪声
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/quoting">
+                    碎片
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    标签
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://magshadow.github.io/">
+            高桥凉介
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://magshadow.github.io/">
+        <div class="single-column-header-title">高桥凉介</div>
+        
+        <div class="single-column-header-subtitle">一颗流弹打中我胸膛</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    相约九八
+                    
+                    <div class="post-subtitle">
+                        未必是坏事，也未必是好事
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2017-12-31 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/diary">Diary</a>
+                                &nbsp;
+                            
+                                <a href="/tags/beijing">Beijing</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>零<br>
+又到了年终总结的时刻。<br>
+翻了翻自己的空间，从高一算起，这竟然已经是第六篇年终总结了。前三篇都是在家里；大一那年急匆匆地写完跑去一体踢了跨年球，踢完球又和老郭田晓京吭哧吭哧大半夜跑出去撸串；大二那年是和小基佬们呆在兰咖复习，看书看个七七八八就开始写年终总结，快到点的时候咖啡厅里有一桌开始倒数，一桌一桌人也都静下来等，数到零的时候响起热烈的掌声——可我意气风发地拿到北京大学录取通知书的时候，毕竟不会想到我会有坐在实验桌前一边测量一边写年终总结的一天。</p>
+<p>壹<br>
+前两天打腹稿的时候，毫不费力地就取好了贴切的标题“输爆二〇一七”。只是临到开始码字才发现每年的新年总结都得要往后翻一页，无奈只好废弃。思来想去，发现最近仿佛回到了二十年前，每天都想着《甲方乙方》那句“1997年过去了，我很怀念它”；新的一年了，该听《相约九八》，是以取此作题。<br>
+回想这一年，还是有那么一二可圈可点之处。二月份参加美赛，马马虎虎地糊弄了好几天，最后撞大运拿了个M奖；大二下学期成绩偶然地爆发，也顺理成章地拿了国奖；单词从二月拖拖拖拖到九月，最后GRE考了个153+170+4，勉强也算能用。<br>
+在动笔之前以为这一年投入最多的事情是本科生科研，但是仔细回忆才发现，在暑假之前竟然没有什么值得一记的工作。一方面可以说之前是在学习，但更重要的是因为计算机的双学位占去了太多的时间，自己又不够专注，着实无法兼顾，于是很痛快地决定转辅修，大三这一年完全抛弃它，待到大四再把剩下的一点课学完。<br>
+但过去的时间毕竟还是过去了，等到自己真正开始动手做事的时候才发现，大二一年在实验室的学习是多么的不扎实。自己的项目各处碰壁，远远地慢于预定进度好在年末咬咬牙肝了一两个月，总算有点进展，要不然也不会在2017的最后几个小时还坐在仪器前测数据，希望结果不会太糟吧！</p>
+<p>贰<br>
+可无论改个什么标题，还是掩盖不了输爆二〇一七的现实。<br>
+“止损了不代表没有亏损啊”，至今还被老郭拿着取笑，大概是因为这条取代了他的“Things just happened”成为了处男团最悲惨票圈。既而，又描述我是“天上掉下来个馅饼砸到头上，过了一会馅饼觉得不太合适，又原路飞回去了”——真是可气又可笑啊。<br>
+可我又能说些什么呢？<br>
+只好和自己笑笑，一段纠纠缠缠两年的关系就此断掉，未必是坏事，也未必是好事。</p>
+<p>不过自此一难之后，发现自己的恋爱观变了很多。不要懵懵懂懂，也不会考虑结婚（大意就是，趁年轻，多祸害祸害吧——如果有机会祸害的话。<br>
+过去立下的带妹毕业的FLAG被我删了，立了新的一起去未名湖冰场的FLAG，期望能有实现的那一天！</p>
+<p>叁<br>
+北京、南京、盐城、沈阳、大连，这就是去年一年的全部行踪。前三者是无非是学校、家、老家的日常操作，后二者是和爸妈还有邹佩家的暑期出行。<br>
+这一年的出游实在是少的可怜，活动范围常年离不开北京大学一公里。能数得出的出游，也就是五一和老郭去雍和宫、暑假和政豪逛三里屯、暑假和老郭去古北水镇、国庆跟团上坝上草原，以及年末自己溜出门到颐和园转了一圈。本来早早说定了国庆长假去成都重庆和屌丝王学姐甲鱼千里相会，没想到临订机票被大骗子咕咕了——不过这也是日常操作了，只能祈望二零一八不要再被大骗子欺骗感情了吧！</p>
+<p>肆<br>
+空间里的上一篇日志停留在2016年的12月31号，意味着这一年来什么也没有写。在知乎上试图写点具有科学性的东西，但是在懒惰和生活的重压的双重攻击之下显然也没有写。有写日记，但也只有假期多写了几笔，开学之后大概也是一个月写上两三篇吧。<br>
+翻了翻豆瓣——这一年读完的书真是少的可怜，第一本是《圣经的故事》，最后一本是《建城以来史》。这一年电影看的倒是不少，但绝大多数都在火车上拿电脑看的：第一部电影是《一代宗师》，最后一部是《色戒》。在影院里看到的最好的电影是《海边的曼彻斯特》。看完了六部古惑仔，喜欢山鸡哥，喜欢小结巴，最喜欢大反派张耀扬。<br>
+网易云告诉我，我的年度歌手是王菲，这倒是一点不假，太喜欢王菲了，码字码到这里的时候还在听《不留》。<br>
+认认真真踢了一年球，依然坐在板凳席上遥遥无期，这也从另一个角度告诉大家，在下就是那个球技最菜的足球队领队。快到年末的时候伤了膝盖，希望冬天可以好好养伤。今年组建了数理化女足，然后惊奇地发现15级的男足队员们在女足助教阵容里面快要凑齐了——虽然男足训练还是见不到几个人。<br>
+上半年选了健♂美课，开始加入健身房撸铁大军。年中状态最好的时候卧推可以推到70kg，但是荒废了一段时间，退步明显，现在还在慢慢回复。体重依然是居高不下，体脂率也是相当堪忧，只好把减肥写进2018头等大事了。</p>
+<p>伍<br>
+前两天在微博上许了2018年最希望得到的三个愿望，我写的是：六大的offer，健康的作息，不虐的人生。或许还有很多想要完成的任务，但至少好好学习这一条不能落下。<br>
+买了新的单向历，希望能每天都好好过。<br>
+到了下一个跨年的时候，放的BGM不能是《伤心一九九九》！<br>
+祝大家新年快乐！</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2017-12-31</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://magshadow.github.io/posts/shinji/">
+			Next<br>逃げだちゃ駄目だ
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	Owned By 高桥凉介.
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script>
+    </body>
+</html>

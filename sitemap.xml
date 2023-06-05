@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://magshadow.github.io/censor/</loc>
+    <lastmod>2023-06-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://magshadow.github.io/photos/boston/</loc>
     <lastmod>2023-06-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,6 +35,9 @@
     <loc>https://magshadow.github.io/photos/ai_gc/</loc>
     <lastmod>2023-06-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://magshadow.github.io/quoting/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://magshadow.github.io/tags/boston/</loc>
     <lastmod>2023-03-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,17 +47,11 @@
     <loc>https://magshadow.github.io/posts/virtual_court_trip/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://magshadow.github.io/censor/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://magshadow.github.io/photos/ca_road_trip/</loc>
     <lastmod>2022-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/posts/one_day/</loc>
     <lastmod>2022-07-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://magshadow.github.io/quoting/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/posts/2021_a_space_odyssey/</loc>
     <lastmod>2021-12-29T00:00:00+00:00</lastmod>
@@ -152,11 +152,29 @@
     <loc>https://magshadow.github.io/posts/walls_and_kisses/</loc>
     <lastmod>2019-10-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://magshadow.github.io/posts/discussion_with_a_young_man/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/two_logic_questions/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://magshadow.github.io/posts/li_ge/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/posts/evangelion/</loc>
     <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/sad_1999/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/last_summer_of_heisei/</loc>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/shinji/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://magshadow.github.io/posts/date_in_1998/</loc>
+    <lastmod>2017-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://magshadow.github.io/categories/</loc>
   </url>
