@@ -6,9 +6,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Owned By 高桥凉介.</copyright>
-    <lastBuildDate>Sun, 04 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://magshadow.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>逻辑问题二则</title>
+        <link>https://magshadow.github.io/posts/two_logic_questions/</link>
+        <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/two_logic_questions/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/two_logic_questions/ -&lt;p&gt;中午饭后和母亲又产生了争执，现摘录两个讨论中遇到的问题，或许也是当今墙内语境下的常见逻辑问题。有些脱力。&lt;/p&gt;
+&lt;h2 id=&#34;1-眼见不为实&#34;&gt;1. “眼见不为实”&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我：“在同等智力水平条件下，是否可以承认，能看到十种不同消息来源的人，比只能看到一种消息来源的人得出正确判断的可能性更大？”&lt;br&gt;
+母：“你知不知道有句话叫‘眼见不为实’？可能我们看到的消息都是假的。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;没有人能保证一个消息绝对不是假的，但是它总有可能是真的，或者至少partly是真的。但是一条消息的真假对于所有读到消息的人来说是一样的，只要它包含真实的成分，智力正常的人既可以通过多条消息进行交叉对比，以还原事情的（部分）真相。&lt;/p&gt;
+&lt;p&gt;退一步说，就算消息都有可能是完全假的，无论如何一个单一消息来源的人嘲笑能看到不同消息来源的人——在当前语境下，可以特指仅能看到境内媒体的人和既能看到境内媒体又能看到不被允许在境内存在的声音的人——认为其不能获取正确信息这件事本身就是可笑的，因为境内媒体显然也被包含在了后者的消息来源当中。&lt;/p&gt;
+&lt;p&gt;可现实是怎样呢？只能看到境内媒体的人，居然可以理直气壮地嘲笑别人是被洗了脑。如果你告诉他，境内媒体已经被强力管控，是一种Propaganda，他的回复必定是“你怎么知道境外的报道不是Propaganda呢？”&lt;/p&gt;
+&lt;p&gt;一个从未看过境外媒体报道的人可以信心满满地确认，不允许存在的报道都是境外势力的Propaganda，这可真是太文化自信了。&lt;/p&gt;
+&lt;h2 id=&#34;2-先入为主的判断&#34;&gt;2. 先入为主的判断&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我：“目前这个问题，所有的分析都从台湾发生的杀人案开始讲起，认为这是推动修例的开端。但是这次之所以会引起港人如此大的不满，可能事情还要从铜锣湾书店事件开始。”&lt;br&gt;
+母：“我不知道铜锣湾书店是什么事情，但我觉得这不是主要矛盾。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;每个人都可以对某件事情有自己的判断，但是这个判断应当是建立在获得了足够多的事实的基础上。当只知道一件事情的一部分时却坚定自己认识了这件事情的真相，别人提出的任何观点都可以用“不重要”来反驳时，这个人其实已经落入了自己先入为主的思维陷阱里。&lt;/p&gt;
+&lt;p&gt;更糟糕的事情是，没有条件的时候我们可以理解，看不到除了官方钦定的信息之外的东西是能力不足；可如果条件放在你面前，别人给你指了路告诉你那里有东西值得去看，还要捂上耳朵我不听我不听，这只能说是一种悲哀。&lt;/p&gt;
+&lt;p&gt;一个稍有正常判断能力的人都会预见到，在如此强力的Censorship及防火长城的双重作用下，必然有很多信息被隐藏了。但如今让我喘不过气来的事情是，很多人连这样基本的判断能力都没有。之前美国有一个报道，留学生当中还是有很大比例的人只用微信和国内交流，依然也只看国内新闻。就算今天那堵有形的墙拆掉了，那堵无形的墙可能也要再高高矗立一两代人之久。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;或许我也不该如此悲观，至少不可以说他们是没有希望的。列宁曾经批判那些不愿加入“落后”工会的德国左派：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;害怕这种“反动性”，企图避开它、跳过它，是最愚蠢的，因为这无异于是害怕无产阶级先锋队的作用，即训练、启发、教育工人阶级和农民中最落后的阶层和群众并吸引他们来参加新生活。&amp;hellip;&amp;hellip;因为共产党人的全部任务，就是要善于说服落后分子，善于在他们中间进行工作，而不是臆想出一些幼稚的“左的”口号同他们隔离开来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;既然我们想为改变这糟糕的世界做些什么，就不能绕开“教育群众”这件事。或许很艰难，或许会被误解，或许会觉得徒劳无功，但这是我们义无反顾的责任。&lt;/p&gt;
+&lt;p&gt;不能逃。&lt;/p&gt;
+- https://magshadow.github.io/posts/two_logic_questions/ - Owned By 高桥凉介.</description>
+        </item>
     
     
     
