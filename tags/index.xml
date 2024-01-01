@@ -7,20 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Owned By 高桥凉介.</copyright>
-    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://magshadow.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Boston</title>
-      <link>https://magshadow.github.io/tags/boston/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://magshadow.github.io/tags/boston/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 04 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://magshadow.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary</title>
       <link>https://magshadow.github.io/tags/diary/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://magshadow.github.io/tags/diary/</guid>
       <description></description>
@@ -45,6 +36,15 @@
     </item>
     
     <item>
+      <title>Boston</title>
+      <link>https://magshadow.github.io/tags/boston/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://magshadow.github.io/tags/boston/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tech</title>
       <link>https://magshadow.github.io/tags/tech/</link>
       <pubDate>Fri, 16 Jul 2021 23:20:24 -0400</pubDate>
@@ -65,7 +65,7 @@
     <item>
       <title>Beijing</title>
       <link>https://magshadow.github.io/tags/beijing/</link>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://magshadow.github.io/tags/beijing/</guid>
       <description></description>

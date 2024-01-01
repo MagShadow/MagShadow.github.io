@@ -6,21 +6,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Owned By 高桥凉介.</copyright>
-    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://magshadow.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-        <item>
-        <title>一天</title>
-        <link>https://magshadow.github.io/posts/one_day/</link>
-        <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://magshadow.github.io/posts/one_day/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/one_day/ -&lt;p&gt;讲Talk，吃三明治，睡午觉，听Talk，整理数据，处理邮件，下班，骑车回家，和小武一起去吃乌冬面，去Wholefoods买瓜，开车回去上班，车窗打开，听《河流》，吹吹夏夜晚风。&lt;/p&gt;
-- https://magshadow.github.io/posts/one_day/ - Owned By 高桥凉介.</description>
-        </item>
     
     
     
@@ -225,172 +213,149 @@
     
     
         <item>
-        <title>普鲁斯特问卷 - 2021.01.12</title>
-        <link>https://magshadow.github.io/posts/proust_questionnaire/</link>
-        <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+        <title>打游戏不许嘻嘻哈哈</title>
+        <link>https://magshadow.github.io/posts/game_no_xixihaha/</link>
+        <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://magshadow.github.io/posts/proust_questionnaire/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/proust_questionnaire/ -&lt;p&gt;&lt;strong&gt;01 What is your idea of perfect happiness?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;每天早上醒来不必问自己是否快乐。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;02 What is your greatest fear?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;承认自己一直以来的学术理想终于成为了幻梦。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;03 What is the trait you most deplore in yourself?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一点亏也不想吃，一点便宜也不想占。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;04 What is the trait you most deplore in others?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;双标。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;05 Which living person do you most admire?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;李海。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;06 What is your greatest extravagance?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;二十四岁了，还可以躲在学校里假装是个学生。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;07 What is your current state of mind?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很平和。既满意当下，又期待未来。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;08 What do you consider the most overrated virtue?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;勇敢。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;09 On what occasion do you lie?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当且仅当在父母面前。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;10 What do you most dislike about your appearance?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;大腿太粗。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;11 Which living person do you most despise?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;余承东。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;12 What is the quality you most like in a man?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;诚实。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;13 What is the quality you most like in a woman?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;不自卑。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;14 Which words or phrases do you most overuse ?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;勇敢。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;15 What or who is the greatest love of your life?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;做个左派。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;16 When and where were you happiest?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;毕业前在海淀桥北的那半年。什么也不缺，富足得像所罗门王。甚至不知道那样的快乐是非同寻常的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;17 Which talent would you most like to have?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;学懂量子场论。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;18 If you could change one thing about yourself, what would it be?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;别近视。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;19 What do you consider your greatest achievement?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;可以拍着胸脯说，从小到大取得的每一点成绩，靠的都是我自己。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;20 If you were to die and come back as a person or a thing, what would it be?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;旅行者1号。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;21 Where would you most like to live?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;东京。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;22 What is your most treasured possession?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一条假Burberry围巾。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;23 What do you regard as the lowest depth of misery?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;24 What is your favorite occupation?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;物理学家。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;25 What is your most marked characteristic?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;咬得住牙。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;26 What do you most value in your friends?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;有分寸。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;27 Who are your favorite writers?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;海子。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;28 Who is your hero of fiction?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;加持良治。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;29 Which historical figure do you most identify with?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;方励之。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;30 Who are your heroes in real life?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;本科导师。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;31 What are your favorite names?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;维罗妮卡。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;32 What is it that you most dislike?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;欺骗自己。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;33 What is your greatest regret?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;每个夏天都太过勇敢。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;34 How would you like to die?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;使用全世界同步自杀仪。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;35 What is your motto?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;真朋克会在走夜路的时候捡地上的脏东西吃。&lt;/p&gt;
-- https://magshadow.github.io/posts/proust_questionnaire/ - Owned By 高桥凉介.</description>
+        <guid>https://magshadow.github.io/posts/game_no_xixihaha/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/game_no_xixihaha/ -&lt;p&gt;好久没有在豆瓣上发表爹系言论了，趁着今晚结束了只狼更新的三个Boss Rush挑战，哔哔赖赖两句。&lt;/p&gt;
+&lt;p&gt;第一件事当然是，开除云玩家。或者说，开除云玩家和真正抄手柄打过游戏的人的同等发言资格。&lt;/p&gt;
+&lt;p&gt;视频直播时代，主播多了，“云玩家”也多了。没有时间精力打，就看看别人的视频，云一下，也算是望真梅止渴一下。或者干脆就是没打算买没打算玩，了解一下而已。&lt;/p&gt;
+&lt;p&gt;这完全可以理解，我去年困在家里的时候，没条件买PS4，当时想着《最后生还者2》来年就要出了，不如把第一部云一下，后面好无缝衔接玩第二部。断断续续看了几个小时实在是没有意思，遂弃坑。&lt;/p&gt;
+&lt;p&gt;为什么云某个游戏不重要，重要的是，如果你云了一个游戏，你是否对这个游戏有发言权。我的答案当然是no。取最近一个引发巨大争议的游戏《最后生还者2》为例.&lt;/p&gt;
+&lt;p&gt;《最后生还者2》(The Last of Us 2)的第一部是PS3时期的名作，Metacritic上评分高达95，全时期排名第7；高清重制版登陆PS4之后依然获得95分高分，排名全时期第四。就是这么一部有着光辉起点的游戏，续作当然也是万众瞩目。在大家都关在家里隔离的时候发布，发售前媒体评测好评如潮，“电子游戏的奇迹”（机核语）之类的赞誉不计其数。但是发售之后在短短几个小时之内，用户评分急剧下滑，一度跌落到三分（满分十分）以下，在当时各个论坛上引发了不计其数的争吵。&lt;/p&gt;
+&lt;p&gt;==============================剧透线======================================&lt;/p&gt;
+&lt;p&gt;所以究竟是发生了什么呢？第一部的男主人公Joel，在预告片里似乎会在女主人公Ellie的旅途上重新归来，但是玩家在游玩了两个小时左右，却要亲手操作本作的另一女主人公Abby亲手挥着高尔夫球杆，一杆一杆击打Joel的脑袋直至死亡，为父亲复仇。&lt;/p&gt;
+&lt;p&gt;这还了得？观看直播的云玩家瞬间就炸了，不管是在MC还是豆瓣，凡是能打分的地方，一分零分接踵而至，评分低到吓人——这个时候，根据奖杯统计，全世界的通关率才刚过10%，更不要提还有很多人没买没有打开游戏了。&lt;/p&gt;
+&lt;p&gt;那么现在这个游戏评分是多少呢？MC的评分已经上升到5.7分。如果仔细看评分分布，是极为罕见的U型分布，用户评分两极分化，几乎全部集中在最高分和最低分当中。这只能说明一个很简单的道理——打了游戏的人，对这个游戏评价高，没打游戏的人，对这个游戏评价低，而且是超脱理性的低。&lt;/p&gt;
+&lt;p&gt;我本人当然很喜欢这个游戏。它不是完美的，前期沙盒部分节奏拖沓，敌军AI虽然有提升但是依然很蠢，甚至为了政治正确塞入脸谱化的少数族裔等等。但是这是一部1分游戏吗？显然不是，但是为什么云玩家会放大乃至点燃这种不满？很简单，因为看游戏和打游戏真的是不一样的。当你握着手柄挥打那根球杆的时候，你会被迫面对自己的愤怒。玩家当然喜欢Joel，但是设计者没有给你选项，你只能强迫自己去体验这种一杆一杆的击打之下的猛烈情绪。带着这种猛烈的愤怒，随着游戏的进行，你会逐渐抓到一个一个碎片，慢慢拼凑出故事，慢慢理解两个女主角如同镜像结构一般的轨迹，直到终局。&lt;/p&gt;
+&lt;p&gt;但是你永远不能体会到这种感觉，如果你是一个云玩家的话。握着手柄和恶心恐怖的感染者战斗时，心跳的加速，手柄模拟的地面的振动，都是游戏完整体验的一部分。如果你没有沉浸在那种末世的恐怖绝望当中，没有亲手扣动扳机杀死对方重要的人，你就很难理解终局时刻，两个伤痕累累的女人在海洋中拖着沉重身体的打斗，为什么会走向那样的结局。&lt;/p&gt;
+&lt;p&gt;========================剧透终结线===================================&lt;/p&gt;
+&lt;p&gt;很不幸，虽然我对云玩家们不负责任的评分非常愤怒，但是我什么也做不了。我当然没办法开除他们的发言资格，在这个短平快的时代，看视频的云玩家必将成为主流。写到这里，我不禁想起来我一个朋友，人不坏，“那么普通却那么自信”的标准直男。他就是我所最厌恶的那一类云玩家——什么游戏都不打，甚至连视频通关都没有，就看看游戏区Up主的剪辑和解说，就开始头头是道的和别人讨论游戏。&lt;/p&gt;
+&lt;p&gt;说到底，这也是我本人做人的一个哲学：你必须体验过什么，才有对什么发言的资格。没有在山路上飙过车握着方向盘体验过横移带来的肾上腺素，如何评价开车有没有乐趣？没有卿卿我我在床上精疲力竭过，凭什么评价恋爱有没有意义？打游戏也是这样，你必须认真地玩一个游戏，才有资格对一个游戏发表评论。有时我会开玩笑说垃圾游戏原神，垃圾游戏撸啊撸，垃圾游戏王者荣耀，but I never mean that seriously. 我没有玩过，我没资格评论。&lt;/p&gt;
+&lt;p&gt;说到这个，另一个我想说的话题是游戏的艺术性。有的时候看到有些豆列写什么“第九艺术”，点进去看看觉得还挺好笑的，收集的都是一些广为人知的“艺术游戏”，比如《This is the war of mine》，比如《Cyberpunk Bartener Action: Va-11 Hall-a》。不是说这些游戏不好，这些都是很好的游戏，有着非常好的创意和主题。但是，作为一个严肃的游戏玩家，如果我们想谈论游戏的艺术性的时候，是不能够只谈论这种小品级的游戏的。一个称得上艺术品的游戏，首先要有它作为一个好游戏的重量。换句话说，3A级别、或者至少是准3A体量的作品才是我们谈论游戏艺术性的起点。&lt;/p&gt;
+&lt;p&gt;游戏之所以有别电影小说音乐，在于它能结合多个要素并且让玩家真正地参与进去。这个时候不得不提回《只狼：影逝二度》。赢下TGA2019的年度游戏几乎没什么悬念的只狼，是一款将玩法和内容高度结合的杰作。扮演战国时代的独臂忍者，上天入地，在充满奇缘的苇名国死斗到尽头，那么玩法上就必须表现这种刀剑相交千钧一发的刺激感。宫崎老贼在魂类游戏的系统上做了改进，把传统的精力槽取消，改成了敌我双方都有的架势槽。这一改动不允许再像魂一样慢节奏举盾绕击，而是逼迫玩家上前拼刀打铁，一招不能错。在一次次的死亡又重生之后，看破敌人的所有变化，呼吸急促，一招一招拆解并最后击垮看似强大的敌人的时刻，玩家可以非常自然地体会到那种活在刀尖上的危险又诱人的魅力。&lt;/p&gt;
+&lt;p&gt;而小品游戏的问题，在于它能够提供的东西实在是太少了。《这是我的战争》常常令人称道的一点是让玩家面临道德选择，是活下去还是偷走好人的最后一块面包，可那其实只是几行字和一个头像而已，它并没有让你沉浸进去。与之对比，《最后生还者2》里面为了逼问仇人的下落，你要挥着水管击打毫无还手之力的护士，一下一下直到血肉模糊。你甚至还要扮演护士的朋友，目送她离开，走向那个你已经预知的她的结局。只有通过游戏性把想要表达的东西传达出去，我们才能真正严肃地谈论游戏是否可以称得上是第九艺术。再想想DND，要想体验那种奇幻冒险，你就必须提供足够重量的文本背景和足够自由的游戏系统，才撑得起角色扮演这四个字。&lt;/p&gt;
+&lt;p&gt;《最后生还者2》的巨大争议之后，我和一个高中同学谈论到这个。他也很沮丧，说“这次失败之后，可能十年之内都不会有游戏公司再拿重要的游戏项目来尝试一这种肃的话题，或许我们只能玩到媚玩家的爽游戏了”。我倒没有那么沮丧，毕竟打游戏也就只是打游戏而已，不同人有不同人的需求，也没什么鄙视链之分。但我就想起，大四在上呆呆老师的游戏通论课的时候，第一节课就问我们：“你是否自认为是一个核心玩家？”我的答案当然是yes，不过这一年，会不会是我们游戏婆罗门的消亡史的开始呢？&lt;/p&gt;
+- https://magshadow.github.io/posts/game_no_xixihaha/ - Owned By 高桥凉介.</description>
         </item>
     
     
     
         <item>
-        <title>我去2000年</title>
-        <link>https://magshadow.github.io/posts/me_in_2000/</link>
-        <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+        <title>献诗</title>
+        <link>https://magshadow.github.io/posts/xian_shi/</link>
+        <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://magshadow.github.io/posts/me_in_2000/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/me_in_2000/ -&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;从各种意义上，今年都是很特殊的一年，所以今年的年终总结也发生了一点点小小的改变。以往都是拖到年终岁末的最后一天下午才急急忙忙打开文档糊弄点东西，然后赶在日期变更之前发出来。现在有了难得的假期，来实验室视察了一圈我亲爱的顽皮的不省心的仪器们，坐在办公室里也不想干点啥活，于是早早地就开始动笔了。另一个变化是，按照惯例，去年的标题写作《恋曲1990》， 今年就该是大国解体的1991了，但既然要发生改变，不如直接一步十年，迈入新世纪。不过，说是改变，写了这么多年年终总结，最后会写下哪些东西其实也早有预期。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;和去年相比，今年的轨迹倒是简单了不少。按城市计：南京、射阳、上海、波士顿、里斯本（New Hampshire的某一山中小镇）、Rochester（纽约上州那个）、Providence（罗德岛那个），Falmouth（Cape Cod那个）。&lt;/p&gt;
-&lt;p&gt;一月底离开中国落地波士顿，在波士顿匆匆忙忙呆了不到两个月就遇上了前所未有的shutdown。和室友合计了一下，觉得这是千载难逢的机会，于是趁着实验室全部关停，学校也鼓励大家搬出宿舍的东风，打包了家当脚底抹油从波士顿跑了，跑毒去了New Hampshire大山中的小镇，住进了荒郊野外的一个小木屋。小镇离波士顿两个半小时车程，镇上可能只有几百户居民，离最近的M记开车也要二十分钟。。小镇民风淳朴热情好客，人人家里二十来把枪，夜里偶尔还有熊熊来访，可以说真的是一个跑毒圣地了。&lt;/p&gt;
-&lt;p&gt;在NH的三个月，生活十分惬意，早上起来开个组会，开完组会睡个回笼觉，爬起来进山里走一圈，回来以后室友做好了饭，下午随便上上课做做作业，或者读读文献，晚上和朋友打游戏。每两个礼拜去一趟沃尔玛，采购整整一冰箱食材。有闲情逸致的时候，就动动手做次饭，也给室友放个假。楼下还有烧烤架，切点肉弄点酱，随时都能搞BBQ。室友有时有事要回波士顿，还可以从波士顿的中超带回点奶茶粉、辣条、冬瓜茶种种战略物资，真真是啥也不缺的神仙日子啊。&lt;/p&gt;
-&lt;p&gt;当然，美好的时光总是短暂的。六月初，随着实验室逐步开始复工，不得不从世外桃源又搬回了查尔斯河边。再往后，出行的次数就非常少了。去Rochester是有个新仪器要验收加培训，于是老板带着组里三个学生，从凌晨四点的波士顿出发，三人轮流开车六小时赶到Rochester，培训一天之后又开回来，凌晨一点多才回到家里。师兄的老婆在布朗，有时会开车送他去和老婆团聚，顺便去罗德岛拜访一下老同学。唯一的出游是在夏天，和一个朋友开车去到Cape Cod上的小岛Martha&amp;rsquo;s Vineyard，短暂地玩了一个周末。&lt;/p&gt;
-&lt;p&gt;再后来，九月份开学之后，课程和实验室的双重压力让我逐渐变得忙碌起来。另一方面，随着全美感染人数节节攀升，焦虑感也开始时隐时现。期待了很久的感恩节去纽约的行程，也因为种种原因最后未能成行。现在年终岁末，甚至都失去了规划远行的动力。在这个黎明将至未至的时点，一切都不确定了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://magshadow.github.io/images/posts/world_fog_2020.webp&#34; alt=&#34;world_fog_2020&#34;&gt;&lt;br&gt;
-&lt;em&gt;&amp;ldquo;2020飙车图鉴&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;这一年里坐的唯一一班飞机是如今已经不复存在的海航。落地之后，出行方式便只剩下一个——开车。我是真的很喜欢开车，喜欢到现在的ID和头像就是在秋名山飙车的冠希哥。因为没有自己的车，所以这一年开过很多很多不一样的车。不管开什么，在开车的时候，我都能保持一种高度的精神集中，插上手机，放上音乐，然后进入一种人车合一的感觉。特别是在恶劣天气开车，大雨中双手紧握方向盘，雨刮器疯狂摇摆也看不清路，然后从咆哮的大卡车身侧滑过稳稳超车，给人以特别的安心感。一路开下来，到停车的时刻，踩下手刹，熄火，长舒一口气，有说不清的痛快。&lt;/p&gt;
-&lt;p&gt;另一个爱好是在水边开车。特别是傍晚，斜阳照在被风吹动的水面上破碎开，是我永远着迷的画面。住在NH的时候，I93经过白山的那一段从山谷中过的路，一直贴着小河，河中的石块阻拦水流，掀起小小的浪花，两侧是威严的山，路弯弯绕绕伸向远方，也是极为难忘的记忆。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://magshadow.github.io/images/posts/Hudson_River.webp&#34; alt=&#34;Hudson River&#34;&gt;&lt;br&gt;
-&lt;em&gt;低空飞行，危险动作，请勿模仿&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;一个苦恼是还没有买得起属于自己的车。凉介的FC肯定是买不到也买不起了，GTR也只在梦中存在着。很想买辆BRZ去做一个真正的飙车手，但是又觉得自己完全没有时间精力投入到严肃的汽车运动当中去。也可能就买辆普通的家用车，又觉得有些失去了个性。最重要的是，要做爹系男孩的第一要义是经济独立，所以不找家里要钱的话，看看钱包，只能走一步看一步了（笑&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;四舍五入是上了两个学期的网课，还是有点失望的。第一个学期初来咋到，选了一门非本专业的AMO课和一门英语课。AMO课是诺奖大佬教的，学得倒是还行，就是第一次在美帝上课非常焦虑，总觉得这也没学好那也没学好。也是第一次感受到美帝课程的惊人的workload，时间管理水平不佳，到期末的时候也好生赶了一阵作业才放心过关。上英语课是因为入学英语能力测试里面写作放飞自我，所以被加入了推荐列表，academic advisor看到之后大笔一挥就让我务必来好好学学。最大的感触就是，同样是写作课，同样是上课讨论 - 回家写essay - 课上同学讨论修改的模式，摆京大学的高级英语写作和这里的课完全不是一个level。在鳖大上高写的时候，写作内容都四平八稳，同学讨论也基本上限于修改语法错误，随便看个十几分钟就完事。而在这边，上来就给你发一张表格，讨论之前得先一项一项写评价意见，别人的文章哪里好，哪里不好，哪里用到了课上教的技巧，哪里流露真情，完全不存在划水的可能。另一个突破在于，第一次尝试用英文写了non-scientific的内容，在老师的鼓励之下，把自己毕业时的drama故事用英文做了一次尽量克制的叙述，并且作了文学化的处理。&lt;/p&gt;
-&lt;p&gt;第二个学期也是两门课，一门是本专业的必修课，老师是搞理论的，但是上课极度无聊，比读ppt还难接受，约等于是自言自语。再加上面对Zoom的聊天框，完全没有兴致听本科几乎全部学过的东西，于是这门课就变成了纯做作业课。期末考试是开卷，所以考试之前随便突击了一下，就顺利结束了。另一门是在哈佛注册了一门比较advance的课，不能计算毕业学分，但是对内容很有兴趣，所以咬咬牙也注册了Pass/Fail而不是旁听。现在看来这个决定有好处也有坏处，好处是前半学期的时候有作业驱动，把老师教的东西都认真地啃了下来，还读了不少一直以来想要读的经典教材；坏处是到了后半学期进度越落越后，实验室也越来越忙，为了通过课程不得不抄了同学作业，浪费了许多时间。最后的报告也是偷懒选了本科就比较熟悉的课题，稍加准备就糊弄过去了，学到的新东西并不多。&lt;/p&gt;
-&lt;p&gt;科研上面的东西倒是可以好好说说。虽说是和本科方向不太一样的实验室，但是一月份初来咋到接到的工作，还基本上是和本科在林老板那里好好历练过的东西。没做多久，高我一级的博士师兄烧了一块非常重要的样品，无法承受，决定转组离开，紧接着就是shutdown，一下子打乱了所有节奏。在shutdown期间，接手了师兄留下来的数据，又从合作者那里拿到了模拟代码的框架，开始做模拟和分析。这部分工作在年底终于收尾，因为种种原因，一作没有比我更合适的人，所以如果能够顺利发表的话，应该会是整个博士期间第一篇一作的paper。&lt;/p&gt;
-&lt;p&gt;复工之后，我一下子成为了组里最重要的一套仪器的负责人。这半年里可以说我是受尽折磨。里面有各种原因：老板贪便宜买的烂仪器本身的质量问题，师兄留下来的系统的设计问题，楼里面非常不稳定的冷却水的问题，还有各种各样我完全无法控制的意外。从八月份开始，整整大修了两次，再加上无数次的小修小补，又改了系统设计，一直弄到十月底，才勉勉强强把系统整到了一个可用的状态。那段时间常常被噩梦惊醒，梦里面都是仪器花式爆炸的画面。早上去了学校，也时常没有勇气走进lab，生怕一打开实验室门，就是一个烂摊子等着我去收拾。从某种程度上来说，这是我选择了一个刚刚建立的实验组的一个闭然结果，这些坑是每个组都要踩的。只是，从本科时代那种随随便便干干也有师兄顶着的玩票状态，转换到如今要真正扛起组里最核心的重任，对于刚刚开始phd生活的我还是有些难熬。好在最近两个月除了楼里的冷却水依然不够稳定，没再出过什么特别大的幺蛾子，我的日子也好过了很多。老板又新招了一个博后，有人分摊重任，压力也没之前那么大了。&lt;/p&gt;
-&lt;p&gt;把仪器整好之后就开始了测量。我们组的技术比较独特，算是光学和输运的交叉领域，虽然想法很简单，但是没有什么别的组能做得来。一开始我还不太能理解，但是上手以后，老板要求我push信噪比的极限，又煎熬了好几个礼拜，我才能理解其中的独特之处。一套技术，决定它能不能用的，很多时候只是细节。在文章里老板比较了我们当前的噪声水平和他三年前做博后时搭的那套东西的表现，可以说是前进了两大步，这也就是为什么我们能够测量到别人完全无法触及到的能量区间——也就是能够测到别人无法玩到的物理。技术差不多玩会了，就开始和博后师兄合作，推进一个比较现实的课题。这部分工作也已经成稿投出，我负责了大部分的测量，所以理所应当地拿了二作。在测量过程中还顺便为另外一篇文章积累了数据，等理论分析的部分搞完投出去，估计也会有个三作。&lt;/p&gt;
-&lt;p&gt;总的来说，虽然因为shutdown耽误了很多，但是作为真正开始科研的第一年，还是可以算得上收获颇丰的。比较遗憾的部分是由于把绝大部分精力投入到了推进实验进度上，后半年paper读的太少了一点，只读了很少的和项目直接相关的东西。后来seminar去得也不够勤，经常一忙起来就抛在脑后，所以对其他人在做什么了解的还是不够。另外一个遗憾是很多细节处也偷了懒，明明知道要保持好给仪器做log的习惯，还准备写些manual把经验累积下来，不过到最后都没有做成。&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;托隔离的福，读书记录总算不是很难看。在森林小屋里的住的时候，常常晚饭后搬一把椅子下楼，倒杯酒，坐在门厅里一边看雨一边读书。今年读的第一本书是《奥德赛》，读完的最后一本书是《暗室手册》。最喜欢的可能是黄锦树的《雨》，摄人心魄的短篇小说，南洋胶林无边无际的大雨里的魔幻生活。读了不少诗，摘抄本落在了国内没有带来，所以又新开一本，最喜欢的应该是臧棣老师的长诗《在埃德加·斯诺墓前》。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;埃德加·斯诺：梦想的长子&lt;br&gt;
-理想主义最卓越的患者&lt;br&gt;
-像马刀一样寒光灼灼&lt;br&gt;
-出没于历史之鞘。像漂木在歌词的拐弯处&lt;/p&gt;
-&lt;p&gt;撞到了耸立的慧血&lt;br&gt;
-一个神秘的创伤有着井底的形状&lt;br&gt;
-它的幽暗和潮湿是简单的，但在其中&lt;br&gt;
-水触及到的深度，引得我们心跳加快&lt;/p&gt;
+        <guid>https://magshadow.github.io/posts/xian_shi/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/xian_shi/ -&lt;blockquote&gt;
+&lt;p&gt;非常遗憾，你发布的日记《献诗》已被移除。原因: 含有激进时政或意识形态方面的内容
+如你的发言近期多次被网站管理员删除，你的帐号可能会受到禁言或封禁处罚。
+为确保帐号的正常使用，维护网站良好氛围，请遵守《社区指导原则》https://www.douban.com/about/guideline，谢谢你的理解与支持。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;今年看的第一部电影是《如沐爱河》，最后一部是《紫蝴蝶》。唯一一部走进电影院里看的片子是《八佰》。比较喜欢的是《燃烧女子的肖像》和《美国丽人》，看了期待已久的《热带雨》和《火口的两人》，全年最最最最喜欢的是徐克的《梁祝》。最最最最喜欢。杨采妮唱的同名歌曲也好听极了。因为饭桌上放了台电视，所以有时候和室友会随便一起看看Netflix，但总得来说没什么值得一提的东西。明年比较期待能看到的片子有EVA的新剧场版和《兰心大剧院》，真的不要再鸽我了，球球了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://magshadow.github.io/images/posts/liang_zhu.webp&#34; alt=&#34;Butterfly&#34;&gt;&lt;br&gt;
-&lt;em&gt;今世前世 双双飞过万世千生去&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;听的倒是比较随意。不出意外地，连续第三年了，王菲都是我的网易云年度歌手。QQ音乐告诉我我最喜欢的是叶倩文的《伤逝》，但是我看看播放列表，私心想选梁博的《日落大道》——开车的时候我总听这一首。出国以后用spotify多一些，年度歌手变成了南京市民李先生。这也挺正常，但今年毕竟有所进步，睡不着的时候不再听《山阴路的夏天》，而是一遍遍地听《结婚》。如果这个列表上要再多选一首，我就选张敬轩的《春秋》。&lt;/p&gt;
-&lt;p&gt;打游戏应该认真说一说。我还记得去年年底发了条广播，统计了去年一年的游戏时间，因为大四下无所事事加上家里蹲半年，所以打了五百小时游戏。原话是“我疯了！！太奢侈了吧！！以后再也不会有这么多时间给我打游戏了！！”——谁晓得，才过去一年，事情就不一样了。在搬去NH隔离之前，做的最重要的一件事就是光速买了一台PS4pro，又趁着免税州的福利配了台配置相当OK的台式，再加上从国内带过来的Switch，设备完全不缺，钱也不缺，缺的只是时间。光是打dota就超过两百小时，只狼三个周目加上刷Boss Rush超过110小时，粗略估计下来今年打游戏超过七百小时。今年玩得最投入的肯定是《只狼》，但年度游戏我还是选《最后生还者2》。再选一个的话我选《极乐迪斯科》，可惜篇幅有些短。还有《WA2》，这游戏真是，常玩常新。略微有些失望的是《2077》。明年希望能玩到的游戏是老头环和血源2——好吧能看到新消息就成。另一块有可能的饼是《珍珠/钻石》的重置，今天刚刚看到增田在推特上放了新图，看来大有希望。&lt;/p&gt;
-&lt;p&gt;今年喝了很多酒。自己拿工资之后，买酒也很有底气，在家里整了一柜子，虽然没什么好酒，但是也尝试了不少新东西。整了调酒工具和好看的杯子，朋友来家里的时候，也可以玩一玩招待一下（维护了一个Cocktail Home Menu！有机会来波士顿玩的友邻可以找我喝酒！）。今年试出来我最喜欢的是Whisky Sour，其次是Vesper；做出来最受欢迎的是Moscow Mule。明年的话，愿望是搞一瓶山崎12年。另一个小目标是，作为真正的爹系男孩，一定得搞一瓶飞天茅台，发大paper了就喝！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://magshadow.github.io/images/posts/liquor_time.webp&#34; alt=&#34;Liquor&#34;&gt;&lt;br&gt;
-&lt;em&gt;酒鬼生活&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;最后，终于有一年，写下关于体重的年终总结的时候我可以不用无地自容。今年十一月，终于瘦到八十公斤以下，这是两三年来从未见过的数字了。年中刚刚复工的时候因为压力大又天天熬夜，胡吃海喝，健身房也不开放，一度胖到过八十七公斤。后来痛定思痛，开始用健身环监督自己重新开始运动。室友买了篮球，常常两个人在夏天宜人的晚风中去家旁边的篮球场打篮球。接着朋友拉我进了偷偷踢球的群，又回到了每周踢一次球的状态。虽然仍然没有办法恢复到大二大三那会的身体状态，但是已经算是很有进步了。&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;接下来的东西值得单独放一段。今年，终于打破内心的恐惧，开始练习写诗。&lt;/p&gt;
-&lt;p&gt;这个事情说起来也挺难为情的，因为写的确实很烂。2020年，文艺青年在大部分语境下已经像是个贬义词，但是我本人并不介意自认为是一个失败的文艺青年。一方面，确实长久以来有写作的冲动——毕业的时候我还写下了《去他妈的文学梦》作为自嘲；另一方面，就像前两天摘的那句话一样——“持续地写诗。尽可能用源语言和汉语多练习写作，哪怕是隐蔽地写也是必要的。只有写才能体会诗歌语言的痉挛。”——在写诗的过程中，也刺激了我读诗的神经。&lt;/p&gt;
-&lt;p&gt;豆瓣上有很多友邻也写诗，我看了总是自愧弗如。不过既然我并不在意丢不丢人，所以除了未完成的断章与碎片，剩下来写的东西基本也都放上来了。今年成稿的诗总计写了十一篇，写得最好的可能是《彗星出现》。我最喜欢的是六月初写下的《献诗》，可惜只活了一个多小时就惨遭豆娘铁拳，还附带了七日套餐。一个问题是，始终无法进行“离于我”的写作，所以写下来的东西几乎始终以自己的生活与经历为蓝本，无法进行想象的创作。对文字的把握也始终很“钝”，只有极少的句子能让我自己都眼前一亮。我是真心希望各位朋友能够给我的写作提出建议，这也是我把东西放上来的初心。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我痛恨你们
-因为你们总让我无地自容
-时时刻刻刺痛我的软弱和苟且
-让我想起，我们就这样欺骗自己
-把曾属于你们的一切拱手让出
+&lt;p&gt;我们是注定失忆的一代人&lt;br&gt;
+在这片土地上&lt;br&gt;
+你们的名字正在被慢慢遗忘&lt;br&gt;
+被我们徒劳地忘记&lt;/p&gt;
+&lt;p&gt;飞驰的列车驶过封闭的站台需要三十秒&lt;br&gt;
+档案解密却要等一百年&lt;br&gt;
+一百年太久了&lt;br&gt;
+久得他们和我们都已经一同老去&lt;br&gt;
+可你们不会变老&lt;br&gt;
+你们永远活在二十岁的春天&lt;br&gt;
+“那是你们的责任”&lt;br&gt;
+所以你们擎起白色的大旗&lt;br&gt;
+旗帜上怒目圆睁的诗，在自由的风里飘荡&lt;br&gt;
+所以你们系上白色的头带&lt;br&gt;
+和那些同样稚嫩的脸庞面对面&lt;br&gt;
+紧张又局促地坐在那里&lt;br&gt;
+所以你们立起白色的雕像&lt;br&gt;
+温柔的脸迎着红太阳那灼人的目光&lt;/p&gt;
+&lt;p&gt;那是你们的命运&lt;br&gt;
+红旗姗姗来迟，从四面八方汹涌而至&lt;br&gt;
+大喇叭撕裂夜空，冷酷又冷酷&lt;br&gt;
+孤岛上的你们迷茫而绝望&lt;br&gt;
+你们看见熊熊燃烧的大火&lt;br&gt;
+你们看见血&lt;br&gt;
+兄弟姐妹的血&lt;br&gt;
+染红了衬衫浸湿了板车滴洒在土地上的血&lt;br&gt;
+那是你们明亮而勇敢的血&lt;br&gt;
+可是命运和钢铁一样无法阻挡&lt;br&gt;
+天亮了&lt;/p&gt;
+&lt;p&gt;你们从此成为失去姓名的一代人&lt;br&gt;
+没有坟茔，没有墓碑，甚至&lt;br&gt;
+不配成为一个数字&lt;br&gt;
+一份名单不能让你们抱紧彼此&lt;br&gt;
+却会让他们惊慌又暴怒&lt;br&gt;
+于是写下这串名字的你，在铁窗下蹉跎了一个又一个十年&lt;br&gt;
+可你平静地说&lt;br&gt;
+“这是我一生的责任”&lt;/p&gt;
+&lt;p&gt;许多年后我终于来到这里&lt;br&gt;
+正午时分，三个暴虐的红太阳炙烤着我&lt;br&gt;
+在那滚烫的砖石缝中，是否还有穿越时空的&lt;br&gt;
+不甘，在挣扎&lt;br&gt;
+我从广场的这头走到那头&lt;br&gt;
+又从广场的那头走回这头&lt;br&gt;
+泪水和汗水一同滴下，撞在褪色的砖上&lt;br&gt;
+可我听不见历史的回响&lt;br&gt;
+是否那紧绷的琴弦早已被他们残忍地割断？&lt;br&gt;
+我抬头望去，那是他们丑陋的眼睛&lt;br&gt;
+肆意地打量着我&lt;br&gt;
+剥开我的皮肤&lt;br&gt;
+吮吸我的血肉&lt;br&gt;
+检视我内心的一切不满&lt;br&gt;
+一只鹰飞过没有云的蓝色天空&lt;/p&gt;
+&lt;p&gt;我羡慕你们&lt;br&gt;
+羡慕你们从不孤独，羡慕那许许多多火热的夜晚和火热的心&lt;br&gt;
+我敬仰你们&lt;br&gt;
+敬仰你们的勇气，敬仰你们争先站在第一排，用肉体为同伴抵抗恐怖&lt;br&gt;
+我同情你们&lt;br&gt;
+同情你们成为代价，成为历史的注脚&lt;br&gt;
+成为他们口中轻描淡写的一场风波&lt;br&gt;
+我痛恨你们&lt;br&gt;
+因为你们总让我无地自容&lt;br&gt;
+时时刻刻刺痛我的软弱和苟且&lt;br&gt;
+让我想起，我们就这样欺骗自己&lt;br&gt;
+把曾属于你们的一切拱手让出&lt;br&gt;
 让给他们&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我记得大概是高一或者高二的时候，我曾经写下了人生梦想的职业：物理学家，程序员，诗人。今天，七八年过去了，我在物理学家这条路上走得比较坚实，也掌握了成为程序员的基本本领并时常在工作和生活中写点码为自己提供便利。如今开始写诗，并不是想要以此作为职业，而是对诗歌的喜爱过了这么些年仍然没有改变，那么，在有条件的时候，就应该勇敢尝试。现在回想那时写下的三个梦想，我想我是自豪的。&lt;/p&gt;
-&lt;p&gt;很小男孩。&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;本该在这段写下来的东西，想想还是删掉了。有些累了。没必要在年终总结里发表观点，就只说一句，我真的是个左派，我也在努力做个像样的左派。永不忘记，永不放弃。&lt;/p&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;刚刚翻到今年年初许下的愿望，emmmm，三个愿望里还真有一个没有实现。所以这次就不许什么特别的愿望了。朴树在《我去2000年》里面描绘了一个充满朝气和希望的新世纪，那么我就希望在下面一年里，我也能活得充满朝气和希望吧！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://magshadow.github.io/images/posts/strawberry.webp&#34; alt=&#34;Strawberry&#34;&gt;&lt;br&gt;
-&lt;em&gt;三选一的世纪难题，猜猜没实现的是哪个&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;2020.12.31 于Cambridge, MA&lt;/em&gt;&lt;/p&gt;
-- https://magshadow.github.io/posts/me_in_2000/ - Owned By 高桥凉介.</description>
+&lt;p&gt;今天，我写下这首献诗&lt;br&gt;
+献给你们，也献给我们&lt;br&gt;
+我们是孤独的一代人&lt;br&gt;
+在这噤声的时代里，小心翼翼&lt;br&gt;
+点起蜡烛，通过电波触摸遥远的彼此&lt;br&gt;
+隐匿地确认一座座孤岛&lt;br&gt;
+而他们居高临下，扼着我们的&lt;br&gt;
+喉咙，在他们的假笑中&lt;br&gt;
+明明白白地写着，“回忆有罪”&lt;/p&gt;
+&lt;p&gt;可正因为如此我们才不能成为失忆的一代人&lt;br&gt;
+我们要在这忘川中逆水行舟&lt;br&gt;
+要比他们活得更久&lt;br&gt;
+要让尘土再次汇成山脉&lt;br&gt;
+要把属于太阳的白色重新还给太阳&lt;br&gt;
+因为&lt;br&gt;
+这是我们的责任&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://magshadow.github.io/images/posts/duty.png&#34; alt=&#34;My Duty&#34;&gt;&lt;/p&gt;
+- https://magshadow.github.io/posts/xian_shi/ - Owned By 高桥凉介.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>小城墓园</title>
+        <link>https://magshadow.github.io/posts/cemetery/</link>
+        <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/cemetery/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/cemetery/ -&lt;p&gt;铁锹叩击着厚重的泥土&lt;br&gt;
+泥泞的小路上是冬天的晦暗&lt;br&gt;
+未建好的门廊 拥挤的矮树 还有一潭死水&lt;br&gt;
+艳丽的假花折了枝 躺在污秽的地上&lt;br&gt;
+尖锐的乌鸦是空荡荡的园子里唯一的主人&lt;br&gt;
+火光在湿漉漉的黑色碑石上流动&lt;br&gt;
+明暗的脸 映在褪色的相片旁&lt;br&gt;
+拎着黄纸的老人走过&lt;br&gt;
+远远 有鞭炮声&lt;/p&gt;
+- https://magshadow.github.io/posts/cemetery/ - Owned By 高桥凉介.</description>
         </item>
     
     
