@@ -6,9 +6,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Owned By 高桥凉介.</copyright>
-    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://magshadow.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>一天</title>
+        <link>https://magshadow.github.io/posts/one_day/</link>
+        <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://magshadow.github.io/posts/one_day/</guid>
+        <description>高桥凉介 https://magshadow.github.io/posts/one_day/ -&lt;p&gt;讲Talk，吃三明治，睡午觉，听Talk，整理数据，处理邮件，下班，骑车回家，和小武一起去吃乌冬面，去Wholefoods买瓜，开车回去上班，车窗打开，听《河流》，吹吹夏夜晚风。&lt;/p&gt;
+- https://magshadow.github.io/posts/one_day/ - Owned By 高桥凉介.</description>
+        </item>
     
     
     
@@ -84,7 +96,7 @@
 &lt;li&gt;使用的theme为“diary”&lt;/li&gt;
 &lt;li&gt;在本地使用&lt;code&gt;hugo server&lt;/code&gt;生成的网页格式一切正常，但是上传到github.io后不能正常显示，检查网页后发现错误如下：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;Mixed Content: The page at &#39;https://magshadow.github.io/&#39; was loaded over HTTPS, but requested an insecure stylesheet &#39;http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css&#39;. This request has been blocked; the content must be served over HTTPS.
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Mixed Content: The page at &#39;https://magshadow.github.io/&#39; was loaded over HTTPS, but requested an insecure stylesheet &#39;http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css&#39;. This request has been blocked; the content must be served over HTTPS.
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;仔细检查后，将&amp;rsquo;config.toml&amp;rsquo;中的&lt;code&gt;baseURL&lt;/code&gt;由&lt;code&gt;http&lt;/code&gt;改为&lt;code&gt;https&lt;/code&gt;，即解决问题&lt;/li&gt;
 &lt;/ul&gt;
@@ -126,72 +138,13 @@
 
 &lt;figure align=&#34;Center&#34; role=&#34;group&#34; aria-describedby=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
   &lt;a href=&#34;https://magshadow.github.io/about/li_hai.png&#34; class=&#34;img-link&#34;&gt;
-    &lt;img src=&#34;https://magshadow.github.io/about/li_hai_hu787ccbe55dfc7396b9d75affc46623e0_1601753_700x0_resize_box_2.png&#34;&gt;
+    &lt;img src=&#34;https://magshadow.github.io/about/li_hai_hu787ccbe55dfc7396b9d75affc46623e0_1601753_700x0_resize_box_3.png&#34;&gt;
   &lt;/a&gt;
   &lt;figcaption id=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
     This is an example figure.
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 - https://magshadow.github.io/about/ - Owned By 高桥凉介.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>肖陶扩</title>
-        <link>https://magshadow.github.io/posts/xiao_tao_kuo/</link>
-        <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://magshadow.github.io/posts/xiao_tao_kuo/</guid>
-        <description>高桥凉介 https://magshadow.github.io/posts/xiao_tao_kuo/ -&lt;p&gt;在空无一物的粉红色沙漠里&lt;br&gt;
-失去记忆&lt;br&gt;
-我醒来&lt;br&gt;
-沙砾并不灼热&lt;br&gt;
-舔舐我 舔舐我的幻梦&lt;br&gt;
-在春天&lt;br&gt;
-穆念慈告别杨康&lt;br&gt;
-波德莱尔和莱蒙托夫一齐在巴黎复活&lt;br&gt;
-蔬菜被劈开&lt;br&gt;
-肮脏的血却依然在流淌&lt;/p&gt;
-&lt;p&gt;对了，“流淌”&lt;br&gt;
-这个音节忽地激起我强旺的欲念&lt;br&gt;
-对，要站起来，要往前走&lt;br&gt;
-向海洋进军&lt;br&gt;
-很久以前我就住在海边&lt;br&gt;
-对，海边，那么多那么多的水&lt;/p&gt;
-&lt;p&gt;为了复仇，或是为了自毁&lt;br&gt;
-我听说大人们都是背负着秘密才走个不停&lt;br&gt;
-可没有秘密的我&lt;br&gt;
-痛恨又热爱废墟之歌的我&lt;br&gt;
-胆小却虚张声势不敢停下脚步的我&lt;br&gt;
-是大人吗?&lt;/p&gt;
-&lt;p&gt;一条石板路上印着许多名字和日期&lt;br&gt;
-是诞辰而非卒日&lt;br&gt;
-这一事实默哀着他们共享的最后一天&lt;br&gt;
-我停下脚步&lt;br&gt;
-蹲下来触摸那个曾与我同龄的名字&lt;br&gt;
-任由另一只手触摸我的头发&lt;br&gt;
-远处，旋转木马下&lt;br&gt;
-熔岩和比喻一起沉默地流出&lt;br&gt;
-这么久这么久&lt;br&gt;
-我终于看到海&lt;/p&gt;
-&lt;p&gt;执紫玫瑰的法外之徒&lt;br&gt;
-你讲述的血腥传说我至今还记得&lt;br&gt;
-  “不能发光的栉水母&lt;br&gt;
-  会残忍地吞食发光的同伴&lt;br&gt;
-  以期在铁黑的海底获得半点瞩目&lt;br&gt;
-  至死方休”&lt;br&gt;
-这想象令我战栗 令我失落 却令我恢复五感&lt;br&gt;
-我闻到蓝莓点燃草莓&lt;br&gt;
-尝到禁忌的泪水和越界的问题&lt;br&gt;
-苹果 冰淇淋 莫吉托 通通都成了灰&lt;br&gt;
-在十年的最后一天&lt;br&gt;
-快门落下 银盐质变&lt;br&gt;
-冰雕的手臂忽地断折 坠入海里&lt;br&gt;
-然后&lt;br&gt;
-一块冰很慢很慢地从领口滑落&lt;br&gt;
-水母淹没我&lt;/p&gt;
-- https://magshadow.github.io/posts/xiao_tao_kuo/ - Owned By 高桥凉介.</description>
         </item>
     
     
