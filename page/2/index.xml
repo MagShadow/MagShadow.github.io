@@ -84,7 +84,7 @@
 &lt;li&gt;使用的theme为“diary”&lt;/li&gt;
 &lt;li&gt;在本地使用&lt;code&gt;hugo server&lt;/code&gt;生成的网页格式一切正常，但是上传到github.io后不能正常显示，检查网页后发现错误如下：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Mixed Content: The page at &#39;https://magshadow.github.io/&#39; was loaded over HTTPS, but requested an insecure stylesheet &#39;http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css&#39;. This request has been blocked; the content must be served over HTTPS.
+&lt;pre&gt;&lt;code&gt;Mixed Content: The page at &#39;https://magshadow.github.io/&#39; was loaded over HTTPS, but requested an insecure stylesheet &#39;http://magshadow.github.io/scss/dark-mode.min.c0082f0b082177f6fb3768ff91439a097de49689bd26f4d49f76d94ebb81e02d.css&#39;. This request has been blocked; the content must be served over HTTPS.
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;仔细检查后，将&amp;rsquo;config.toml&amp;rsquo;中的&lt;code&gt;baseURL&lt;/code&gt;由&lt;code&gt;http&lt;/code&gt;改为&lt;code&gt;https&lt;/code&gt;，即解决问题&lt;/li&gt;
 &lt;/ul&gt;
@@ -126,7 +126,7 @@
 
 &lt;figure align=&#34;Center&#34; role=&#34;group&#34; aria-describedby=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
   &lt;a href=&#34;https://magshadow.github.io/about/li_hai.png&#34; class=&#34;img-link&#34;&gt;
-    &lt;img src=&#34;https://magshadow.github.io/about/li_hai_hu787ccbe55dfc7396b9d75affc46623e0_1601753_700x0_resize_box_3.png&#34;&gt;
+    &lt;img src=&#34;https://magshadow.github.io/about/li_hai_hu787ccbe55dfc7396b9d75affc46623e0_1601753_700x0_resize_box_2.png&#34;&gt;
   &lt;/a&gt;
   &lt;figcaption id=&#34;caption-337f2c34900ffa323b6656c605dcc8a0&#34;&gt;
     This is an example figure.
